@@ -50,22 +50,6 @@ const ProblemStatement: React.FC = () => {
         이러한 규제적 제약과 신뢰도 위기의 결합은 한국 사용자들이 새로운 DeFi 서비스에 진입하는 데 
         큰 장벽으로 작용하고 있으며, 강화된 KYC/AML 절차 또한 추가적인 부담으로 인식되고 있습니다.
       </p>
-      
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">3. 미충족된 시장 기회 : 거대한 잠재 시장의 존재</h2>
-      
-      <p className="text-gray-700 leading-relaxed mb-4">
-        한국에는 약 <strong>200만명의 암호화폐 투자자</strong>가 있지만, 
-        이들 중 실제로 DeFi 서비스를 이용하는 비율은 20% 미만에 불과합니다. 이는 기술적 진입 장벽과 
-        사용성 문제로 인해 DeFi의 잠재력을 제대로 활용하지 못하고 있다는 것을 의미합니다.
-      </p>
-      
-      <p className="text-gray-700 leading-relaxed mb-6">
-        가장 주목할 점은 시장 규모의 격차입니다. <strong>글로벌 DeFi 시장 
-        TVL이 220조원</strong>에 달하는 반면, <strong>한국은 2조원으로 
-        1% 미만</strong>에 불과합니다. 이는 한국이 암호화폐 기술의 선도국임에도 불구하고, 
-        DeFi 분야에서는 후진국 수준에 머물러 있다는 것을 의미하며, 동시에 거대한 성장 잠재력을 
-        보여주는 지표입니다.
-      </p>
     </div>
   );
 };
