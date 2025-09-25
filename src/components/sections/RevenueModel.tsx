@@ -89,8 +89,6 @@ const RevenueModel: React.FC = () => {
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">수익 모델의 시너지 효과</h2>
       
-      <h3 className="text-xl font-semibold text-gray-700 mb-4">"다양한 수익원의 상호 보완적 성장"</h3>
-      
       <p className="text-gray-700 leading-relaxed mb-4">
         비트베이크의 수익 모델은 단순한 다각화를 넘어서 상호 보완적인 선순환 구조를 만들어냅니다. 
         광고 수익 증가는 사용자 리워드 증가로 이어지고, 이는 다시 사용자 참여도 증가로 연결됩니다. 
