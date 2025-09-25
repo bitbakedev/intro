@@ -181,7 +181,7 @@ const InvestmentProposal: React.FC = () => {
 
       {/* Exit Strategy */}
       <ProposalSection title="출구 전략" pageBreak>
-        <ExitStrategy exitStrategy={data.exitStrategy} />
+        <ExitStrategy />
       </ProposalSection>
 
       {/* Risks */}
