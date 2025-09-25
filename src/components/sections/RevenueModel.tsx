@@ -3,12 +3,6 @@ import React from 'react';
 const RevenueModel: React.FC = () => {
   return (
     <div className="prose prose-lg max-w-none">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">지속 가능한 수익 분배 모델</h2>
-      
-      <p className="text-lg font-semibold text-gray-800 mb-4">
-        "모든 리워드는 실제 수익으로부터 지급됩니다"
-      </p>
-      
       <p className="text-gray-700 leading-relaxed mb-6">
         대부분의 Web3 리워드 앱이 끝없이 인플레이션성 토큰을 발행하는 것과 달리, 비트베이크는 실제 수익의 
         <strong> 80~90%를 사용자에게 분배</strong>하고, 
