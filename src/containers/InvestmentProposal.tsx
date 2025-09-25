@@ -151,7 +151,7 @@ const InvestmentProposal: React.FC = () => {
 
       {/* Competition */}
       <ProposalSection title="경쟁 분석" pageBreak>
-        <Competition competition={data.competition} />
+        <Competition />
       </ProposalSection>
 
       {/* Marketing Strategy */}
