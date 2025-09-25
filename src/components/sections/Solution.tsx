@@ -86,10 +86,6 @@ const Solution: React.FC = () => {
         비트베이크는 이 모든 불편을 해결하기 위해 분산된 서비스를 하나의 통합 플랫폼으로 묶었습니다. 지갑, 멀티체인 지원, DeFi 서비스가 모두 하나의 앱 안에 통합되어 있어, 사용자는 복잡한 설정이나 학습 과정 없이도 바로 자신의 자산을 예치하고 수익을 얻을 수 있습니다.
       </p>
       
-      <p className="text-gray-700 leading-relaxed mb-6">
-        BTC, ETH, SOL, XRP, GAS 등 주요 체인을 지원하며, 포인트를 원하는 암호화폐로 즉시 교환할 수 있고, Aave 프로토콜 연동을 통해 연 4~17% 수익을 자동 적립할 수 있습니다. 또한 모든 자산과 수익은 통합 대시보드에서 한눈에 확인할 수 있어, 사용자 경험을 극대화합니다.
-      </p>
-      
       <h2 className="text-2xl font-bold text-gray-800 mb-6">4. 완전한 추상화를 통한 사용자 경험 개선</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
