@@ -58,5 +58,3 @@ const ProblemStatement: React.FC = () => {
 };
 
 export default ProblemStatement;
-  )
-}
