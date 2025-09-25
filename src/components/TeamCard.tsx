@@ -1,0 +1,34 @@
+import React from 'react';
+import { TeamMember } from '../types/proposal';
+import { User } from 'lucide-react';
+
+interface TeamCardProps {
+  member: TeamMember;
+}
+
+const TeamCard: React.FC<TeamCardProps> = ({ member }) => {
+  return (
+    <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+      <div className="flex items-center space-x-4 mb-4">
+        <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center">
+          {member.image ? (
+            <img
+              src={member.image}
+              alt={member.name}
+              className="w-full h-full rounded-full object-cover"
+            />
+          ) : (
+            <User className="w-8 h-8 text-gray-400" />
+          )}
+        </div>
+        <div>
+          <h4 className="text-lg font-semibold text-gray-800">{member.name}</h4>
+          <p className="text-blue-600 font-medium">{member.position}</p>
+        </div>
+      </div>
+      <div className="text-gray-600 text-sm leading-relaxed whitespace-pre-line">{member.experience}</div>
+    </div>
+  );
+};
+
+export default TeamCard;
