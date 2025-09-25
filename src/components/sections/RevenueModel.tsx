@@ -67,7 +67,7 @@ const RevenueModel: React.FC = () => {
         그리고 사용자 자산 증가에 따른 복리적 수익 증가를 통해 지속적인 성장 동력을 확보하고 있습니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">5. B2B 마케팅 - 고성장 수익원</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">5. B2B 마케팅</h2>
       
       <h3 className="text-xl font-semibold text-gray-700 mb-4">"글로벌 Web3 비즈니스와 한국 사용자를 연결하는 플랫폼"</h3>
       
