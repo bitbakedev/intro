@@ -42,8 +42,6 @@ const RevenueModel: React.FC = () => {
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">3. 스왑 & 출금 수수료</h2>
       
-      <h3 className="text-xl font-semibold text-gray-700 mb-4">"사용자 자산 증가에 따른 수수료 수익 증가"</h3>
-      
       <p className="text-gray-700 leading-relaxed mb-4">
         포인트를 암호화폐로 교환할 때 <strong>10% 서비스 수수료</strong>를 부과하고, 
         거래소로 출금할 때도 <strong>10% 서비스 수수료</strong>와 네트워크 수수료를 받습니다. 
