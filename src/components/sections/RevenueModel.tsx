@@ -10,7 +10,7 @@ const RevenueModel: React.FC = () => {
         이는 단순한 토큰 인플레이션이 아닌, 실제 가치 창출을 통한 지속 가능한 생태계를 의미합니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">1. 광고 수익 - 기반 수익원</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">1. 광고 수익</h2>
       
       <h3 className="text-xl font-semibold text-gray-700 mb-4">"사용자 참여도가 높을수록 광고 수익이 증가합니다"</h3>
       
