@@ -10,7 +10,7 @@ const Solution: React.FC = () => {
       </div>
       
       <p className="text-gray-700 leading-relaxed mb-6">
-        비트베이크는 앞서 제시한 모든 문제점들을 해결하는 혁신적인 솔루션을 제공합니다. 
+        비트베이크는 앞서 제시한 모든 문제점들을 해결하는 솔루션을 제공합니다. 
         복잡한 Web3 기술을 사용자에게는 보이지 않게 숨기고, 일상적인 활동을 통해 자연스럽게 
         암호화폐와 DeFi에 접근할 수 있도록 만드는 것이 우리의 핵심 철학입니다.
       </p>
@@ -34,7 +34,7 @@ const Solution: React.FC = () => {
         진입할 수 있으며, 점진적으로 더 복잡한 DeFi 서비스를 이용할 수 있게 됩니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">2. 소셜 로그인 기반의 혁신적 지갑 관리</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">2. 소셜 로그인 기반 지갑 관리</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         기존 DeFi 서비스에서 가장 큰 진입 장벽 중 하나는 복잡한 지갑 생성과 관리 과정이었습니다. 
@@ -54,7 +54,7 @@ const Solution: React.FC = () => {
         이는 Web2 사용자들이 Web3 서비스를 이용할 때 느끼는 심리적 장벽을 크게 낮춥니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">2. 올인원 통합 플랫폼의 구축</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">3. 올인원 통합 플랫폼의 구축</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         현재 DeFi 생태계는 각각의 프로토콜이 독립적으로 운영되어 사용자가 원하는 기능을 이용하기 위해 
@@ -75,7 +75,7 @@ const Solution: React.FC = () => {
         통합 대시보드에서 한 눈에 확인할 수 있습니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">3. 완전한 추상화를 통한 사용자 경험 혁신</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">4. 완전한 추상화를 통한 사용자 경험 개선</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         기존 DeFi 서비스에서는 사용자가 직접 체인을 선택하고, 가스비를 계산하고, 트랜잭션을 승인하는 등 
@@ -95,7 +95,7 @@ const Solution: React.FC = () => {
         시장 상황에 따른 자동 수익 최적화까지 제공합니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">4. 한국 시장 특화 솔루션</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">5. 한국 시장 특화 솔루션</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         한국은 <strong>8조원 규모의 거대한 기프트카드 시장</strong>을 보유하고 있습니다. 
