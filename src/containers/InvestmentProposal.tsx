@@ -22,62 +22,6 @@ const InvestmentProposal: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 py-8 print:bg-white print:py-0">
-      {/* Cover Page */}
-      <section className="w-full max-w-4xl mx-auto bg-gray-900 text-white p-12 mb-8 rounded-lg shadow-lg print:rounded-none print:shadow-none print:break-after-page">
-        <div className="text-center mb-12">
-          <Building2 className="w-20 h-20 mx-auto mb-6" />
-          <h1 className="text-5xl font-bold mb-4">{data.companyInfo.name}</h1>
-          <p className="text-2xl font-semibold mb-2 text-gray-300">"{data.companyInfo.slogan}"</p>
-          <p className="text-xl opacity-90 mb-8">{data.companyInfo.tagline}</p>
-          <div className="w-24 h-1 bg-white mx-auto"></div>
-        </div>
-        
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-semibold mb-6">투자 제안서</h2>
-          <p className="text-lg opacity-90">Investment Proposal</p>
-        </div>
-        
-        <div className="grid grid-cols-2 gap-8 text-sm mb-8">
-          <div className="space-y-3">
-            <div className="flex items-center space-x-2">
-              <Calendar className="w-4 h-4" />
-              <span>설립: {data.companyInfo.founded}년</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <MapPin className="w-4 h-4" />
-              <span>{data.companyInfo.location}</span>
-            </div>
-          </div>
-          <div className="space-y-3">
-            <div className="flex items-center space-x-2">
-              <Globe className="w-4 h-4" />
-              <span>{data.companyInfo.website}</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Mail className="w-4 h-4" />
-              <span>{data.companyInfo.email}</span>
-            </div>
-          </div>
-        </div>
-
-        {/* Key Achievements */}
-        <div className="grid grid-cols-4 gap-4 mb-8">
-          {data.achievements.map((achievement, index) => (
-            <div key={index} className="text-center p-4 bg-gray-800 rounded-lg">
-              <h4 className="text-2xl font-bold text-white mb-1">{achievement.metric}</h4>
-              <p className="text-sm font-medium mb-1">{achievement.value}</p>
-              <p className="text-xs opacity-80">{achievement.description}</p>
-            </div>
-          ))}
-        </div>
-        
-        <div className="text-center">
-          <p className="text-sm opacity-75">
-            작성일: {new Date().toLocaleDateString('ko-KR')}
-          </p>
-        </div>
-      </section>
-
       {/* Executive Summary */}
       <ProposalSection title="요약" pageBreak>
         <ExecutiveSummary 
