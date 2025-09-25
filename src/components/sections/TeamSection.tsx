@@ -49,50 +49,14 @@ const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
         </div>
       </div>
       
-      <div className="bg-gray-50 p-6 rounded-lg">
-        <h4 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
-          <Award className="w-6 h-6 mr-2" />
-          주요 수상 경력
-        </h4>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
-          <div>
-            <h5 className="font-semibold text-gray-800 mb-2">2025년</h5>
-            <ul className="space-y-1 text-gray-600">
-              <li>• 제1회 대한민국 스테이블코인 해커톤 최우수상</li>
-              <li>• Seoulana Hackathon 2위</li>
-            </ul>
-          </div>
-          <div>
-            <h5 className="font-semibold text-gray-800 mb-2">2022년</h5>
-            <ul className="space-y-1 text-gray-600">
-              <li>• ETH Seoul 1위</li>
-              <li>• Hackatom Seoul Evmos 1위</li>
-            </ul>
-          </div>
-          <div>
-            <h5 className="font-semibold text-gray-800 mb-2">2018년</h5>
-            <ul className="space-y-1 text-gray-600">
-              <li>• HDAC Hackathon The Arena Idea Award</li>
-              <li>• OXD: Creative Coders Hackathon 1위</li>
-            </ul>
-          </div>
-          <div>
-            <h5 className="font-semibold text-gray-800 mb-2">2017년</h5>
-            <ul className="space-y-1 text-gray-600">
-              <li>• 12th Appjam IoT 1위</li>
-              <li>• KISA NHN Fintech 4위</li>
-              <li>• 14th Appjam 1위</li>
-              <li>• D3S Hackathon 2위</li>
-            </ul>
-          </div>
-        </div>
-        
-        <div className="mt-6 p-4 bg-white rounded-lg">
-          <h5 className="font-semibold text-gray-800 mb-2">주요 프로젝트 경험</h5>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-600">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* 주요 프로젝트 경험 */}
+        <div className="bg-gray-50 p-6 rounded-lg">
+          <h4 className="text-xl font-semibold text-gray-800 mb-4">주요 프로젝트 경험</h4>
+          <div className="space-y-4 text-sm">
             <div>
-              <p><strong>2024-2025년:</strong></p>
-              <ul className="space-y-1 ml-4">
+              <h5 className="font-semibold text-gray-800 mb-2">2024-2025년</h5>
+              <ul className="space-y-1 text-gray-600">
                 <li>• Liquid Staking Protocol 구축 (Chiliz)</li>
                 <li>• 탈중앙화 거래소 구축 (Neo X, Chiliz)</li>
                 <li>• 밈코인 런치패드 구축 (다중 체인)</li>
@@ -100,11 +64,51 @@ const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
               </ul>
             </div>
             <div>
-              <p><strong>2021-2022년:</strong></p>
-              <ul className="space-y-1 ml-4">
+              <h5 className="font-semibold text-gray-800 mb-2">2021-2022년</h5>
+              <ul className="space-y-1 text-gray-600">
                 <li>• 크로스체인 담보대출 플랫폼 (Zeta)</li>
                 <li>• 담보대출 플랫폼 구축 (Neo)</li>
                 <li>• NFT 조각화 플랫폼 (Ethereum)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        {/* 주요 수상 경력 */}
+        <div className="bg-gray-50 p-6 rounded-lg">
+          <h4 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+            <Award className="w-6 h-6 mr-2" />
+            주요 수상 경력
+          </h4>
+          <div className="space-y-4 text-sm">
+            <div>
+              <h5 className="font-semibold text-gray-800 mb-2">2025년</h5>
+              <ul className="space-y-1 text-gray-600">
+                <li>• 제1회 대한민국 스테이블코인 해커톤 최우수상</li>
+                <li>• Seoulana Hackathon 2위</li>
+              </ul>
+            </div>
+            <div>
+              <h5 className="font-semibold text-gray-800 mb-2">2022년</h5>
+              <ul className="space-y-1 text-gray-600">
+                <li>• ETH Seoul 1위</li>
+                <li>• Hackatom Seoul Evmos 1위</li>
+              </ul>
+            </div>
+            <div>
+              <h5 className="font-semibold text-gray-800 mb-2">2018년</h5>
+              <ul className="space-y-1 text-gray-600">
+                <li>• HDAC Hackathon The Arena Idea Award</li>
+                <li>• OXD: Creative Coders Hackathon 1위</li>
+              </ul>
+            </div>
+            <div>
+              <h5 className="font-semibold text-gray-800 mb-2">2017년</h5>
+              <ul className="space-y-1 text-gray-600">
+                <li>• 12th Appjam IoT 1위</li>
+                <li>• KISA NHN Fintech 4위</li>
+                <li>• 14th Appjam 1위</li>
+                <li>• D3S Hackathon 2위</li>
               </ul>
             </div>
           </div>
