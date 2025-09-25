@@ -1,16 +1,20 @@
 import React from 'react';
 import { Building2, Mail, Phone, Globe, Calendar, MapPin, TrendingUp, Users, DollarSign, Award } from 'lucide-react';
 import ProposalSection from '../components/ProposalSection';
-import FinancialChart from '../components/FinancialChart';
-import TeamCard from '../components/TeamCard';
-import FundingBreakdown from '../components/FundingBreakdown';
 import ExecutiveSummary from '../components/sections/ExecutiveSummary';
 import ProblemStatement from '../components/sections/ProblemStatement';
 import Solution from '../components/sections/Solution';
 import RevenueModel from '../components/sections/RevenueModel';
 import MarketAnalysis from '../components/sections/MarketAnalysis';
+import Competition from '../components/sections/Competition';
+import MarketingStrategy from '../components/sections/MarketingStrategy';
+import FinancialProjections from '../components/sections/FinancialProjections';
 import Vision from '../components/sections/Vision';
 import TeamSection from '../components/sections/TeamSection';
+import FundingRequest from '../components/sections/FundingRequest';
+import ExitStrategy from '../components/sections/ExitStrategy';
+import Risks from '../components/sections/Risks';
+import ContactInfo from '../components/sections/ContactInfo';
 import { sampleProposalData } from '../data/sampleData';
 
 const InvestmentProposal: React.FC = () => {
@@ -147,39 +151,17 @@ const InvestmentProposal: React.FC = () => {
 
       {/* Competition */}
       <ProposalSection title="경쟁 분석" pageBreak>
-        <div className="text-base leading-relaxed whitespace-pre-line">
-          {data.competition}
-        </div>
+        <Competition competition={data.competition} />
       </ProposalSection>
 
       {/* Marketing Strategy */}
       <ProposalSection title="마케팅 전략" pageBreak>
-        <div className="text-base leading-relaxed whitespace-pre-line">
-          {data.marketingStrategy}
-        </div>
+        <MarketingStrategy marketingStrategy={data.marketingStrategy} />
       </ProposalSection>
 
       {/* Financial Projections */}
       <ProposalSection title="재무 전망" pageBreak>
-        <FinancialChart 
-          data={data.financialProjections} 
-          title="매출 성장 전망 (단위: 억원)"
-        />
-        
-        <div className="mt-8 grid grid-cols-4 gap-4">
-          {data.financialProjections.map((item, index) => (
-            <div key={index} className="text-center p-4 bg-gray-50 rounded-lg">
-              <h4 className="text-lg font-semibold text-gray-800">{item.year}</h4>
-              <p className="text-gray-900 font-bold text-xl">{item.revenue}억원</p>
-              <p className="text-sm text-gray-600 mb-2">
-                수익: {item.profit >= 0 ? '+' : ''}{item.profit}억원
-              </p>
-              <p className="text-xs text-gray-700 font-medium">MAU: {item.mau}</p>
-              <p className="text-xs text-gray-700">ARPU: {item.arpu.toLocaleString()}원</p>
-              <p className="text-xs text-gray-700">AUM: {item.aum}</p>
-            </div>
-          ))}
-        </div>
+        <FinancialProjections financialProjections={data.financialProjections} />
       </ProposalSection>
 
       {/* Team */}
@@ -194,89 +176,22 @@ const InvestmentProposal: React.FC = () => {
 
       {/* Funding Request */}
       <ProposalSection title="투자 요청" pageBreak>
-        <FundingBreakdown fundingRequest={data.fundingRequest} />
-        
-        <div className="mt-8 bg-gray-50 p-6 rounded-lg">
-          <h4 className="text-xl font-semibold text-gray-800 mb-4">투자자 혜택</h4>
-          <div className="grid grid-cols-2 gap-6">
-            <div>
-              <h5 className="font-semibold text-gray-800 mb-2">지분 및 권리</h5>
-              <ul className="space-y-1 text-sm text-gray-600">
-                <li>• 투자 금액에 따른 지분 제공</li>
-                <li>• 이사진 참여 권한</li>
-                <li>• 청산 시 우선권 보장</li>
-              </ul>
-            </div>
-            <div>
-              <h5 className="font-semibold text-gray-800 mb-2">정보 제공</h5>
-              <ul className="space-y-1 text-sm text-gray-600">
-                <li>• 정기적인 사업 보고서</li>
-                <li>• 재무 정보 제공</li>
-                <li>• 전략적 의사결정 참여</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        <FundingRequest fundingRequest={data.fundingRequest} />
       </ProposalSection>
 
       {/* Exit Strategy */}
       <ProposalSection title="출구 전략" pageBreak>
-        <div className="text-base leading-relaxed whitespace-pre-line">
-          {data.exitStrategy}
-        </div>
+        <ExitStrategy exitStrategy={data.exitStrategy} />
       </ProposalSection>
 
       {/* Risks */}
       <ProposalSection title="리스크 요소" pageBreak>
-        <div className="text-base leading-relaxed whitespace-pre-line">
-          {data.risks}
-        </div>
+        <Risks risks={data.risks} />
       </ProposalSection>
 
       {/* Contact Information */}
       <ProposalSection title="연락처">
-        <div className="grid grid-cols-2 gap-8">
-          <div>
-            <h4 className="text-xl font-semibold text-gray-800 mb-4">회사 정보</h4>
-            <div className="space-y-3">
-              <div className="flex items-center space-x-3">
-                <Building2 className="w-5 h-5 text-gray-500" />
-                <span>{data.companyInfo.name}</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <MapPin className="w-5 h-5 text-gray-500" />
-                <span>{data.companyInfo.location}</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Globe className="w-5 h-5 text-gray-500" />
-                <span>{data.companyInfo.website}</span>
-              </div>
-            </div>
-          </div>
-          
-          <div>
-            <h4 className="text-xl font-semibold text-gray-800 mb-4">연락처</h4>
-            <div className="space-y-3">
-              <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-gray-500" />
-                <span>{data.companyInfo.email}</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-gray-500" />
-                <span>{data.companyInfo.phone}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div className="mt-8 text-center p-6 bg-gray-50 rounded-lg">
-          <p className="text-lg text-gray-700 mb-4">
-            <strong>지금이 비트베이크와 함께 Web3의 미래를 만들어갈 최적의 시점입니다.</strong>
-          </p>
-          <p className="text-gray-600">
-            투자 관련 문의사항이 있으시면 언제든지 연락해 주시기 바랍니다.
-          </p>
-        </div>
+        <ContactInfo companyInfo={data.companyInfo} />
       </ProposalSection>
     </div>
   );
