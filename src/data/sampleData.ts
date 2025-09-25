@@ -242,7 +242,7 @@ export const sampleProposalData: ProposalData = {
     {
       metric: "52%",
       value: "M1 리텐션",
-      description: "업계 평균(20-30%)을 크게 상회"
+      description: "일반 리워드 앱 평균 수준 달성"
     },
     {
       metric: "36%",
