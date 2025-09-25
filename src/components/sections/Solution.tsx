@@ -100,7 +100,7 @@ const Solution: React.FC = () => {
         시장 상황에 따른 자동 수익 최적화까지 제공합니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">5. 한국 시장 특화 솔루션</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">5. 시장에 대한 높은 이해도를 기반으로 한 전략적 접근</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         한국은 약 8조 원 규모의 거대한 기프트카드 시장을 보유하고 있습니다. 비트베이크는 이 시장 특성을 활용해, 
