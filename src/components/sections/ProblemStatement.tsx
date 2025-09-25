@@ -51,13 +51,7 @@ const ProblemStatement: React.FC = () => {
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">3. 미충족된 시장 기회 : 거대한 잠재 시장의 존재</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        하지만 이러한 문제들 뒤에는 거대한 기회가 숨어 있습니다. 현재 <strong>
-        3,200만명의 리워드 앱 사용자 중 60%가 암호화폐 투자에 관심</strong>을 표명하고 있으며, 
-        이는 약 1,920만명의 잠재 고객층을 의미합니다.
-      </p>
-      
-      <p className="text-gray-700 leading-relaxed mb-4">
-        또한 한국에는 약 <strong>200만명의 암호화폐 투자자</strong>가 있지만, 
+        한국에는 약 <strong>200만명의 암호화폐 투자자</strong>가 있지만, 
         이들 중 실제로 DeFi 서비스를 이용하는 비율은 20% 미만에 불과합니다. 이는 기술적 진입 장벽과 
         사용성 문제로 인해 DeFi의 잠재력을 제대로 활용하지 못하고 있다는 것을 의미합니다.
       </p>
