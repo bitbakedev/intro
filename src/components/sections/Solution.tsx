@@ -35,6 +35,19 @@ const Solution: React.FC = () => {
         "걸으면서 포인트 적립하기"라는 일상적이고 친숙한 활동으로 온보딩 됩니다.
       </p>
       
+      <p className="text-gray-700 leading-relaxed mb-4">
+        이렇게 온보딩된 사용자들은 리워드 앱을 일상적으로 활용하면서 스테이킹과 DeFi 상품에 자연스럽게 노출됩니다. 
+        초기에는 단순히 포인트 적립이나 소액 투자로 시작하지만, 반복적인 사용을 통해 점진적으로 지갑 사용, 자산 관리, 
+        스테이킹 개념을 익히게 됩니다.
+      </p>
+      
+      <p className="text-gray-700 leading-relaxed mb-6">
+        결국 사용자는 DeFi의 가치를 이해한 적극적 활용자로 전환됩니다. 거래소에 단순 보관하던 코인을 비트베이크로 옮겨와 
+        예치하거나, 원화 기반 스테이블 코인을 통해 직접 코인을 구매하고 스테이킹에 참여하게 됩니다. 
+        이러한 단계적 전환은 국내 사용자들에게 DeFi에 대한 신뢰를 회복시키고, 동시에 비트베이크가 자연스럽게 
+        DeFi 플랫폼으로 자리매김하도록 만듭니다.
+      </p>
+      
       <h2 className="text-2xl font-bold text-gray-800 mb-6">2. 소셜 로그인 기반 지갑 관리</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
