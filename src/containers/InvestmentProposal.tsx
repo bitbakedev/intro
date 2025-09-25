@@ -171,7 +171,7 @@ const InvestmentProposal: React.FC = () => {
 
       {/* Vision */}
       <ProposalSection title="비전" pageBreak>
-        <Vision vision={data.vision} />
+        <Vision />
       </ProposalSection>
 
       {/* Funding Request */}
