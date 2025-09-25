@@ -48,9 +48,7 @@ const ProblemStatement: React.FC = () => {
         작용하고 있습니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">3. 미충족된 시장 기회</h2>
-      
-      <h3 className="text-xl font-semibold text-gray-700 mb-4">거대한 잠재 시장의 존재</h3>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">3. 미충족된 시장 기회 : 거대한 잠재 시장의 존재</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         하지만 이러한 문제들 뒤에는 거대한 기회가 숨어 있습니다. 현재 <strong>
