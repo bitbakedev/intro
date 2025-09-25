@@ -25,7 +25,7 @@ const RevenueModel: React.FC = () => {
         지속적인 수익 증가를 달성하고 있습니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">2. 기프트카드 수수료 - 한국 시장 특화</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">2. 기프트카드 수수료</h2>
       
       <h3 className="text-xl font-semibold text-gray-700 mb-4">"8조원 기프트카드 시장을 활용한 독점적 수익원"</h3>
       
