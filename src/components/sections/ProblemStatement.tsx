@@ -23,7 +23,7 @@ const ProblemStatement: React.FC = () => {
            rel="noopener noreferrer" 
            className="text-blue-600 hover:text-blue-800 underline">Toward the Mass Adoption of Blockchain (MDPI, 2025)</a>은 "복잡한 인터페이스와 익숙하지 않은 절차가 
         비기술 사용자의 참여를 저해한다"고 분석하며, 사용자 경험(UX)이 DeFi 대중화의 핵심 장애 요인임을 
-        강조합니다【MDPI, 2025】.
+        강조합니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-6">
