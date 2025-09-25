@@ -12,7 +12,8 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
   achievements
 }) => {
   return (
-    <div className="prose prose-lg max-w-none">
+    <>
+      <div className="prose prose-lg max-w-none">
       <h2 className="text-2xl font-bold text-gray-800 mb-6">시장 배경과 기회</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
@@ -94,7 +95,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
           ))}
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
