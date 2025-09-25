@@ -24,7 +24,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
       
       <p className="text-gray-700 leading-relaxed mb-4">
         하지만 미국을 주도로 다시 한번 암호화폐 붐이 오고 있으며, 이러한 암호화폐를 활용할 수 있는 
-        가장 중요한 활용처인 DeFi 역시 다시 부상할 것입니다. 글로벌 DeFi 시장은 연 53.8%의 성장률을 
+        가장 중요한 활용처인 DeFi 역시 다시 부상할 것입니다. 이미 글로벌 DeFi 시장은 연 53.8%의 성장률을 
         보이며 220조원 규모로 확대되고 있습니다.
       </p>
       
