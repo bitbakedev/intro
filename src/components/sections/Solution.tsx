@@ -6,7 +6,7 @@ const Solution: React.FC = () => {
       <div className="text-center bg-gray-50 p-8 rounded-lg mb-8">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">핵심 철학</h2>
         <p className="text-xl font-semibold mb-2">"Web3 기술을 활용하지만, Web2 서비스처럼 단순합니다"</p>
-        <p className="text-gray-600">복잡한 블록체인 기술을 사용자에게는 보이지 않게 숨기고, 일상적인 활동을 통해 자연스럽게 암호화폐와 DeFi에 접근</p>
+        <p className="text-gray-600">유저들에게 이미 너무나 익숙한 리워드 앱 서비스로 접근하여 DeFi 로 자연스럽게 연결하는 온보더</p>
       </div>
       
       <p className="text-gray-700 leading-relaxed mb-6">
