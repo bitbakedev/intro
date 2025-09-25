@@ -48,7 +48,7 @@ const Solution: React.FC = () => {
         DeFi 플랫폼으로 자리매김하도록 만듭니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">2. 소셜 로그인 기반 지갑 관리</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">2. 사용성과 법적 규제를 동시에 충족하는 지갑 관리</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         기존 DeFi 서비스에서 가장 큰 진입 장벽 중 하나는 복잡한 지갑 생성과 관리 과정이었습니다. 
