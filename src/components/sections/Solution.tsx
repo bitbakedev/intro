@@ -15,7 +15,26 @@ const Solution: React.FC = () => {
         암호화폐와 DeFi에 접근할 수 있도록 만드는 것이 우리의 핵심 철학입니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">1. 소셜 로그인 기반의 혁신적 지갑 관리</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">1. 유저들에게 친숙한 리워드 앱 서비스로 접근</h2>
+      
+      <p className="text-gray-700 leading-relaxed mb-4">
+        리워드 앱 시장은 지속적으로 성장하고 있으며, 한국에서만 3,200만명의 사용자가 활발하게 이용하고 있습니다. 
+        캐시워크, 캐시슬라이드, 머니워크 등 다양한 플레이어들이 각각의 고유한 영역에서 성공을 거두고 있어, 
+        이는 승자독식 시장이 아니라 차별화된 가치 제안을 통해 여러 서비스가 공존할 수 있는 시장임을 보여줍니다.
+      </p>
+      
+      <p className="text-gray-700 leading-relaxed mb-4">
+        비트베이크는 이러한 친숙한 리워드 앱 형태로 사용자들에게 접근하여 Web3에 대한 심리적 장벽을 낮춥니다. 
+        사용자들은 "암호화폐 투자"나 "DeFi 서비스"라는 부담스러운 개념 대신, 
+        "걸으면서 포인트 적립하기"라는 일상적이고 친숙한 활동으로 시작할 수 있습니다.
+      </p>
+      
+      <p className="text-gray-700 leading-relaxed mb-6">
+        이러한 접근법을 통해 Web3 기술에 익숙하지 않은 일반 사용자들도 자연스럽게 암호화폐 생태계에 
+        진입할 수 있으며, 점진적으로 더 복잡한 DeFi 서비스를 이용할 수 있게 됩니다.
+      </p>
+      
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">2. 소셜 로그인 기반의 혁신적 지갑 관리</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         기존 DeFi 서비스에서 가장 큰 진입 장벽 중 하나는 복잡한 지갑 생성과 관리 과정이었습니다. 
