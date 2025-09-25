@@ -3,6 +3,8 @@ import React from 'react';
 const Competition: React.FC = () => {
   return (
     <div className="prose prose-lg max-w-none">
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">시장에 대한 높은 이해도를 기반으로 한 전략적 접근</h2>
+      
       <p className="text-gray-700 leading-relaxed mb-4">
         캐시워크는 MAU 450만명과 3,000억원의 기업가치를 보유한 대표적인 리워드 앱입니다. 
         캐시슬라이드는 MAU 1,000만명으로 가장 큰 사용자 기반을 가지고 있으며 시가총액 500억원 규모입니다. 
