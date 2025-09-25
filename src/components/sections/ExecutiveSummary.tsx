@@ -36,7 +36,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
       
       <p className="text-gray-700 leading-relaxed mb-4">
         유저들에게 신뢰를 되찾으려면 부드럽게 온보딩하는 것이 필요합니다. 자신들의 돈을 직접 투자하지는 않겠지만, 
-        <strong>"리워드로 받은 돈은 재미삼아서라도 투자해볼 것이다"</strong>라는 가설로 시작되었습니다.
+        <strong>"리워드로 받은 돈은 재미삼아서라도 투자하지 않을까?"</strong>라는 가설로 시작되었습니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-6">
