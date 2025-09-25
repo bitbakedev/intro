@@ -40,7 +40,7 @@ const RevenueModel: React.FC = () => {
         안정적인 수익 성장을 기대할 수 있습니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">3. 스왑 & 출금 수수료 - 거래 기반 수익</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">3. 스왑 & 출금 수수료</h2>
       
       <h3 className="text-xl font-semibold text-gray-700 mb-4">"사용자 자산 증가에 따른 수수료 수익 증가"</h3>
       
