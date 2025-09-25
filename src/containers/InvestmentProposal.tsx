@@ -79,7 +79,7 @@ const InvestmentProposal: React.FC = () => {
       </section>
 
       {/* Executive Summary */}
-      <ProposalSection title="경영진 요약" pageBreak>
+      <ProposalSection title="요약" pageBreak>
         <ExecutiveSummary 
           executiveSummary={data.executiveSummary}
           achievements={data.achievements}
