@@ -14,13 +14,13 @@ const ProblemStatement: React.FC = () => {
       <p className="text-gray-700 leading-relaxed mb-4">
         특히 사용자 이해 부족은 DeFi 확산의 핵심 장애 요인으로 반복적으로 지적됩니다. Uniswap Labs가 2023년에 실시한 설문 조사에 따르면, 
         중앙화 거래소(CEX) 사용자 중 42%가 DeFi를 사용하지 않는 이유로 '이해 부족(lack of understanding)'을 꼽았으며, 
-        거래 수수료와 복잡성도 주요 장벽으로 나타났습니다【Uniswap Labs, 2023】. 또한 Crypto.com이 발표한 Decentralised Finance User Survey 결과에 따르면, 
-        DeFi를 들어본 적 있는 응답자 중 48%만이 중급 이상 수준의 이해도를 보였고, 53%는 들어봤지만 실제 사용 경험은 없다고 응답했습니다【Crypto.com, 2020】.
+        거래 수수료와 복잡성도 주요 장벽으로 나타났습니다【<a href="https://blog.uniswap.org/cefi-defi-uniswap-survey" target="_blank" className="text-blue-600 hover:text-blue-800">Uniswap Labs, 2023</a>】. 또한 Crypto.com이 발표한 Decentralised Finance User Survey 결과에 따르면, 
+        DeFi를 들어본 적 있는 응답자 중 48%만이 중급 이상 수준의 이해도를 보였고, 53%는 들어봤지만 실제 사용 경험은 없다고 응답했습니다【<a href="https://crypto.com/research/decentralised-finance-survey-2020" target="_blank" className="text-blue-600 hover:text-blue-800">Crypto.com, 2020</a>】.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-6">
         이러한 조사 결과들은 "기술적 복잡성"이 DeFi 보급의 구조적 문제라는 점을 분명히 보여줍니다. 
-        실제로 Chainalysis도 2023년 보고서에서, 대부분의 신규 사용자는 지갑 관리와 스마트컨트랙트 사용법을 배우는 과정에서 이탈한다고 분석했습니다【Chainalysis, Crypto Adoption Report 2023】.
+        실제로 Chainalysis도 2023년 보고서에서, 대부분의 신규 사용자는 지갑 관리와 스마트컨트랙트 사용법을 배우는 과정에서 이탈한다고 분석했습니다【<a href="https://www.chainalysis.com/blog/2023-geography-of-cryptocurrency/" target="_blank" className="text-blue-600 hover:text-blue-800">Chainalysis, Crypto Adoption Report 2023</a>】.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-6">
