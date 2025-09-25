@@ -64,24 +64,6 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
       </p>
       </div>
       
-      <div className="grid grid-cols-3 gap-6 mb-8">
-        <div className="text-center p-6 bg-gray-50 rounded-lg">
-          <AlertTriangle className="w-8 h-8 mx-auto mb-3 text-red-500" />
-          <h4 className="text-2xl font-bold mb-2 text-red-600">신뢰 위기</h4>
-          <p className="text-gray-700">2021년 DeFi 실패로 인한 한국 시장 신뢰도 하락</p>
-        </div>
-        <div className="text-center p-6 bg-gray-50 rounded-lg">
-          <Target className="w-8 h-8 mx-auto mb-3 text-blue-500" />
-          <h4 className="text-2xl font-bold mb-2 text-blue-600">검증된 가설</h4>
-          <p className="text-gray-700">리워드 기반 DeFi 온보딩 전략의 성공적 검증</p>
-        </div>
-        <div className="text-center p-6 bg-gray-50 rounded-lg">
-          <Rocket className="w-8 h-8 mx-auto mb-3 text-green-500" />
-          <h4 className="text-2xl font-bold mb-2 text-green-600">스케일업</h4>
-          <p className="text-gray-700">리워드 앱에서 DeFi 플랫폼으로의 진화 전략</p>
-        </div>
-      </div>
-      
       <div className="bg-blue-50 p-6 rounded-lg">
         <h3 className="text-xl font-semibold mb-4 text-center">핵심 성과 지표</h3>
         <div className="grid grid-cols-4 gap-4">
