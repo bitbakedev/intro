@@ -48,7 +48,7 @@ const Solution: React.FC = () => {
         DeFi 플랫폼으로 자리매김하도록 만듭니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">2. 사용성과 법적 규제를 동시에 충족하는 지갑 관리</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">스케일업이 필요한 단계</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         기존 DeFi 서비스에서 가장 큰 진입 장벽 중 하나는 복잡한 지갑 생성과 관리 과정이었습니다. 
@@ -116,7 +116,7 @@ const Solution: React.FC = () => {
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        또한 비트베이크 팀은 원화 스테이블코인 발행을 준비 중인 Kaia (Klaytn + LINE Next) 재단과 협업할 수 있는 파트너십 기반을 
+        또한 비트베이크 팀은 원화 스테이블코인 발행을 준비 중인 Kaia 재단과 협업할 수 있는 파트너십 기반을 
         이미 확보했으며, 국내 대표 핀테크 기업인 토스와의 네트워크도 구축해 두었습니다. 이를 통해 원화 
         스테이블코인이 발행될 경우, 누구보다 빠르게 협업·적용할 수 있는 시장 선점 기회를 가지게 됩니다.
       </p>
