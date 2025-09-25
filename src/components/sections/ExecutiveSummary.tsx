@@ -35,7 +35,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">비트베이크의 접근법</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        유저들에게 신뢰를 되찾으려면 부드럽게 온보딩하는 것이 필요합니다. 자신들의 돈을 직접 투자하지는 않을 것입니다. 
+        유저들에게 신뢰를 되찾으려면 부드럽게 온보딩하는 것이 필요합니다. 자신들의 돈을 직접 투자하지는 않겠지만, 
         하지만 <strong>"리워드로 받은 돈은 재미삼아서라도 투자해볼 것이다"</strong>라는 가설로 시작되었습니다.
       </p>
       
