@@ -87,7 +87,7 @@ const RevenueModel: React.FC = () => {
         게임화된 마케팅 캠페인으로 일반적인 Web3 마케팅 대비 3-5배 높은 전환율을 달성하고 있습니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">수익 모델의 시너지 효과</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">다양한 수익원의 상호 보완적 성장</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         비트베이크의 수익 모델은 단순한 다각화를 넘어서 상호 보완적인 선순환 구조를 만들어냅니다. 
