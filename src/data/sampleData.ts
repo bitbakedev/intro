@@ -186,20 +186,20 @@ export const sampleProposalData: ProposalData = {
   
   team: [
     {
-      name: "김성래 (SEONGRAE KIM)",
-      position: "CEO & Co-Founder",
+      name: "SEONGRAE KIM",
+      position: "",
       education: "Meister Software Institute 졸업",
       experience: "• Toss (Viva Republic) - 풀스택 개발자\n• Donable - 풀스택 개발자\n• Kracker Labs - 풀스택 개발자\n• Perlin - CTO\n• LENX - CTO\n\n전문 분야: DeFi 프로토콜 설계, 대규모 금융 서비스 개발, 블록체인 기술 리더십"
     },
     {
-      name: "박유선 (YOUSUN PARK)",
-      position: "CPO & Co-Founder",
+      name: "YOUSUN PARK",
+      position: "",
       education: "서울여자대학교 졸업",
       experience: "• 중고나라 - 프로덕트 오너 (MAU 1,000만명 플랫폼)\n• humax mobility - 프로덕트 오너\n\n전문 분야: 사용자 행동 분석, A/B 테스트, 데이터 기반 의사결정, UX 설계"
     },
     {
-      name: "백민 (MIN BAEK)",
-      position: "CTO & Co-Founder",
+      name: "MIN BAEK",
+      position: "",
       education: "숭실대학교 졸업",
       experience: "• Wemix (위메이드) - 스마트 컨트랙트 개발자\n• Konverter DEX - 핵심 기여자\n• LENX - 컨트랙트 개발자\n\n전문 분야: 스마트 컨트랙트 최적화, AMM 알고리즘, 크로스체인 브릿지, DeFi 프로토콜"
     }

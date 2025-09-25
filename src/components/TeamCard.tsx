@@ -23,7 +23,9 @@ const TeamCard: React.FC<TeamCardProps> = ({ member }) => {
         </div>
         <div>
           <h4 className="text-lg font-semibold text-gray-800">{member.name}</h4>
-          <p className="text-blue-600 font-medium">{member.position}</p>
+          {member.position && (
+            <p className="text-blue-600 font-medium">{member.position}</p>
+          )}
         </div>
       </div>
       <div className="text-gray-600 text-sm leading-relaxed whitespace-pre-line">{member.experience}</div>
