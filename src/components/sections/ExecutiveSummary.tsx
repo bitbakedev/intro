@@ -29,7 +29,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-6">
-        하지만 한국 유저들은 2021년의 아픔으로 인해 섣불리 투자하지 않을 것입니다.
+        하지만 한국 유저들은 2021년의 아픔으로 인해 섣불리 DeFi를 이용하지 않을 것입니다.
       </p>
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">비트베이크의 접근법</h2>
