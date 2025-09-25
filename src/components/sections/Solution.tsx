@@ -114,16 +114,6 @@ const Solution: React.FC = () => {
         이미 확보했으며, 국내 대표 핀테크 기업이자 원화 스테이블 코인 발행 예정 기업인 토스와의 네트워크도 구축해 두었습니다. 이를 통해 원화 
         스테이블코인이 발행될 경우, 누구보다 빠르게 협업·적용할 수 있는 시장 선점 기회를 가지게 됩니다.
       </p>
-      
-      <div className="bg-gray-50 p-6 rounded-lg">
-        <h3 className="text-xl font-semibold mb-4 text-center">서비스 모델: Move-to-Earn + Learn-to-Earn + DeFi</h3>
-        <p className="text-gray-700 text-center mb-4">
-          <strong>"리워드로 시작해 DeFi 전문가를 양성합니다"</strong>
-        </p>
-        <p className="text-gray-600 text-center">
-          1단계: 리워드 획득 → 2단계: 스테이킹 시도 → 3단계: 수익 이해 → 4단계: Web3 네이티브 성장
-        </p>
-      </div>
     </div>
   );
 };
