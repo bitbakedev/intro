@@ -26,9 +26,7 @@ const ProblemStatement: React.FC = () => {
         주요 진입 장벽으로 인식</strong>하고 있다는 조사 결과가 이를 뒷받침합니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">2. 한국 시장의 특수한 문제점</h2>
-      
-      <p className="text-xl font-semibold text-gray-700 mb-4">규제적 제약과 신뢰도 위기</p>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">2. 한국 시장의 특수한 문제점 : 규제적 제약과 신뢰도 위기</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         한국은 암호화폐 시장에서 독특한 규제 환경을 가지고 있습니다. 2021년 정부의 신용카드를 통한 
