@@ -24,6 +24,14 @@ const ProblemStatement: React.FC = () => {
            target="_blank" 
            rel="noopener noreferrer" 
            className="text-blue-600 hover:text-blue-800 underline">Chainalysis, 2024</a>).
+        <strong>"이해 부족과 복잡성"</strong>을 꼽았고 
+        (<a href="https://blog.uniswap.org/cefi-defi-uniswap-survey?utm_source=chatgpt.com" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           className="text-blue-600 hover:text-blue-800 underline">Uniswap Labs, 2023</a>), 
+        Toward the Mass Adoption of Blockchain (MDPI, 2025)은 "복잡한 인터페이스와 익숙하지 않은 절차가 
+        비기술 사용자의 참여를 저해한다"고 분석하며, 사용자 경험(UX)이 DeFi 대중화의 핵심 장애 요인임을 
+        강조합니다【MDPI, 2025】.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-6">
