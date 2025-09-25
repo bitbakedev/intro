@@ -59,7 +59,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
       
       <p className="text-gray-700 leading-relaxed mb-8">
         기존의 리워드 앱 서비스들은 스케일업에 많은 고민을 하고 있는 상황이지만, 
-        우리의 전략은 엄청난 차별점입니다. <strong>리워드 앱에서 DeFi 플랫폼으로의 진화</strong>는 
+        비트베이크의 전략은 엄청난 차별점입니다. <strong>리워드 앱에서 DeFi 플랫폼으로의 진화</strong>는 
         기존 경쟁사들이 가지지 못한 독특한 성장 경로를 제공합니다.
       </p>
       </div>
