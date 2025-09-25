@@ -53,7 +53,6 @@ const ProblemStatement: React.FC = () => {
            target="_blank" 
            rel="noopener noreferrer" 
            className="text-blue-600 hover:text-blue-800 underline">강화된 KYC/AML 절차</a> 또한 추가적인 부담으로 인식되고 있습니다.
-      </p>
     </div>
   );
 };
