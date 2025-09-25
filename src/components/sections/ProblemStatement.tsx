@@ -48,7 +48,7 @@ const ProblemStatement: React.FC = () => {
       
       <p className="text-gray-700 leading-relaxed mb-6">
         이러한 규제적 제약과 신뢰도 위기의 결합은 한국 사용자들이 새로운 DeFi 서비스에 진입하는 데 
-        큰 장벽으로 작용하고 있으며, 
+        큰 장벽으로 작용하고 있으며,{' '} 
         <a href="https://www.upbit.com/web-static/announcement/share/ko/4851" 
            target="_blank" 
            rel="noopener noreferrer" 
