@@ -7,25 +7,25 @@ const ProblemStatement: React.FC = () => {
       
       <p className="text-gray-700 leading-relaxed mb-4">
         현재 DeFi 생태계는 혁신적인 잠재력에도 불구하고 높은 기술적 복잡성 때문에 일반 사용자의 진입이 지연되고 있습니다. 
-        사용자는 단순히 계정을 만드는 수준을 넘어 지갑 생성, 개인키 및 시드 구문 보관, 네트워크와 가스비 선택까지 모두 직접 관리해야 하며, 
-        이는 보안과 사용성 측면에서 큰 부담으로 작용합니다.
+        사용자는 단순히 계정을 만드는 수준을 넘어 지갑 생성, 개인키 및 시드 구문 보관, 네트워크와 가스비 선택, 
+        스마트컨트랙트 서명 절차까지 모두 직접 이해하고 관리해야 합니다. 이러한 과정은 금융 서비스에 익숙한 일반 대중에게 
+        매우 난해하게 느껴지며, 실제로 많은 신규 사용자가 이 과정에서 이탈하게 만듭니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        특히 사용자 이해 부족은 DeFi 확산의 핵심 장애 요인으로 반복적으로 지적됩니다. Uniswap Labs가 2023년에 실시한 설문 조사에 따르면, 
-        중앙화 거래소(CEX) 사용자 중 42%가 DeFi를 사용하지 않는 이유로 '이해 부족(lack of understanding)'을 꼽았으며, 
-        거래 수수료와 복잡성도 주요 장벽으로 나타났습니다【Uniswap Labs, 2023】. 또한 Crypto.com이 발표한 Decentralised Finance User Survey 결과에 따르면, 
-        DeFi를 들어본 적 있는 응답자 중 48%만이 중급 이상 수준의 이해도를 보였고, 53%는 들어봤지만 실제 사용 경험은 없다고 응답했습니다【Crypto.com, 2020】.
+        Uniswap Labs의 2023년 설문 조사에서도 중앙화 거래소 사용자들이 DeFi를 사용하지 않는 가장 큰 이유로 
+        <strong>"이해 부족과 복잡성"</strong>을 꼽았고 (Uniswap Labs, 2023), Chainalysis 역시 최근 보고서에서 
+        복잡한 UX가 신규 사용자 채택을 저해하는 주요 원인이라고 지적했습니다 
+        (<a href="https://www.chainalysis.com/blog/2024-global-crypto-adoption-index/?utm_source=chatgpt.com" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           className="text-blue-600 hover:text-blue-800 underline">Chainalysis, 2024</a>).
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-6">
-        이러한 조사 결과들은 "기술적 복잡성"이 DeFi 보급의 구조적 문제라는 점을 분명히 보여줍니다. 
-        실제로 Chainalysis도 2023년 보고서에서, 대부분의 신규 사용자는 지갑 관리와 스마트컨트랙트 사용법을 배우는 과정에서 이탈한다고 분석했습니다【Chainalysis, Crypto Adoption Report 2023】.
-      </p>
-      
-      <p className="text-gray-700 leading-relaxed mb-6">
-        따라서 한국은 물론이고, 글로벌 DeFi 시장의 성장은 단순히 새로운 금융 상품을 설계하는 데 그치지 않고, 
-        복잡한 UX를 단순화하고 진입 장벽을 낮추는 사용자 경험 혁신이 뒷받침되어야 가능합니다.
+        글로벌 시장에서는 이런 사용성 문제를 해결하기 위해 다양한 실험이 진행되고 있지만, 한국 시장에서는 
+        여전히 시도조차 거의 없는 상황입니다. 결국 "사용하기 어렵다"는 점이 DeFi 확산의 가장 큰 구조적 문제로 
+        자리 잡고 있습니다.
       </p>
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">2. 한국 시장의 특수한 문제점 : 규제적 제약과 신뢰도 위기</h2>
