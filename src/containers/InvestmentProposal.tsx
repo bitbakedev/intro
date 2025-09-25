@@ -40,11 +40,6 @@ const InvestmentProposal: React.FC = () => {
         <Solution />
       </ProposalSection>
 
-      {/* Market Analysis */}
-      <ProposalSection title="시장 분석" pageBreak>
-        <MarketAnalysis marketAnalysis={data.marketAnalysis} />
-      </ProposalSection>
-
       {/* Business Model */}
       <ProposalSection title="수익 모델" pageBreak>
         <RevenueModel />
