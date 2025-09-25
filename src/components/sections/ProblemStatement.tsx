@@ -13,7 +13,7 @@ const ProblemStatement: React.FC = () => {
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        <a href="https://blog.uniswap.org/cefi-defi-uniswap-survey?utm_source=chatgpt.com" 
+        <a href="https://blog.uniswap.org/cefi-defi-uniswap-survey" 
            target="_blank" 
            rel="noopener noreferrer" 
            className="text-blue-600 hover:text-blue-800 underline">Uniswap Labs의 2023년 설문</a> 조사에서도 중앙화 거래소 사용자들이 DeFi를 사용하지 않는 가장 큰 이유로 
