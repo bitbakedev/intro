@@ -69,8 +69,6 @@ const RevenueModel: React.FC = () => {
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">5. B2B 마케팅</h2>
       
-      <h3 className="text-xl font-semibold text-gray-700 mb-4">"글로벌 Web3 비즈니스와 한국 사용자를 연결하는 플랫폼"</h3>
-      
       <p className="text-gray-700 leading-relaxed mb-4">
         글로벌 Web3 재단들과의 협업을 통해 확인한 중요한 사실은, 해외 재단들이 한국 시장을 매우 높이 평가하고 있으며, 
         한국 사용자들에게 적극적으로 마케팅하고 싶어 한다는 점입니다. 하지만 현재 한국에는 이러한 글로벌 프로젝트들이 
