@@ -186,7 +186,7 @@ const InvestmentProposal: React.FC = () => {
 
       {/* Risks */}
       <ProposalSection title="리스크 요소" pageBreak>
-        <Risks risks={data.risks} />
+        <Risks />
       </ProposalSection>
 
       {/* Contact Information */}
