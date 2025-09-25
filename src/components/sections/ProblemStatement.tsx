@@ -19,7 +19,10 @@ const ProblemStatement: React.FC = () => {
            target="_blank" 
            rel="noopener noreferrer" 
            className="text-blue-600 hover:text-blue-800 underline">Uniswap Labs, 2023</a>), 
-        Toward the Mass Adoption of Blockchain (MDPI, 2025)은 "복잡한 인터페이스와 익숙하지 않은 절차가 
+        <a href="https://www.mdpi.com/2504-2289/9/7/178" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           className="text-blue-600 hover:text-blue-800 underline">Toward the Mass Adoption of Blockchain (MDPI, 2025)</a>은 "복잡한 인터페이스와 익숙하지 않은 절차가 
         비기술 사용자의 참여를 저해한다"고 분석하며, 사용자 경험(UX)이 DeFi 대중화의 핵심 장애 요인임을 
         강조합니다【MDPI, 2025】.
       </p>
