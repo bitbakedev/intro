@@ -54,7 +54,7 @@ const RevenueModel: React.FC = () => {
         사용자 경험을 개선하면서도 안정적인 수익을 확보하고 있습니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">4. 스테이킹 수익 수수료 - 자산 관리 수익</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">4. 스테이킹 수익 수수료</h2>
       
       <h3 className="text-xl font-semibold text-gray-700 mb-4">"사용자 자산 증가에 따른 수익 분배 모델"</h3>
       
