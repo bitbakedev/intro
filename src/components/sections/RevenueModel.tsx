@@ -56,8 +56,6 @@ const RevenueModel: React.FC = () => {
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">4. 스테이킹 수익 수수료</h2>
       
-      <h3 className="text-xl font-semibold text-gray-700 mb-4">"사용자 자산 증가에 따른 수익 분배 모델"</h3>
-      
       <p className="text-gray-700 leading-relaxed mb-4">
         Aave 프로토콜과 연동한 스테이킹 서비스에서 발생하는 수익의 <strong>10%는 비트베이크 수익</strong>으로, 
         <strong>90%는 사용자에게 지급</strong>됩니다. 이는 사용자가 더 많은 리워드를 얻고 
