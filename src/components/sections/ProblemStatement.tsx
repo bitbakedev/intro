@@ -5,8 +5,6 @@ const ProblemStatement: React.FC = () => {
     <div className="prose prose-lg max-w-none">
       <h2 className="text-2xl font-bold text-gray-800 mb-6">1. 글로벌 DeFi 시장의 구조적 문제</h2>
       
-      <h3 className="text-xl font-semibold text-gray-700 mb-4">기술적 진입 장벽</h3>
-      
       <p className="text-gray-700 leading-relaxed mb-4">
         현재 DeFi 생태계는 기술적 복잡성으로 인해 일반 사용자들의 진입을 크게 저해하고 있습니다. 
         블록체인 기술 자체가 복잡한 것은 물론, 사용자들이 실제로 서비스를 이용하기까지 거쳐야 하는 
