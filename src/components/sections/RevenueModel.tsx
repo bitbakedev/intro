@@ -12,8 +12,6 @@ const RevenueModel: React.FC = () => {
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">1. 광고 수익</h2>
       
-      <h3 className="text-xl font-semibold text-gray-700 mb-4">"사용자 참여도가 높을수록 광고 수익이 증가합니다"</h3>
-      
       <p className="text-gray-700 leading-relaxed mb-4">
         비트베이크의 핵심 수익원은 광고 수익입니다. Google AdMob, Unity Ads, Vungle, AppLovin, IronSource, Chartboost 등 
         <strong> 6개의 주요 광고 네트워크</strong>와 연동하여 다양한 형태의 광고를 제공합니다. 
