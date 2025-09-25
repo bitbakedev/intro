@@ -14,8 +14,7 @@ const ProblemStatement: React.FC = () => {
       
       <p className="text-gray-700 leading-relaxed mb-4">
         Uniswap Labs의 2023년 설문 조사에서도 중앙화 거래소 사용자들이 DeFi를 사용하지 않는 가장 큰 이유로 
-        <strong>"이해 부족과 복잡성"</strong>을 꼽았고 
-        (<a href="https://blog.uniswap.org/cefi-defi-uniswap-survey?utm_source=chatgpt.com" 
+        <strong>"이해 부족과 복잡성"</strong>을 꼽았고 (<a href="https://blog.uniswap.org/cefi-defi-uniswap-survey?utm_source=chatgpt.com" 
            target="_blank" 
            rel="noopener noreferrer" 
            className="text-blue-600 hover:text-blue-800 underline">Uniswap Labs, 2023</a>), 
