@@ -27,8 +27,6 @@ const RevenueModel: React.FC = () => {
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">2. 기프트카드 수수료</h2>
       
-      <h3 className="text-xl font-semibold text-gray-700 mb-4">"8조원 기프트카드 시장을 활용한 독점적 수익원"</h3>
-      
       <p className="text-gray-700 leading-relaxed mb-4">
         한국은 <strong>8조원 규모의 거대한 기프트카드 시장</strong>을 보유하고 있으며, 
         전체 기프트카드의 15-20%가 미사용 상태로 남아있습니다. 비트베이크는 이러한 시장 특성을 활용하여 
