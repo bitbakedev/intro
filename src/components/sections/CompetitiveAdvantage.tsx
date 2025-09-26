@@ -31,7 +31,7 @@ const CompetitiveAdvantage: React.FC = () => {
         <h3 className="text-2xl font-semibold text-gray-700 mb-4">2. 네트워크와 협력 경험</h3>
         
         <p className="text-gray-700 leading-relaxed mb-4">
-          비트베이크는 Neo, Kaia, Bera, Chiliz 등 주요 블록체인 프로젝트와의 협업을 통해 이미 신뢰를 얻고 견고한 네트워크를 확보했습니다. 이러한 파트너십은 단순한 협력에 그치지 않고, 신규 고객사 유치와 글로벌 시장 확장에 있어 강력한 기반이 됩니다.
+          비트베이크는 Neo, Kaia, Bera, Chiliz 등 주요 블록체인 프로젝트와의 협업을 통해 이미 신뢰를 얻고 견고한 네트워크를 확보했습니다. 이러한 파트너십은 단순한 협력에 그치지 않고, 신규 고객사 유치와 글로벌 시장 확장에 있어 강력한 기반이 됩니다. 또한 Bifrost, Radius 와 같은 국내 블록체인 메인넷 재단들과도 네트워크를 가지고 있습니다.
         </p>
         
         <p className="text-gray-700 leading-relaxed mb-6">
