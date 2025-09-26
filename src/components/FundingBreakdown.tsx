@@ -34,6 +34,43 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
         이러한 자금 배분을 통해 비트베이크는 향후 12개월 내에 MAU 10만명 달성과 월 매출 1억원 규모의 
         안정적인 수익 구조를 구축하여, Series A 라운드 진입을 위한 견고한 기반을 마련하겠습니다.
       </p>
+    
+    <div className="mt-8">
+      <h3 className="text-xl font-semibold text-gray-800 mb-4">투자 자금 활용 계획</h3>
+      <div className="overflow-x-auto">
+        <table className="w-full border-collapse border border-gray-300">
+          <thead>
+            <tr className="bg-gray-50">
+              <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">항목</th>
+              <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">금액</th>
+              <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">비율</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">인건비</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">1억 1,000만원</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">49%</td>
+            </tr>
+            <tr className="bg-gray-25">
+              <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">마케팅 및 사용자 확보</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">6,000만원</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">27%</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">기술 인프라</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">3,000만원</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">13%</td>
+            </tr>
+            <tr className="bg-gray-25">
+              <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">운영 자금</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">2,000만원</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">9%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
     </div>
   );
 };
