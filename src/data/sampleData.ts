@@ -248,11 +248,6 @@ export const sampleProposalData: ProposalData = {
       metric: "36%",
       value: "암호화폐 전환율",
       description: "실제 투자 가치 인식 입증"
-    },
-    {
-      metric: "60%+",
-      value: "포인트 적립률",
-      description: "높은 사용자 참여도"
     }
   ],
   
