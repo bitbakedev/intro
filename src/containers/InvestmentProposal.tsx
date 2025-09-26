@@ -16,6 +16,9 @@ import FundingRequest from '../components/sections/FundingRequest';
 import ExitStrategy from '../components/sections/ExitStrategy';
 import Risks from '../components/sections/Risks';
 import DeFiProducts from '../components/sections/DeFiProducts';
+import StablecoinStrategy from '../components/sections/StablecoinStrategy';
+import LegalRiskMitigation from '../components/sections/LegalRiskMitigation';
+import NeoPartnership from '../components/sections/NeoPartnership';
 import ContactInfo from '../components/sections/ContactInfo';
 import { sampleProposalData } from '../data/sampleData';
 
@@ -95,6 +98,21 @@ const InvestmentProposal: React.FC = () => {
       {/* DeFi Products */}
       <ProposalSection title="DeFi 상품 기획" pageBreak>
         <DeFiProducts />
+      </ProposalSection>
+
+      {/* Stablecoin Strategy */}
+      <ProposalSection title="원화 스테이블 코인 출범 후 전략" pageBreak>
+        <StablecoinStrategy />
+      </ProposalSection>
+
+      {/* Legal Risk Mitigation */}
+      <ProposalSection title="법적 리스크 해소 방안" pageBreak>
+        <LegalRiskMitigation />
+      </ProposalSection>
+
+      {/* Neo Partnership */}
+      <ProposalSection title="Neo 재단과의 전략적 파트너십" pageBreak>
+        <NeoPartnership />
       </ProposalSection>
 
       {/* Contact Information */}
