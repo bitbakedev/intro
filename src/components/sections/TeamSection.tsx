@@ -31,33 +31,9 @@ const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
           ))}
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* 주요 프로젝트 경험 */}
-          <div className="bg-gray-50 p-6 rounded-lg">
-            <h4 className="text-xl font-semibold text-gray-800 mb-4">주요 프로젝트 경험</h4>
-            <div className="space-y-4 text-sm">
-              <div>
-                <h5 className="font-semibold text-gray-800 mb-2">2024-2025년</h5>
-                <ul className="space-y-1 text-gray-600">
-                  <li>• Liquid Staking Protocol 구축 (Chiliz)</li>
-                  <li>• 탈중앙화 거래소 구축 (Neo X, Chiliz)</li>
-                  <li>• 밈코인 런치패드 구축 (다중 체인)</li>
-                  <li>• 블록체인 기반 투표 시스템 (Polygon)</li>
-                </ul>
-              </div>
-              <div>
-                <h5 className="font-semibold text-gray-800 mb-2">2021-2022년</h5>
-                <ul className="space-y-1 text-gray-600">
-                  <li>• 크로스체인 담보대출 플랫폼 (Zeta)</li>
-                  <li>• 담보대출 플랫폼 구축 (Neo)</li>
-                  <li>• NFT 조각화 플랫폼 (Ethereum)</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
           {/* 주요 수상 경력 */}
-          <div className="bg-gray-50 p-6 rounded-lg">
+          <div className="bg-gray-50 p-6 rounded-lg max-w-md mx-auto">
             <h4 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
               <Award className="w-6 h-6 mr-2" />
               주요 수상 경력
