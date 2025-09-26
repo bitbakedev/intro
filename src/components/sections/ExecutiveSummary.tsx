@@ -52,7 +52,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        이렇게 리워드 앱 서비스 자체로 수익화를 마치면, DeFi 상품으로의 적극적인 전환으로 
+        이렇게 리워드 앱 서비스 자체로 수익화를 마치면, 암호화폐 상품으로의 적극적인 전환으로 
         DeFi 플랫폼으로 진화가 가능합니다. 1단계 리워드 앱에서 2단계 DeFi 플랫폼, 
         최종적으로 3단계 스테이블코인 플랫폼으로의 진화를 계획하고 있습니다.
       </p>
