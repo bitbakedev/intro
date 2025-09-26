@@ -36,23 +36,28 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
         </div>
       </div>
       
-      <div className="space-y-4 mb-6">
-        <h4 className="text-lg font-semibold text-gray-700">자금 활용 계획</h4>
-        {fundingRequest.useOfFunds.map((item, index) => (
-          <div key={index} className="flex items-center justify-between p-3 bg-white rounded-lg">
-            <div className="flex items-center space-x-3">
-              <div
-                className="w-4 h-4 rounded-full"
-                style={{ backgroundColor: `hsl(0, 0%, ${20 + index * 20}%)` }}
-              />
-              <span className="text-gray-700">{item.category}</span>
-            </div>
-            <div className="text-right">
-              <p className="font-semibold text-gray-800">{item.amount}</p>
-              <p className="text-sm text-gray-500">{item.percentage}%</p>
-            </div>
-          </div>
-        ))}
+      <div className="mb-6">
+        <h4 className="text-lg font-semibold text-gray-700 mb-4">자금 활용 계획</h4>
+        <div className="overflow-x-auto">
+          <table className="w-full border-collapse border border-gray-300">
+            <thead>
+              <tr className="bg-gray-50">
+                <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">항목</th>
+                <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">금액</th>
+                <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">비율</th>
+              </tr>
+            </thead>
+            <tbody>
+              {fundingRequest.useOfFunds.map((item, index) => (
+                <tr key={index} className={index % 2 === 0 ? 'bg-white' : 'bg-gray-25'}>
+                  <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">{item.category}</td>
+                  <td className="border border-gray-300 px-4 py-3 text-gray-700">{item.amount}</td>
+                  <td className="border border-gray-300 px-4 py-3 text-gray-700">{item.percentage}%</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
       
     </div>
