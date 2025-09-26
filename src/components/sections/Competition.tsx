@@ -87,20 +87,20 @@ const Competition: React.FC = () => {
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">암호화폐 관련 경쟁사</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        암호화폐 관련 서비스들은 다양한 시도를 이어왔지만, 지속적인 성과 창출에는 어려움을 겪고 있습니다.
+        국내 암호화폐 서비스들은 다양한 시도를 이어왔지만, 지속적이고 안정적인 성과 창출에는 실패해왔습니다.
       </p>
       
-      <ul className="text-gray-700 leading-relaxed mb-8 ml-6">
-        <li className="mb-2">
-          <strong>샌드뱅크:</strong> 수백억 원 규모의 투자를 유치했으나 성과가 뚜렷하지 않았으며, 암호화폐 자산관리라는 직접적 접근의 한계가 드러났습니다.
-        </li>
-        <li className="mb-2">
-          <strong>하루인베스트먼트, 델리오:</strong> 대규모 예치금 확보로 시장성을 보여주었으나, 운영 리스크 관리 실패로 파산에 이르렀습니다.
-        </li>
-        <li className="mb-2">
-          <strong>업비트, 빗썸 등 중앙화 거래소:</strong> 구조적으로 DeFi와 연계가 불가능하며, 이로 인해 제공 가능한 상품과 수익률에 한계가 있습니다.
-        </li>
-      </ul>
+      <p className="text-gray-700 leading-relaxed mb-4">
+        예를 들어, 암호화폐 자산 관리 앱 샌드뱅크는 25억 원 규모의 투자를 유치하며 주목을 받았으나, 뚜렷한 사업 성과를 만들어내지 못했습니다. 이는 암호화폐 자산관리라는 직접적 접근 방식의 한계를 보여주는 사례라 할 수 있습니다.
+      </p>
+      
+      <p className="text-gray-700 leading-relaxed mb-4">
+        하루인베스트먼트와 델리오는 대규모 예치금을 확보하며 시장성 자체는 입증했지만, 내부 운영 리스크 관리에 실패하면서 결국 파산에 이르렀습니다. 이러한 사건들은 단순히 개별 기업의 실패를 넘어, 국내 사용자들의 신뢰를 크게 떨어뜨렸습니다.
+      </p>
+      
+      <p className="text-gray-700 leading-relaxed mb-8">
+        한편, 업비트·빗썸 등 중앙화 거래소들은 국내에서 압도적인 점유율을 차지하고 있지만, 리스크, 수익성 층면에서 구조적으로 DeFi와 직접 연계될 수 없는 한계를 지니고 있습니다. 결국 이들이 제공할 수 있는 상품과 수익률에는 뚜렷한 한계가 있으며, 이는 DeFi 생태계의 본질적인 확장성과는 거리가 있습니다.
+      </p>
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">4. 글로벌 레퍼런스</h2>
       
