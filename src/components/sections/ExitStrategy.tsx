@@ -27,6 +27,14 @@ const ExitStrategy: React.FC = () => {
         Web3 기술력과 사용자 기반에 높은 가치를 부여할 것으로 전망됩니다.
       </p>
       
+      <h3 className="text-xl font-semibold text-gray-700 mb-4 mt-8">기타</h3>
+      
+      <p className="text-gray-700 leading-relaxed mb-4">
+        밸류에이션 500-2,000억원 규모의 M&A를 통해 50-160배의 수익률을 달성할 수 있습니다. 
+        토스, 카카오, 네이버 등이 잠재적인 인수사로 예상되며, 이들은 비트베이크의 
+        Web3 기술력과 사용자 기반에 높은 가치를 부여할 것으로 전망됩니다.
+      </p>
+      
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">투자자 보호</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
