@@ -132,50 +132,6 @@ const RevenueModel: React.FC = () => {
         이러한 <strong>5개의 서로 다른 수익원</strong>은 리스크를 분산시키면서도 
         상호 보완적으로 작용하여 지속 가능한 성장을 만들어냅니다.
       </p>
-      
-      <div className="bg-gray-50 p-6 rounded-lg mt-8">
-        <h4 className="text-xl font-semibold mb-4">수익원별 기여도 전망</h4>
-        <div className="grid grid-cols-5 gap-4">
-          <div className="text-center">
-            <div className="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-2">
-              <span className="text-white font-bold">40%</span>
-            </div>
-            <p className="text-sm font-medium">광고 수익</p>
-            <p className="text-xs text-gray-600 mt-1">기반 수익원</p>
-          </div>
-          <div className="text-center">
-            <div className="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-2">
-              <span className="text-white font-bold">25%</span>
-            </div>
-            <p className="text-sm font-medium">기프트카드</p>
-            <p className="text-xs text-gray-600 mt-1">한국 특화</p>
-          </div>
-          <div className="text-center">
-            <div className="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-2">
-              <span className="text-white font-bold">20%</span>
-            </div>
-            <p className="text-sm font-medium">스왑 수수료</p>
-            <p className="text-xs text-gray-600 mt-1">거래 기반</p>
-          </div>
-          <div className="text-center">
-            <div className="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-2">
-              <span className="text-white font-bold">10%</span>
-            </div>
-            <p className="text-sm font-medium">스테이킹</p>
-            <p className="text-xs text-gray-600 mt-1">자산 관리</p>
-          </div>
-          <div className="text-center">
-            <div className="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-2">
-              <span className="text-white font-bold">15%</span>
-            </div>
-            <p className="text-sm font-medium">B2B 마케팅</p>
-            <p className="text-xs text-gray-600 mt-1">고성장</p>
-          </div>
-        </div>
-        <p className="text-center text-gray-600 text-sm mt-4">
-          이러한 다각화된 수익 모델은 비트베이크가 단순한 리워드 앱을 넘어서 종합적인 Web3 금융 플랫폼으로 성장할 수 있는 견고한 기반을 제공합니다.
-        </p>
-      </div>
     </div>
   );
 };
