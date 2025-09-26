@@ -1,15 +1,19 @@
 import React from 'react';
-import { Award } from 'lucide-react';
+import { useState } from 'react';
 import { TeamMember } from '../../types/proposal';
 import TeamCard from '../TeamCard';
+import AwardsModal from '../AwardsModal';
 
 interface TeamSectionProps {
   team: TeamMember[];
 }
 
 const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
+  const [isAwardsModalOpen, setIsAwardsModalOpen] = useState(false);
+
   return (
-    <div>
+    <>
+      <div>
       <div className="mb-8">
         <div className="mb-8">
           <p className="text-gray-700 leading-relaxed mb-4">
@@ -31,49 +35,21 @@ const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
           ))}
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
-          {/* 주요 수상 경력 */}
-          <div className="bg-gray-50 p-6 rounded-lg max-w-md mx-auto">
-            <h4 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
-              <Award className="w-6 h-6 mr-2" />
-              주요 수상 경력
-            </h4>
-            <div className="space-y-4 text-sm">
-              <div>
-                <h5 className="font-semibold text-gray-800 mb-2">2025년</h5>
-                <ul className="space-y-1 text-gray-600">
-                  <li>• 제1회 대한민국 스테이블코인 해커톤 최우수상</li>
-                  <li>• Seoulana Hackathon 2위</li>
-                </ul>
-              </div>
-              <div>
-                <h5 className="font-semibold text-gray-800 mb-2">2022년</h5>
-                <ul className="space-y-1 text-gray-600">
-                  <li>• ETH Seoul 1위</li>
-                  <li>• Hackatom Seoul Evmos 1위</li>
-                </ul>
-              </div>
-              <div>
-                <h5 className="font-semibold text-gray-800 mb-2">2018년</h5>
-                <ul className="space-y-1 text-gray-600">
-                  <li>• HDAC Hackathon The Arena Idea Award</li>
-                  <li>• OXD: Creative Coders Hackathon 1위</li>
-                </ul>
-              </div>
-              <div>
-                <h5 className="font-semibold text-gray-800 mb-2">2017년</h5>
-                <ul className="space-y-1 text-gray-600">
-                  <li>• 12th Appjam IoT 1위</li>
-                  <li>• KISA NHN Fintech 4위</li>
-                  <li>• 14th Appjam 1위</li>
-                  <li>• D3S Hackathon 2위</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+        <div className="text-center">
+          <button
+            onClick={() => setIsAwardsModalOpen(true)}
+            className="text-blue-600 hover:text-blue-800 underline cursor-pointer bg-transparent border-none p-0 font-inherit"
+          >
+            주요 수상 경력 &gt;
+          </button>
         </div>
       </div>
-    </div>
+      
+      <AwardsModal 
+        isOpen={isAwardsModalOpen} 
+        onClose={() => setIsAwardsModalOpen(false)} 
+      />
+    </>
   );
 };
 
