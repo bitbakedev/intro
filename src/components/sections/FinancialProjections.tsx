@@ -8,7 +8,7 @@ interface FinancialProjectionsProps {
 
 const FinancialProjections: React.FC<FinancialProjectionsProps> = ({ financialProjections }) => {
   return (
-    <div>
+    <>
       <FinancialChart 
         data={financialProjections} 
         title="매출 성장 전망 (단위: 억원)"
@@ -25,14 +25,14 @@ const FinancialProjections: React.FC<FinancialProjectionsProps> = ({ financialPr
           </div>
         ))}
       </div>
-    </div>
-    
-    <div className="mt-6 p-4 bg-blue-50 rounded-lg">
-      <p className="text-gray-700 text-sm leading-relaxed">
-        <strong>매출 산정 근거:</strong> 예상 매출은 리워드 앱 평균 ARPU가 1,000~2,000원대라서, 
-        MAU를 달성했을 때의 매출을 보수적으로 산정한 매출입니다.
-      </p>
-    </div>
+      
+      <div className="mt-6 p-4 bg-blue-50 rounded-lg">
+        <p className="text-gray-700 text-sm leading-relaxed">
+          <strong>매출 산정 근거:</strong> 예상 매출은 리워드 앱 평균 ARPU가 1,000~2,000원대라서, 
+          MAU를 달성했을 때의 매출을 보수적으로 산정한 매출입니다.
+        </p>
+      </div>
+    </>
   );
 };
 
