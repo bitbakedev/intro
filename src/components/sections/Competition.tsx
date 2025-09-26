@@ -68,19 +68,19 @@ const Competition: React.FC = () => {
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">2. 대형 플랫폼</h2>
       
-      <p className="text-gray-700 leading-relaxed mb-4 ml-4">
+      <p className="text-gray-700 leading-relaxed mb-4">
         토스, 카카오, 네이버 등 국내 대형 플랫폼들은 아직 DeFi보다는 원화 스테이블코인 발행에 집중하고 있습니다. 그러나 이 과정은 규제 협의와 인프라 구축 문제로 인해 최소 2년 이상 소요될 것으로 예상됩니다.
       </p>
       
-      <p className="text-gray-700 leading-relaxed mb-4 ml-4">
+      <p className="text-gray-700 leading-relaxed mb-4">
         설령 스테이블코인이 발행되더라도, 이를 실제로 활용할 수 있는 결제·송금·투자 등의 사용처를 확장하는 데 추가 시간이 필요합니다. 따라서 DeFi 서비스로 본격적으로 연결되기까지는 총 3~4년 이상이 걸릴 가능성이 높습니다.
       </p>
       
-      <p className="text-gray-700 leading-relaxed mb-4 ml-4">
+      <p className="text-gray-700 leading-relaxed mb-4">
         결국 대형 플랫폼들은 규제와 리스크 관리라는 족쇄로 인해 단기적으로는 결제·송금 등 제도권 금융 연계 서비스에 집중할 수밖에 없으며, DeFi 확장은 후순위로 밀릴 수밖에 없습니다.
       </p>
       
-      <p className="text-gray-700 leading-relaxed mb-8 ml-4">
+      <p className="text-gray-700 leading-relaxed mb-8">
         반면, 비트베이크는 빠른 실행력과 민첩성을 기반으로, 대형 플랫폼들이 제도권 안에서 시간을 소모하는 사이 DeFi 시장을 선점할 수 있는 전략적 기회를 확보하게 됩니다.
       </p>
       
