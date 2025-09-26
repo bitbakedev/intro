@@ -5,7 +5,7 @@ const ExitStrategy: React.FC = () => {
     <div className="prose prose-lg max-w-none">
       <h2 className="text-2xl font-bold text-gray-800 mb-6">출구 전략별 예상 수익률 (Seed 투자 기준)</h2>
       
-      <h3 className="text-xl font-semibold text-gray-700 mb-4">Series A (2026 Q3)</h3>
+      <h3 className="text-xl font-semibold text-gray-700 mb-4">Series A (2026 Q3 ~ Q4)</h3>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         벨류에이션 200~300억원 목표로 Seed Round 투자 대비 15~20배 수준의 수익률을 기대할 수 있습니다. 
