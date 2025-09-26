@@ -42,16 +42,6 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
         ))}
       </div>
       
-      <div className="grid grid-cols-2 gap-4">
-        <div className="text-center p-4 bg-white rounded-lg">
-          <p className="text-gray-600 text-sm">투자 기간</p>
-          <p className="font-semibold text-gray-800">{fundingRequest.timeline}</p>
-        </div>
-        <div className="text-center p-4 bg-white rounded-lg">
-          <p className="text-gray-600 text-sm">예상 수익률</p>
-          <p className="font-semibold text-gray-800">{fundingRequest.expectedReturn}</p>
-        </div>
-      </div>
     </div>
   );
 };
