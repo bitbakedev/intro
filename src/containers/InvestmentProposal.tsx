@@ -5,6 +5,7 @@ import ExecutiveSummary from '../components/sections/ExecutiveSummary';
 import ProblemStatement from '../components/sections/ProblemStatement';
 import Solution from '../components/sections/Solution';
 import RevenueModel from '../components/sections/RevenueModel';
+import CompetitiveAdvantage from '../components/sections/CompetitiveAdvantage';
 import MarketAnalysis from '../components/sections/MarketAnalysis';
 import Competition from '../components/sections/Competition';
 import MarketingStrategy from '../components/sections/MarketingStrategy';
@@ -43,6 +44,11 @@ const InvestmentProposal: React.FC = () => {
       {/* Business Model */}
       <ProposalSection title="수익 모델" pageBreak>
         <RevenueModel />
+      </ProposalSection>
+
+      {/* Competitive Advantage */}
+      <ProposalSection title="경쟁 우위" pageBreak>
+        <CompetitiveAdvantage />
       </ProposalSection>
 
       {/* Competition */}
