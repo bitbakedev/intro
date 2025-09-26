@@ -18,7 +18,7 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
           </div>
           <div className="text-center p-3 bg-white rounded-lg">
             <p className="text-gray-600 text-sm">제공 지분</p>
-            <p className="font-semibold text-gray-800">{fundingRequest.expectedReturn}</p>
+            <p className="font-semibold text-gray-800">15%</p>
           </div>
         </div>
       </div>
