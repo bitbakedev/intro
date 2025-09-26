@@ -27,8 +27,6 @@ const StablecoinStrategy: React.FC = () => {
         반면 비트베이크는 리워드 앱이라는 익숙한 경험을 통해 가장 부드럽고 직관적인 온보딩 경로를 제공합니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">원화 스테이블코인 기반 서비스</h2>
-      
       <p className="text-gray-700 leading-relaxed mb-4">
         비트베이크가 제공할 수 있는 원화 스테이블코인 기반 서비스는 다음과 같습니다:
       </p>
