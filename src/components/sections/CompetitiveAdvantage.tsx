@@ -5,10 +5,12 @@ const CompetitiveAdvantage: React.FC = () => {
     <div className="prose prose-lg max-w-none">
       <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">1. 기술적 해자</h3>
       
+      <p className="text-gray-700 leading-relaxed mb-4 ml-6">
+        비즈니스 모델을 실현하고 리워드 앱에서 DeFi 플랫폼으로의 자연스러운 전환을 만들어내기 위해서는, 다양한 블록체인 생태계에 대한 깊은 이해와 DeFi 프로토콜 각각에 대한 전문 지식이 필요합니다. 무엇보다도 이를 하나의 서비스로 유기적으로 통합할 수 있는 기술력이 요구됩니다.
+      </p>
+      
       <p className="text-gray-700 leading-relaxed mb-6 ml-6">
-        비트베이크는 다양한 블록체인과 DeFi 서비스에 대한 깊은 이해를 바탕으로, 이를 실제 서비스에 유기적으로 연동할 수 있는 기술력을 보유하고 있습니다. 
-        팀은 다년간 Web3 생태계에서 DeFi 프로토콜을 직접 구축하고, 블록체인 재단들과의 협력 프로젝트를 성공적으로 수행한 경험이 있습니다. 
-        이러한 경험과 기술력은 국내 시장에서 다른 기업들이 쉽게 모방할 수 없는 <strong>강력한 기술적 해자(진입장벽)</strong>로 작용합니다.
+        비트베이크 팀은 다년간 DeFi 영역만을 집중적으로 연구·구축해온 경험을 통해, 국내에서는 찾아보기 힘든 수준의 높은 기술적 전문성과 실행 능력을 갖추고 있습니다. 이는 경쟁사들이 쉽게 따라올 수 없는 비트베이크만의 <strong>핵심적인 기술적 해자(진입장벽)</strong>입니다.
       </p>
       
       <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">2. 네트워크와 협력 경험</h3>
