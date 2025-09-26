@@ -32,24 +32,6 @@ const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
           ))}
         </div>
         
-        <div className="mb-8 p-6 bg-gray-50 rounded-lg">
-          <h4 className="text-xl font-semibold text-gray-800 mb-4">팀의 핵심 역량</h4>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div>
-              <h5 className="font-semibold text-gray-800 mb-2">대규모 서비스 경험</h5>
-              <p className="text-sm text-gray-600">토스, 중고나라 등에서 월간 활성 사용자 수백만 명 규모의 서비스 개발 및 운영 경험</p>
-            </div>
-            <div>
-              <h5 className="font-semibold text-gray-800 mb-2">Web3 기술 전문성</h5>
-              <p className="text-sm text-gray-600">다수의 DeFi 프로토콜, DEX, 런치패드 구축 경험과 스마트 컨트랙트 최적화 역량</p>
-            </div>
-            <div>
-              <h5 className="font-semibold text-gray-800 mb-2">사용자 중심 설계</h5>
-              <p className="text-sm text-gray-600">복잡한 Web3 기술을 일반 사용자가 쉽게 사용할 수 있도록 만드는 UX 설계 전문성</p>
-            </div>
-          </div>
-        </div>
-        
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* 주요 프로젝트 경험 */}
           <div className="bg-gray-50 p-6 rounded-lg">
