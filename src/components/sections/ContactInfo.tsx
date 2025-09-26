@@ -42,15 +42,6 @@ const ContactInfo: React.FC<ContactInfoProps> = ({ companyInfo }) => {
           </div>
         </div>
       </div>
-      
-      <div className="mt-8 text-center p-6 bg-gray-50 rounded-lg">
-        <p className="text-lg text-gray-700 mb-4">
-          <strong>지금이 비트베이크와 함께 Web3의 미래를 만들어갈 최적의 시점입니다.</strong>
-        </p>
-        <p className="text-gray-600">
-          투자 관련 문의사항이 있으시면 언제든지 연락해 주시기 바랍니다.
-        </p>
-      </div>
     </div>
   );
 };
