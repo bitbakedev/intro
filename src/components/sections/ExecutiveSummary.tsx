@@ -44,7 +44,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
         유료 마케팅 없이도 이러한 성과를 달성한 것은 우리 접근법의 유효성을 명확히 보여줍니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">스케일업 전략</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">스케일업이 필요한 상황</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         기본적인 가설 검증을 마친 비트베이크는 이제 스케일업을 해야합니다. 리워드 앱 서비스로서 수익성을 만들어내야 합니다. 
