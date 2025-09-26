@@ -10,7 +10,7 @@ interface TeamSectionProps {
 const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
   return (
     <div>
-      <div className="mb-8 p-6 bg-gray-50 rounded-lg">
+      <div className="mb-8">
         <div className="mb-8">
           <h4 className="text-xl font-semibold text-gray-800 mb-4">LAEM STUDIO</h4>
           <p className="text-gray-700 leading-relaxed mb-4">
