@@ -53,7 +53,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
       
       <p className="text-gray-700 leading-relaxed mb-4">
         이렇게 리워드 앱 서비스 자체로 수익화를 마치면, 암호화폐 상품으로의 적극적인 전환으로 
-        DeFi 플랫폼으로 진화가 가능합니다. 월 매출 15억을 달성하면, 매달 5억원 정도가 암호화폐 상품에 예치될 것으로 예상하고 있습니다.
+        DeFi 플랫폼으로 진화가 가능합니다. 실험 결과, 매출의 35% 수준이 암호화폐 상품으로 예치될 것으로 예상하고 있습니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-8">
