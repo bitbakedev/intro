@@ -24,7 +24,11 @@ const CompetitiveAdvantage: React.FC = () => {
         </p>
         
         <p className="text-gray-700 leading-relaxed mb-6 ml-6">
-          특히, 의미 있는 수준의 MAU만 달성하더라도 해당 재단들을 대상으로 직접적인 마케팅 예산 집행을 유치할 수 있으며, 나아가 각 재단이 육성 중인 다양한 프로젝트들과의 연결 기회도 자연스럽게 확보할 수 있습니다.
+          의미 있는 수준의 MAU만 달성하더라도 해당 재단들을 대상으로 직접적인 마케팅 예산 집행을 유치할 수 있으며, 나아가 각 재단이 육성 중인 다양한 프로젝트들과의 연결 기회 또한 자연스럽게 확보할 수 있습니다.
+        </p>
+        
+        <p className="text-gray-700 leading-relaxed mb-6 ml-6">
+          현재도 Neo 블록체인과 Kaia 재단과의 협력중이며, 특히 Neo 재단은 비트베이크가 시장성을 입증할 경우 직접 투자 의향을 밝힌 상태입니다.
         </p>
         
         <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">3. 인재 부족과 DeFi에 대한 이해 부족</h3>
