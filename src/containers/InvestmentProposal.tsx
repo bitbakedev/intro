@@ -75,11 +75,6 @@ const InvestmentProposal: React.FC = () => {
         <TeamSection team={data.team} />
       </ProposalSection>
 
-      {/* Vision */}
-      <ProposalSection title="비전" pageBreak>
-        <Vision />
-      </ProposalSection>
-
       {/* Funding Request */}
       <ProposalSection title="투자 요청" pageBreak>
         <FundingRequest fundingRequest={data.fundingRequest} />
