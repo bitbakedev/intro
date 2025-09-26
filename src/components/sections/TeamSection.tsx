@@ -12,7 +12,6 @@ const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
     <div>
       <div className="mb-8">
         <div className="mb-8">
-          <h4 className="text-xl font-semibold text-gray-800 mb-4">LAEM STUDIO</h4>
           <p className="text-gray-700 leading-relaxed mb-4">
             <strong>풍부한 Web2 서비스 경험과 Web3 전문성을 바탕으로, 빠르게 움직이며 암호화폐의 대중화를 이끄는 팀입니다.</strong>
           </p>
