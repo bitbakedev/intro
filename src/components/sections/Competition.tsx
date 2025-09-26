@@ -48,7 +48,7 @@ const Competition: React.FC = () => {
               <td className="border border-gray-300 px-2 py-2 text-gray-700">40만 명</td>
               <td className="border border-gray-300 px-2 py-2 text-gray-700">공개된바 없음</td>
               <td className="border border-gray-300 px-2 py-2 text-gray-700">공개된바 없음</td>
-              <td className="border border-gray-300 px-2 py-2 text-gray-700 text-sm">암호화폐 구매 시도 but 거기서 끝</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700 text-sm">암호화폐 구매 시도, 확장은 못하고 있음</td>
             </tr>
             <tr className="bg-blue-50">
               <td className="border border-gray-300 px-2 py-2 font-medium text-blue-800">비트베이크</td>
