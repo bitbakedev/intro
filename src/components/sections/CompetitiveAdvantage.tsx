@@ -42,7 +42,7 @@ const CompetitiveAdvantage: React.FC = () => {
           현재도 Neo 블록체인과 Kaia 재단과의 협력중이며, 특히 Neo 재단은 비트베이크가 시장성을 입증할 경우 직접 투자 의향을 밝힌 상태입니다.
         </p>
         
-        <h3 className="text-2xl font-semibold text-gray-700 mb-4 ml-4">3. 인재 부족과 DeFi에 대한 이해 부족</h3>
+        <h3 className="text-2xl font-semibold text-gray-700 mb-4">3. 인재 부족과 DeFi에 대한 이해 부족</h3>
         
         <p className="text-gray-700 leading-relaxed mb-4">
           국내 Web3 시장은 점차 사양 산업으로 인식되면서 우수한 개발자들조차 진입을 꺼려하고 있습니다. 그만큼 국내에는 인재가 부족한 상황이며, DeFi의 미래 가치를 믿고 기술력을 가진 인재들은 이미{' '} 
