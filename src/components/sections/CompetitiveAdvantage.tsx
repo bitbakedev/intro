@@ -17,6 +17,19 @@ const CompetitiveAdvantage: React.FC = () => {
           비트베이크 팀은 다년간 DeFi 영역만을 집중적으로 연구·구축해온 경험을 통해, 국내에서는 찾아보기 힘든 수준의 높은 기술적 전문성과 실행 능력을 갖추고 있습니다. 이는 경쟁사들이 쉽게 따라올 수 없는 비트베이크만의 <strong>핵심적인 기술적 해자(진입장벽)</strong>입니다.
         </p>
         
+          <div className="space-y-2 text-sm text-gray-700">
+            <div>• <strong>2025</strong> Liquid Staking Protocol 구축 (<a href="https://www.verb.finance/" target=\"_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-800 underline">https://www.verb.finance/</a>) | Chiliz</div>
+            <div>• <strong>2024</strong> 블록체인 기반 투표 시스템 구축 (<a href="https://p.bitboard.in/" target=\"_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-800 underline">https://p.bitboard.in/</a>) | Polygon</div>
+            <div>• <strong>2024</strong> 탈중앙화 거래소 구축 (<a href="https://app.fanx.xyz/" target=\"_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-800 underline">https://app.fanx.xyz/</a>) | Chiliz</div>
+            <div>• <strong>2024</strong> 밈코인 런치패드 구축 (<a href="https://launchpad.etcswap.org/" target=\"_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-800 underline">https://launchpad.etcswap.org/</a>) | Ethereum Classic</div>
+            <div>• <strong>2024</strong> 밈코인 런치패드 구축 | MODE</div>
+            <div>• <strong>2024</strong> 밈코인 런치패드 구축 (<a href="https://carrot-fi.xyz/launchpad" target=\"_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-800 underline">https://carrot-fi.xyz/launchpad</a>) | Neo X</div>
+            <div>• <strong>2023</strong> 탈중앙화 거래소 구축 (<a href="https://carrot-fi.xyz/" target=\"_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-800 underline">https://carrot-fi.xyz/</a>) | Neo X</div>
+            <div>• <strong>2022</strong> 크로스체인 담보대출 플랫폼 구축 | Zeta</div>
+            <div>• <strong>2022</strong> 담보대출 플랫폼 구축 | Neo</div>
+            <div>• <strong>2021</strong> NFT 조각화 플랫폼 구축 | Ethereum</div>
+          </div>
+        
         <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">2. 네트워크와 협력 경험</h3>
         
         <p className="text-gray-700 leading-relaxed mb-4 ml-6">
