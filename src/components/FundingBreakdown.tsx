@@ -10,7 +10,7 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
     <div className="bg-gray-50 p-6 rounded-lg">
       <div className="text-center mb-6">
         <h3 className="text-2xl font-bold text-gray-800 mb-2">투자 유치 목표 금액</h3>
-        <p className="text-4xl font-bold text-gray-800">2억 2,500만원</p>
+        <p className="text-4xl font-bold text-gray-800">2억원</p>
         <div className="mt-4 grid grid-cols-2 gap-4">
           <div className="text-center p-3 bg-white rounded-lg">
             <p className="text-gray-600 text-sm">기업 가치 (Pre-money)</p>
@@ -20,6 +20,10 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
             <p className="text-gray-600 text-sm">제공 지분</p>
             <p className="font-semibold text-gray-800">15%</p>
           </div>
+        </div>
+        <div className="mt-4 p-3 bg-blue-50 rounded-lg">
+          <p className="text-gray-600 text-sm">현재 보유 자금</p>
+          <p className="font-semibold text-blue-800">2,500만원</p>
         </div>
       </div>
       

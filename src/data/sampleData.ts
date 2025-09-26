@@ -204,7 +204,7 @@ export const sampleProposalData: ProposalData = {
   ],
   
   fundingRequest: {
-    amount: "2억 2,500만원",
+    amount: "2억원",
     valuation: "13억원 (Pre-money)",
     equity: "15%",
     useOfFunds: [
@@ -228,11 +228,6 @@ export const sampleProposalData: ProposalData = {
         amount: "2,000만원",
         percentage: 9
       },
-      {
-        category: "현재 자금",
-        amount: "2,500만원",
-        percentage: 11
-      }
     ],
     timeline: "12개월",
     expectedReturn: "67-667배 (Series A-IPO)"
