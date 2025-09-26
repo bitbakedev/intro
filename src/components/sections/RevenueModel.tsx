@@ -8,16 +8,15 @@ const RevenueModel: React.FC = () => {
       <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">1. 광고 수익</h3>
       
       <p className="text-gray-700 leading-relaxed mb-4 ml-6">
-        비트베이크의 핵심 수익원은 광고 수익입니다. Google AdMob, Unity Ads, Vungle, AppLovin, IronSource, Chartboost 등 
-        <strong> 6개의 주요 광고 네트워크</strong>와 연동하여 다양한 형태의 광고를 제공합니다. 
-        전체 화면 광고, 리워드형 광고, 배너 광고, 네이티브 광고 등을 통해 안정적인 수익을 창출합니다.
+        비트베이크의 핵심 수익원은 광고입니다. Google AdMob, Unity Ads, AdPopcorn, Adison, TNK, Pincrux 등 
+        6개 주요 광고 네트워크와 연동하여 전체 화면 광고, 리워드형 광고, 배너 광고, 네이티브 광고 등 
+        다양한 포맷을 제공하며, 이를 통해 안정적이고 예측 가능한 광고 수익을 창출합니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-6 ml-6">
-        광고 수익의 <strong>80%는 사용자 리워드</strong>로 지급되고, 
-        <strong>20%는 비트베이크 플랫폼 수익</strong>으로 활용됩니다. 
-        게임화 요소로 인한 높은 사용자 참여도와 리워드형 광고로 인한 높은 광고 시청률(업계 평균 대비 3배)을 통해 
-        지속적인 수익 증가를 달성하고 있습니다.
+        광고 수익의 80%는 사용자 리워드, 20%는 플랫폼 수익으로 배분됩니다. 
+        특히 머니또, 쿠키키우기와 같은 자체 콘텐츠를 통해 사용자의 광고 체류 시간과 재방문율을 높여, 
+        업계 평균 대비 월등히 높은 광고 노출수와 지속 시간을 만들어내고 있습니다.
       </p>
       
       <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">2. 기프트카드 수수료</h3>
