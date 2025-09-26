@@ -43,7 +43,7 @@ const ExitStrategy: React.FC = () => {
       </p>
       
       <p className="text-gray-700 leading-relaxed">
-        다음 시리즈 투자, M&A, IPO 등 모두 투자자와 적극적으로 농의하여 결정할 예정이며, 주주의 이익을 최우선으로 할 예정입니다.
+        비트베이크는 향후 시리즈 투자, M&A, IPO 등 주요 자금 조달 및 Exit 전략에 대해 항상 투자자와 적극적으로 협의하며, 모든 의사결정 과정에서 주주의 이익을 최우선으로 고려할 것입니다.
       </p>
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">전략적 투자자 확보</h2>
