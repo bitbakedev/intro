@@ -31,7 +31,6 @@ const SalaryModal: React.FC<SalaryModalProps> = ({ isOpen, onClose }) => {
               <li>• <strong>스톡옵션:</strong> 프로젝트 재단 토큰을 스톡옵션 형태로 보상받는 구조도 흔함</li>
               <li>• <strong>근무 형태:</strong> 리모트 근무가 기본이므로, 한국 거주자라도 영어만 가능하다면 글로벌 프로젝트 참여에 큰 제약이 없음</li>
             </ul>
-            
           </div>
         </div>
       </div>
