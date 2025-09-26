@@ -45,20 +45,6 @@ const ExitStrategy: React.FC = () => {
       <p className="text-gray-700 leading-relaxed">
         비트베이크는 향후 시리즈 투자, M&A, IPO 등 주요 자금 조달 및 Exit 전략에 대해 항상 투자자와 적극적으로 협의하며, 모든 의사결정 과정에서 주주의 이익을 최우선으로 고려할 것입니다.
       </p>
-      
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">전략적 투자자 확보</h2>
-      
-      <p className="text-gray-700 leading-relaxed mb-4">
-        비트베이크는 이미 글로벌 블록체인 생태계에서 중요한 전략적 파트너십을 구축하고 있습니다. 
-        특히 <strong>Neo 재단</strong>은 비트베이크가 성과를 달성할 경우 투자 의향을 공식적으로 밝힌 바 있어, 
-        후속 투자 라운드에서 유리한 조건으로 자금을 조달할 수 있는 기반을 마련했습니다.
-      </p>
-      
-      <p className="text-gray-700 leading-relaxed mb-6">
-        이러한 전략적 투자자의 사전 관심 표명은 단순한 자금 조달을 넘어서 글로벌 Web3 생태계로의 
-        확장과 기술적 협업을 통한 시너지 창출을 가능하게 합니다. Neo와 같은 검증된 블록체인 플랫폼과의 
-        파트너십은 비트베이크의 기술적 신뢰성을 높이고, 글로벌 시장 진출을 가속화하는 중요한 자산이 될 것입니다.
-      </p>
     </div>
   );
 };
