@@ -23,51 +23,15 @@ const SalaryModal: React.FC<SalaryModalProps> = ({ isOpen, onClose }) => {
         </div>
         
         <div className="p-6">
-          <div className="space-y-6">
-            <div className="bg-blue-50 p-4 rounded-lg">
-              <h3 className="text-lg font-semibold text-blue-800 mb-3">평균 연봉 수준</h3>
-              <p className="text-blue-700 text-xl font-bold">
-                $120,000 ~ $300,000
-              </p>
-              <p className="text-blue-600 text-sm mt-1">
-                (한화 1.6억 ~ 4억 원 수준)
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-semibold text-gray-800 mb-2">지급 방식</h4>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• USDT 같은 달러 스테이블코인</li>
-                  <li>• 프로젝트 토큰으로 지급</li>
-                  <li>• 스톡옵션 형태 보상</li>
-                </ul>
-              </div>
-              
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-semibold text-gray-800 mb-2">세금 혜택</h4>
-                <p className="text-sm text-gray-600">
-                  스테이블코인 급여 지급 시 국가별 과세 규정이 불명확하여, 
-                  일부 개발자들은 사실상 소득세를 내지 않는 경우도 존재
-                </p>
-              </div>
-            </div>
-            
-            <div className="bg-red-50 p-4 rounded-lg">
-              <h4 className="font-semibold text-red-800 mb-2">국내 대비 차이</h4>
-              <p className="text-red-700 text-sm">
-                한국에서 연봉 1억을 제시받더라도, 실질적으로는 Web3 해외 프로젝트의 
-                보상이 <strong>2~3배 이상 높게 체감</strong>될 수 있음
-              </p>
-            </div>
-            
-            <div className="bg-green-50 p-4 rounded-lg">
-              <h4 className="font-semibold text-green-800 mb-2">근무 형태</h4>
-              <p className="text-green-700 text-sm">
-                <strong>리모트 근무가 기본</strong>이므로, 한국 거주자라도 영어만 가능하다면 
-                글로벌 프로젝트 참여에 큰 제약이 없음
-              </p>
-            </div>
+          <div className="text-gray-700 leading-relaxed">
+            <ul className="space-y-3 text-sm">
+              <li>• <strong>평균 연봉:</strong> 약 $120,000 ~ $300,000 (한화 1.6억 ~ 4억 원 수준)</li>
+              <li>• <strong>지급 방식:</strong> USDT 같은 달러 스테이블코인이나 프로젝트 토큰으로 지급되는 경우가 많음</li>
+              <li>• <strong>세금 혜택:</strong> 스테이블코인 급여 지급 시 국가별 과세 규정 적용이 불명확하여, 일부 개발자들은 사실상 소득세를 내지 않는 경우도 존재</li>
+              <li>• <strong>스톡옵션:</strong> 프로젝트 재단 토큰을 스톡옵션 형태로 보상받는 구조도 흔함</li>
+              <li>• <strong>국내 대비 차이:</strong> 한국에서 연봉 1억을 제시받더라도, 실질적으로는 Web3 해외 프로젝트의 보상이 2~3배 이상 높게 체감될 수 있음</li>
+              <li>• <strong>근무 형태:</strong> 리모트 근무가 기본이므로, 한국 거주자라도 영어만 가능하다면 글로벌 프로젝트 참여에 큰 제약이 없음</li>
+            </ul>
           </div>
         </div>
       </div>
