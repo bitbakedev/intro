@@ -28,10 +28,7 @@ const MarketingStrategy: React.FC = () => {
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">4. 페이드 마케팅</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        인스타그램, 페이스북, 구글(검색엔진, 유튜브, 플레이스토어 등)등의 플랫폼에 비용을 지불하여 마케팅하는 전략 역시 수행할 예정입니다.
-      </p>
-      
-      <p className="text-gray-700 leading-relaxed mb-4">
+        인스타그램, 페이스북, 구글(검색엔진, 유튜브, 플레이스토어 등)등의 플랫폼에 비용을 지불하여 마케팅하는 전략 역시 수행할 예정입니다. 
         지난 실험에서 비트베이크는 유저 1명당 약 300~500원 수준의 비용으로 앱 설치를 유도할 수 있음을 검증했습니다.
       </p>
       
