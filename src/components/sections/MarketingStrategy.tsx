@@ -6,7 +6,7 @@ const MarketingStrategy: React.FC = () => {
       <h2 className="text-2xl font-bold text-gray-800 mb-6">1. 바이럴 마케팅</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        리워드 앱의 핵심 성장 동력은 친구 초대 프로그램입니다. 비트베이크는 친구 초대 시 500P를 지급하는 방식을 운영하며, 단순 계산으로 신규 유저 1만 명 확보 시 약 500만 원의 예산이 필요합니다.
+        리워드 앱의 핵심 성장 동력은 친구 초대 프로그램입니다. 투자 유치 후 비트베이크는 친구 초대 시 500P를 지급하는 방식을 도입할 예정이며, 단순 계산으로 신규 유저 1만 명 확보 시 약 500만 원의 예산이 필요합니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-6">
