@@ -33,8 +33,9 @@ const SalaryModal: React.FC<SalaryModalProps> = ({ isOpen, onClose }) => {
             </ul>
           </div>
         </div>
-        
+        <div className="p-6">
             한국에서 연봉 1억을 제시받더라도, 실질적으로는 해외 프로젝트의 보상이 2~3배 이상 높게 체감되는 상황
+        </div>
       </div>
     </div>
   );
