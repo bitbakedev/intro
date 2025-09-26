@@ -32,7 +32,7 @@ const RevenueModel: React.FC = () => {
       <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">3. B2B 직광고</h3>
       
       <p className="text-gray-700 leading-relaxed mb-4 ml-6">
-        비트베이크는 일정 수준 이상의 사용자 기반을 확보하면 직접 광고(Direct Ads) 유치를 통해 수익성을 한 단계 더 강화할 수 있습니다. 
+        비트베이크는 일정 수준 이상의 사용자 기반을 확보하면 직접 광고 유치를 통해 수익성을 한 단계 더 강화할 수 있습니다. 
         일반적으로 MAU 1만 명 이상을 달성하면 광고주와 직접 거래가 가능해지며, 중간 수수료를 지불해야 하는 광고 네트워크 대비 
         더 높은 광고 단가와 순수익을 확보할 수 있습니다. 이를 통해 광고 매출의 안정성과 수익률을 동시에 높일 수 있습니다.
       </p>
