@@ -95,6 +95,11 @@ const RevenueModel: React.FC = () => {
         이 모델은 재단에게는 효과적인 프로모션 채널, 사용자에게는 실질적 보상, 비트베이크에게는 높은 인게이지먼트와 수익성을 동시에 제공합니다.
       </p>
       
+      <p className="text-gray-700 leading-relaxed mb-6 ml-6">
+        비트베이크는 이미 Neo, Kaia, Bera, Chiliz 등 주요 블록체인 프로젝트와 협업한 경험을 통해 검증된 마케팅 효과와 견고한 네트워크를 확보했습니다. 
+        이러한 파트너십은 신규 고객사 유치와 시장 확장의 강력한 기반이 됩니다.
+      </p>
+      
       <p className="text-gray-700 leading-relaxed mb-4 ml-6">
         주목할 점은, 다수의 블록체인 재단들이 이미 수천억 원 규모의 시가총액을 보유하고 있으며, 마케팅 성과에 따라 조 단위 시가총액으로 성장할 수 있다는 사실입니다. 
         이 과정에서 재단들은 수십억~수백억 원 규모의 토큰 예산을 마케팅 비용으로 집행하고 있으며, 이는 일반 광고 산업 대비 압도적으로 높은 수익성을 제공합니다.
@@ -103,6 +108,17 @@ const RevenueModel: React.FC = () => {
       <p className="text-gray-700 leading-relaxed mb-4 ml-6">
         실제로 글로벌 시장에서는 Galaxe와 같은 플랫폼이 동일한 모델로 이미 성공을 입증했습니다. 
         비트베이크는 이러한 검증된 모델을 한국 시장에 선도적으로 적용함으로써 독점적 위치를 차지할 수 있습니다.
+      </p>
+      
+      <p className="text-gray-700 leading-relaxed mb-6 ml-6">
+        결과적으로, 블록체인 재단에게는 효과적인 마케팅 채널, 사용자에게는 수백 원에서 수십만 원 수준의 실질적 리워드, 
+        비트베이크에는 수수료 수익과 높은 사용자 인게이지먼트를 제공하는 구조로, 모든 이해관계자가 이익을 얻는 윈-윈 모델입니다.
+      </p>
+      
+      <p className="text-gray-700 leading-relaxed mb-6 ml-6">
+        이를 실현하기 위해서는 다양한 블록체인과 DeFi 서비스에 대한 깊은 이해와, 이를 실제 서비스에 유기적으로 연동할 수 있는 기술력이 필요합니다. 
+        비트베이크 팀은 다년간 Web3 생태계에서 DeFi 프로토콜을 직접 구축하고, 여러 블록체인 재단들과 협력 프로젝트를 성공적으로 수행한 경험을 보유하고 있습니다. 
+        이러한 경험과 기술력은 국내 시장의 다른 기업들이 쉽게 따라올 수 없는 강력한 기술적 해자(진입장벽)로 작용합니다.
       </p>
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">다양한 수익원의 상호 보완적 성장</h2>
@@ -119,6 +135,50 @@ const RevenueModel: React.FC = () => {
         이러한 <strong>5개의 서로 다른 수익원</strong>은 리스크를 분산시키면서도 
         상호 보완적으로 작용하여 지속 가능한 성장을 만들어냅니다.
       </p>
+      
+      <div className="bg-gray-50 p-6 rounded-lg mt-8">
+        <h4 className="text-xl font-semibold mb-4">수익원별 기여도 전망</h4>
+        <div className="grid grid-cols-5 gap-4">
+          <div className="text-center">
+            <div className="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-2">
+              <span className="text-white font-bold">40%</span>
+            </div>
+            <p className="text-sm font-medium">광고 수익</p>
+            <p className="text-xs text-gray-600 mt-1">기반 수익원</p>
+          </div>
+          <div className="text-center">
+            <div className="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-2">
+              <span className="text-white font-bold">25%</span>
+            </div>
+            <p className="text-sm font-medium">기프트카드</p>
+            <p className="text-xs text-gray-600 mt-1">한국 특화</p>
+          </div>
+          <div className="text-center">
+            <div className="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-2">
+              <span className="text-white font-bold">20%</span>
+            </div>
+            <p className="text-sm font-medium">스왑 수수료</p>
+            <p className="text-xs text-gray-600 mt-1">거래 기반</p>
+          </div>
+          <div className="text-center">
+            <div className="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-2">
+              <span className="text-white font-bold">10%</span>
+            </div>
+            <p className="text-sm font-medium">스테이킹</p>
+            <p className="text-xs text-gray-600 mt-1">자산 관리</p>
+          </div>
+          <div className="text-center">
+            <div className="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-2">
+              <span className="text-white font-bold">15%</span>
+            </div>
+            <p className="text-sm font-medium">B2B 마케팅</p>
+            <p className="text-xs text-gray-600 mt-1">고성장</p>
+          </div>
+        </div>
+        <p className="text-center text-gray-600 text-sm mt-4">
+          이러한 다각화된 수익 모델은 비트베이크가 단순한 리워드 앱을 넘어서 종합적인 Web3 금융 플랫폼으로 성장할 수 있는 견고한 기반을 제공합니다.
+        </p>
+      </div>
     </div>
   );
 };
