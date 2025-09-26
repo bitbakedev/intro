@@ -29,6 +29,21 @@ const RevenueModel: React.FC = () => {
         비즈니스 모델은 15% 수수료 구조로, 사용자는 기프트카드 가액의 75%를 포인트로 수령하게 됩니다. 이는 기존 리워드 앱에서는 찾아볼 수 없는 독창적인 수익 구조이며, 사용자가 늘어날수록 기프트카드 거래량이 증가하고, 주요 기프트카드 발행사·매입사와의 전략적 제휴를 통해 안정적이고 지속적인 수익 성장을 기대할 수 있습니다.
       </p>
       
+      <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">3. B2B 직광고</h3>
+      
+      <p className="text-gray-700 leading-relaxed mb-4 ml-6">
+        비트베이크는 일정 수준 이상의 사용자 기반을 확보하면 직접 광고(Direct Ads) 유치를 통해 수익성을 한 단계 더 강화할 수 있습니다. 
+        일반적으로 MAU 1만 명 이상을 달성하면 광고주와 직접 거래가 가능해지며, 중간 수수료를 지불해야 하는 광고 네트워크 대비 
+        더 높은 광고 단가와 순수익을 확보할 수 있습니다. 이를 통해 광고 매출의 안정성과 수익률을 동시에 높일 수 있습니다.
+      </p>
+      
+      <p className="text-gray-700 leading-relaxed mb-6 ml-6">
+        또한, <a href="https://www.ads-soon.com/" className="text-gray-700">애즈순(Ads-Soon)</a>과 같은 B2B 광고 플랫폼을 활용하거나, 
+        광고주 대상 <a href="https://partners.bitbunny.io/" className="text-gray-700">페이드 마케팅</a>을 통해 직광고를 확보할 수 있는 
+        실행 경로도 이미 열려 있습니다. 이러한 전략을 통해 비트베이크는 단순 광고 네트워크 의존을 넘어 
+        직광고 기반의 고수익 모델로 빠르게 전환할 수 있습니다.
+      </p>
+      
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">비트베이크만의 추가적인 비즈니스 모델</h2>
       
       <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">1. 스왑 & 출금 수수료</h3>
