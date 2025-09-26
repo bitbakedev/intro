@@ -7,7 +7,7 @@ interface FundingBreakdownProps {
 
 const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) => {
   return (
-    <div className="bg-gray-50 p-6 rounded-lg">
+    <div>
       <div className="mb-6 p-4 bg-white rounded-lg border-l-4 border-blue-500">
         <p className="text-gray-700 leading-relaxed mb-2">
           <strong>대표는 월급을 받지 않는다.</strong>
