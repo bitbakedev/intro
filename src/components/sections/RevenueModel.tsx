@@ -115,6 +115,12 @@ const RevenueModel: React.FC = () => {
         비트베이크에는 수수료 수익과 높은 사용자 인게이지먼트를 제공하는 구조로, 모든 이해관계자가 이익을 얻는 윈-윈 모델입니다.
       </p>
       
+      <p className="text-gray-700 leading-relaxed mb-6 ml-6">
+        이를 실현하기 위해서는 다양한 블록체인과 DeFi 서비스에 대한 깊은 이해와, 이를 실제 서비스에 유기적으로 연동할 수 있는 기술력이 필요합니다. 
+        비트베이크 팀은 다년간 Web3 생태계에서 DeFi 프로토콜을 직접 구축하고, 여러 블록체인 재단들과 협력 프로젝트를 성공적으로 수행한 경험을 보유하고 있습니다. 
+        이러한 경험과 기술력은 국내 시장의 다른 기업들이 쉽게 따라올 수 없는 강력한 기술적 해자(진입장벽)로 작용합니다.
+      </p>
+      
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">다양한 수익원의 상호 보완적 성장</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
