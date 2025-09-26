@@ -43,8 +43,7 @@ const ExitStrategy: React.FC = () => {
       </p>
       
       <p className="text-gray-700 leading-relaxed">
-        이러한 투자자 보호 장치들은 투자 리스크를 최소화하면서도 
-        회사의 성장 잠재력을 최대한 활용할 수 있도록 설계되었습니다.
+        다음 시리즈 투자, M&A, IPO 등 모두 투자자와 적극적으로 농의하여 결정할 예정이며, 주주의 이익을 최우선으로 할 예정입니다.
       </p>
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">전략적 투자자 확보</h2>
