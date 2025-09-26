@@ -3,7 +3,7 @@ import React from 'react';
 const Competition: React.FC = () => {
   return (
     <div className="prose prose-lg max-w-none">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">리워드 앱 경쟁사 비교</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">1. 리워드 앱 경쟁사</h2>
       
       <div className="overflow-x-auto mb-8">
         <table className="w-full border-collapse border border-gray-300">
