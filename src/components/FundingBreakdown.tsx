@@ -8,6 +8,15 @@ interface FundingBreakdownProps {
 const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) => {
   return (
     <div className="bg-gray-50 p-6 rounded-lg">
+      <div className="mb-6 p-4 bg-white rounded-lg border-l-4 border-blue-500">
+        <p className="text-gray-700 leading-relaxed mb-2">
+          <strong>대표는 월급을 받지 않는다.</strong>
+        </p>
+        <p className="text-gray-700 leading-relaxed">
+          풀타임 인력 1명, 파트타임 혹은 외주 인원 2명 정도로 운영할 예정이다.
+        </p>
+      </div>
+      
       <div className="text-center mb-6">
         <h3 className="text-2xl font-bold text-gray-800 mb-2">투자 유치 목표 금액</h3>
         <p className="text-4xl font-bold text-gray-800">2억원</p>
