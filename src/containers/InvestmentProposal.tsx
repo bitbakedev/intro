@@ -57,7 +57,7 @@ const InvestmentProposal: React.FC = () => {
       </ProposalSection>
 
       {/* Marketing Strategy */}
-      <ProposalSection title="마케팅 전략" pageBreak>
+      <ProposalSection title="성장 전략" pageBreak>
         <MarketingStrategy />
       </ProposalSection>
 
