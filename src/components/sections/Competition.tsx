@@ -3,26 +3,69 @@ import React from 'react';
 const Competition: React.FC = () => {
   return (
     <div className="prose prose-lg max-w-none">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">1. 리워드 앱 경쟁사</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">리워드 앱 경쟁사 비교</h2>
       
-      <p className="text-gray-700 leading-relaxed mb-4">
-        국내 리워드 앱들은 대규모 사용자 기반을 바탕으로 성장했으나, DeFi 영역으로의 확장에는 한계가 있습니다.
-      </p>
+      <div className="overflow-x-auto mb-8">
+        <table className="w-full border-collapse border border-gray-300">
+          <thead>
+            <tr className="bg-gray-50">
+              <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">회사명</th>
+              <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">서비스</th>
+              <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">MAU</th>
+              <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">기업가치/시가총액</th>
+              <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">연 매출</th>
+              <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">특징</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">넛지헬스케어</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">캐시워크</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">450만 명</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">3,000억 원</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">1,181억 원</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">헬스케어·웰니스 중심, 금융·DeFi 확장성 제한적</td>
+            </tr>
+            <tr className="bg-gray-25">
+              <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">엔비티</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">캐시슬라이드</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">1,000만 명</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">500억 원</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">800억 원</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">최대 사용자 기반, 상대적으로 낮은 기업가치</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">그래비티랩스</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">머니워크</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">30만 명</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">1,800억 원</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">60~80억 원</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">소규모 MAU 대비 높은 기업가치</td>
+            </tr>
+            <tr className="bg-blue-50">
+              <td className="border border-gray-300 px-4 py-3 font-medium text-blue-800">비트베이크</td>
+              <td className="border border-gray-300 px-4 py-3 text-blue-700">비트베이크</td>
+              <td className="border border-gray-300 px-4 py-3 text-blue-700">1만 명 (목표)</td>
+              <td className="border border-gray-300 px-4 py-3 text-blue-700">15억 원 (목표)</td>
+              <td className="border border-gray-300 px-4 py-3 text-blue-700">1억 원 (목표)</td>
+              <td className="border border-gray-300 px-4 py-3 text-blue-700 text-sm font-medium">리워드 + DeFi 통합 플랫폼</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       
-      <ul className="text-gray-700 leading-relaxed mb-6 ml-6">
-        <li className="mb-2">
-          <strong>캐시워크:</strong> 헬스케어 및 웰니스 서비스로 방향을 잡으며 금융·DeFi 영역에는 진출하지 않았습니다.
-        </li>
-        <li className="mb-2">
-          <strong>비트버니:</strong> 암호화폐 교환 기능을 도입했지만 단순 교환 수준에 머물러 있으며, DeFi 확장성은 부족한 상황입니다.
-        </li>
-      </ul>
+      <div className="bg-gray-50 p-6 rounded-lg mb-8">
+        <h3 className="text-xl font-semibold text-gray-800 mb-4">종합 인사이트</h3>
+        <ul className="text-gray-700 leading-relaxed space-y-2">
+          <li>• 국내 리워드 앱 기업들은 대규모 MAU와 안정적인 매출 구조를 확보하고 있으나,</li>
+          <li>• 공통적으로 광고 중심의 보상 모델에 의존하고 있으며, DeFi 및 금융 서비스로의 확장성은 제한적입니다.</li>
+          <li>• 이는 비트베이크가 리워드와 DeFi를 결합한 새로운 성장 동력을 제시할 수 있는 기회로 이어집니다.</li>
+        </ul>
+      </div>
       
-      <p className="text-gray-700 leading-relaxed mb-8">
-        즉, 기존 리워드 앱들은 광고 기반 보상 모델에 머물러 있어 DeFi와 연결된 성장 동력을 확보하지 못하고 있습니다.
-      </p>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">기타 경쟁사</h2>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">2. 대형 플랫폼</h2>
+      <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">1. 대형 플랫폼</h3>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         대형 플랫폼들은 현재 원화 스테이블코인 발행에 집중하고 있습니다.
