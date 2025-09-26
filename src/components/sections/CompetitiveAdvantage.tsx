@@ -17,7 +17,7 @@ const CompetitiveAdvantage: React.FC = () => {
           비트베이크 팀은 다년간 DeFi 영역만을 집중적으로 연구·구축해온 경험을 통해, 국내에서는 찾아보기 힘든 수준의 높은 기술적 전문성과 실행 능력을 갖추고 있습니다. 이는 경쟁사들이 쉽게 따라올 수 없는 비트베이크만의 <strong>핵심적인 기술적 해자(진입장벽)</strong>입니다.
         </p>
         
-          <div className="space-y-2 text-sm text-gray-700 mb-4 ml-6">
+          <div className="space-y-2 text-sm text-gray-700 mb-6 ml-6">
             <div>• <strong>2025</strong> Liquid Staking Protocol 구축 (<a href="https://www.verb.finance/" target="_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-800 underline">https://www.verb.finance/</a>) | Chiliz</div>
             <div>• <strong>2024</strong> 블록체인 기반 투표 시스템 구축 (<a href="https://p.bitboard.in/" target="_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-800 underline">https://p.bitboard.in/</a>) | Polygon</div>
             <div>• <strong>2024</strong> 탈중앙화 거래소 구축 (<a href="https://app.fanx.xyz/" target="_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-800 underline">https://app.fanx.xyz/</a>) | Chiliz</div>
