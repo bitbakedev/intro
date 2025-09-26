@@ -19,22 +19,6 @@ const CompetitiveAdvantage: React.FC = () => {
         
         <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">2. 네트워크와 협력 경험</h3>
         
-        <div className="mb-6 ml-6">
-          <h4 className="text-lg font-semibold text-gray-800 mb-3">주요 프로젝트 구축 경험</h4>
-          <div className="space-y-2 text-sm text-gray-700">
-            <div>• <strong>2025</strong> Liquid Staking Protocol 구축 (<a href="https://www.verb.finance/" target=\"_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-800 underline">https://www.verb.finance/</a>) | Chiliz</div>
-            <div>• <strong>2024</strong> 블록체인 기반 투표 시스템 구축 (<a href="https://p.bitboard.in/" target=\"_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-800 underline">https://p.bitboard.in/</a>) | Polygon</div>
-            <div>• <strong>2024</strong> 탈중앙화 거래소 구축 (<a href="https://app.fanx.xyz/" target=\"_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-800 underline">https://app.fanx.xyz/</a>) | Chiliz</div>
-            <div>• <strong>2024</strong> 밈코인 런치패드 구축 (<a href="https://launchpad.etcswap.org/" target=\"_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-800 underline">https://launchpad.etcswap.org/</a>) | Ethereum Classic</div>
-            <div>• <strong>2024</strong> 밈코인 런치패드 구축 | MODE</div>
-            <div>• <strong>2024</strong> 밈코인 런치패드 구축 (<a href="https://carrot-fi.xyz/launchpad" target=\"_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-800 underline">https://carrot-fi.xyz/launchpad</a>) | Neo X</div>
-            <div>• <strong>2023</strong> 탈중앙화 거래소 구축 (<a href="https://carrot-fi.xyz/" target=\"_blank" rel="noopener noreferrer\" className="text-blue-600 hover:text-blue-800 underline">https://carrot-fi.xyz/</a>) | Neo X</div>
-            <div>• <strong>2022</strong> 크로스체인 담보대출 플랫폼 구축 | Zeta</div>
-            <div>• <strong>2022</strong> 담보대출 플랫폼 구축 | Neo</div>
-            <div>• <strong>2021</strong> NFT 조각화 플랫폼 구축 | Ethereum</div>
-          </div>
-        </div>
-        
         <p className="text-gray-700 leading-relaxed mb-4 ml-6">
           비트베이크는 Neo, Kaia, Bera, Chiliz 등 주요 블록체인 프로젝트와의 협업을 통해 이미 신뢰를 얻고 견고한 네트워크를 확보했습니다. 이러한 파트너십은 단순한 협력에 그치지 않고, 신규 고객사 유치와 글로벌 시장 확장에 있어 강력한 기반이 됩니다.
         </p>
