@@ -48,7 +48,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
       
       <p className="text-gray-700 leading-relaxed mb-4">
         기본적인 가설 검증을 마친 비트베이크는 이제 스케일업을 해야합니다. 리워드 앱 서비스로서 수익성을 만들어내야만 다음 단계로 넘어갈 수 있습니다. 
-        리워드앱은 규모의 경제가 가장 잘 작동하는 분야이기 때문에 사람이 많을수록 수익성 높은 광고 매체가 붙고, 직광고를 수주해올 수도 있습니다.
+        리워드앱은 규모의 경제가 가장 잘 작동하는 분야이기 때문에 사람이 많을수록 수익성 높은 광고 매체가 붙고, 직광고를 수주해와 다른 분야보다 수월하게 수익화가 가능합니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
