@@ -30,7 +30,7 @@ const CompetitiveAdvantage: React.FC = () => {
         <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">3. 인재 부족과 DeFi에 대한 이해 부족</h3>
         
         <p className="text-gray-700 leading-relaxed mb-4 ml-6">
-          국내 Web3 시장은 점차 사양 산업으로 인식되면서 우수한 개발자들조차 진입을 꺼려하고 있습니다. 그만큼 국내에는 인재가 부족한 상황이며, DeFi의 미래 가치를 믿고 기술력을 가진 인재들은 이미 
+          국내 Web3 시장은 점차 사양 산업으로 인식되면서 우수한 개발자들조차 진입을 꺼려하고 있습니다. 그만큼 국내에는 인재가 부족한 상황이며, DeFi의 미래 가치를 믿고 기술력을 가진 인재들은 이미{' '} 
           <button
             onClick={() => setIsSalaryModalOpen(true)}
             className="text-blue-600 hover:text-blue-800 underline cursor-pointer bg-transparent border-none p-0 font-inherit"
