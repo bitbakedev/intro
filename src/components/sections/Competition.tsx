@@ -62,14 +62,9 @@ const Competition: React.FC = () => {
         </table>
       </div>
       
-      <div className="bg-gray-50 p-6 rounded-lg mb-8">
-        <h3 className="text-xl font-semibold text-gray-800 mb-4">종합 인사이트</h3>
-        <ul className="text-gray-700 leading-relaxed space-y-2">
-          <li>• 국내 리워드 앱 기업들은 대규모 MAU와 안정적인 매출 구조를 확보하고 있으나,</li>
-          <li>• 공통적으로 광고 중심의 보상 모델에 의존하고 있으며, DeFi 및 금융 서비스로의 확장성은 제한적입니다.</li>
-          <li>• 이는 비트베이크가 리워드와 DeFi를 결합한 새로운 성장 동력을 제시할 수 있는 기회로 이어집니다.</li>
-        </ul>
-      </div>
+      <p className="text-gray-700 leading-relaxed mb-8">
+        국내 리워드 앱 기업들은 대규모 MAU와 안정적인 매출 구조를 확보하고 있으나, 공통적으로 광고 중심의 보상 모델에 의존하고 있으며, DeFi 및 금융 서비스로의 확장성은 제한적입니다. 이는 비트베이크가 리워드와 DeFi를 결합한 새로운 성장 동력을 제시할 수 있는 기회로 이어집니다.
+      </p>
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">기타 경쟁사</h2>
       
