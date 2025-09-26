@@ -3,7 +3,9 @@ import React from 'react';
 const RevenueModel: React.FC = () => {
   return (
     <div className="prose prose-lg max-w-none">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">1. 광고 수익</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">리워드앱의 기본적인 비즈니스 모델</h2>
+      
+      <h3 className="text-xl font-semibold text-gray-700 mb-4">1. 광고 수익</h3>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         비트베이크의 핵심 수익원은 광고 수익입니다. Google AdMob, Unity Ads, Vungle, AppLovin, IronSource, Chartboost 등 
@@ -18,7 +20,7 @@ const RevenueModel: React.FC = () => {
         지속적인 수익 증가를 달성하고 있습니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">2. 기프트카드 수수료</h2>
+      <h3 className="text-xl font-semibold text-gray-700 mb-4">2. 기프트카드 수수료</h3>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         한국은 <strong>8조원 규모의 거대한 기프트카드 시장</strong>을 보유하고 있으며, 
@@ -33,7 +35,13 @@ const RevenueModel: React.FC = () => {
         안정적인 수익 성장을 기대할 수 있습니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">3. 스왑 & 출금 수수료</h2>
+      <p className="text-gray-700 leading-relaxed mb-8">
+        리워드앱은 MAU가 많아질수록 직광고를 따와서 수익률을 높일 수 있습니다.
+      </p>
+      
+      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">비트베이크만의 추가적인 비즈니스 모델</h2>
+      
+      <h3 className="text-xl font-semibold text-gray-700 mb-4">1. 스왑 & 출금 수수료</h3>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         포인트를 암호화폐로 교환할 때 <strong>10% 서비스 수수료</strong>를 부과하고, 
@@ -47,7 +55,7 @@ const RevenueModel: React.FC = () => {
         사용자 경험을 개선하면서도 안정적인 수익을 확보하고 있습니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">4. 스테이킹 수익 수수료</h2>
+      <h3 className="text-xl font-semibold text-gray-700 mb-4">2. 스테이킹 수익 수수료</h3>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         Aave 프로토콜과 연동한 스테이킹 서비스에서 발생하는 수익의 <strong>10%는 비트베이크 수익</strong>으로, 
@@ -60,9 +68,10 @@ const RevenueModel: React.FC = () => {
         그리고 사용자 자산 증가에 따른 복리적 수익 증가를 통해 지속적인 성장 동력을 확보하고 있습니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">5. B2B 마케팅</h2>
+      <h3 className="text-xl font-semibold text-gray-700 mb-4">3. B2B 마케팅</h3>
       
       <p className="text-gray-700 leading-relaxed mb-4">
+        해외 재단들은 한국 유저들에게 마케팅할 수 있는 창구가 필요합니다. 
         글로벌 Web3 재단들과의 협업을 통해 확인한 중요한 사실은, 해외 재단들이 한국 시장을 매우 높이 평가하고 있으며, 
         한국 사용자들에게 적극적으로 마케팅하고 싶어 한다는 점입니다. 하지만 현재 한국에는 이러한 글로벌 프로젝트들이 
         효과적으로 마케팅할 수 있는 적절한 채널이 부재한 상황입니다.
