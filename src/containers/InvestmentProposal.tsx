@@ -15,6 +15,7 @@ import TeamSection from '../components/sections/TeamSection';
 import FundingRequest from '../components/sections/FundingRequest';
 import ExitStrategy from '../components/sections/ExitStrategy';
 import Risks from '../components/sections/Risks';
+import DeFiProducts from '../components/sections/DeFiProducts';
 import ContactInfo from '../components/sections/ContactInfo';
 import { sampleProposalData } from '../data/sampleData';
 
@@ -89,6 +90,11 @@ const InvestmentProposal: React.FC = () => {
       {/* Risks */}
       <ProposalSection title="리스크 요소" pageBreak>
         <Risks />
+      </ProposalSection>
+
+      {/* DeFi Products */}
+      <ProposalSection title="DeFi 상품 기획" pageBreak>
+        <DeFiProducts />
       </ProposalSection>
 
       {/* Contact Information */}
