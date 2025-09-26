@@ -8,8 +8,8 @@ const ExitStrategy: React.FC = () => {
       <h3 className="text-xl font-semibold text-gray-700 mb-4">Series A (2026 Q3)</h3>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        연매출 150억, 순이익 10억, 벨류에이션 200~300억원 목표로 Seed Round 투자 대비 15~20배 수준의 수익률을 기대할 수 있습니다. 
-        이는 MAU 100만명과 월매출 15억원 달성을 조건으로 합니다. 현재 성장 궤도를 고려할 때 
+        벨류에이션 200~300억원 목표로 Seed Round 투자 대비 15~20배 수준의 수익률을 기대할 수 있습니다. 
+        이는 연매출 150억, 순이익 10억 달성을 조건으로 합니다. 현재 성장 궤도를 고려할 때 
         충분히 달성 가능한 목표입니다.
       </p>
       
