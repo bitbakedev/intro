@@ -23,7 +23,7 @@ const CompetitiveAdvantage: React.FC = () => {
         특히, 의미 있는 수준의 MAU만 달성하더라도 해당 재단들을 대상으로 직접적인 마케팅 예산 집행을 유치할 수 있으며, 나아가 각 재단이 육성 중인 다양한 프로젝트들과의 연결 기회도 자연스럽게 확보할 수 있습니다.
       </p>
       
-      <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">3. 인재 부족 속의 차별화</h3>
+      <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">3. 인재 부족과 DeFi에 대한 이해 부족</h3>
       
       <p className="text-gray-700 leading-relaxed mb-4 ml-6">
         국내 Web3 시장은 점차 사양 산업으로 인식되면서 우수한 개발자들조차 진입을 꺼려하고 있습니다. 그만큼 국내에는 인재가 부족한 상황이며, DeFi의 미래 가치를 믿고 기술력을 가진 인재들은 이미 높은 연봉과 좋은 조건으로 해외 유망 프로젝트에 합류하여, 국내 기업들은 일반적인 방식으로 인재를 확보하기 어려운 상황입니다.
