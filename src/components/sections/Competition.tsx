@@ -66,24 +66,25 @@ const Competition: React.FC = () => {
         국내 리워드 앱 기업들은 대규모 MAU와 안정적인 매출 구조를 확보하고 있으나, 공통적으로 광고 중심의 보상 모델에 의존하고 있으며, DeFi 및 금융 서비스로의 확장성은 제한적입니다. 이는 비트베이크가 리워드와 DeFi를 결합한 새로운 성장 동력을 제시할 수 있는 기회로 이어집니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">기타 경쟁사</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">대형 플랫폼</h2>
       
-      <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">1. 대형 플랫폼</h3>
-      
-      <p className="text-gray-700 leading-relaxed mb-4">
-        대형 플랫폼들은 현재 원화 스테이블코인 발행에 집중하고 있습니다.
+      <p className="text-gray-700 leading-relaxed mb-4 ml-4">
+        토스, 카카오, 네이버 등 국내 대형 플랫폼들은 아직 DeFi보다는 원화 스테이블코인 발행에 집중하고 있습니다. 그러나 이 과정은 규제 협의와 인프라 구축 문제로 인해 최소 2년 이상 소요될 것으로 예상됩니다.
       </p>
       
-      <ul className="text-gray-700 leading-relaxed mb-8 ml-6">
-        <li className="mb-2">
-          원화 스테이블코인 사업이 제도적으로 안정화되더라도, DeFi 서비스로 확장되기까지는 최소 2~3년 이상이 소요될 것으로 예상됩니다.
-        </li>
-        <li className="mb-2">
-          규제와 리스크 관리 요인으로 인해, 단기적으로는 DeFi 연계보다는 지급결제·송금 중심의 서비스에 집중할 가능성이 높습니다.
-        </li>
-      </ul>
+      <p className="text-gray-700 leading-relaxed mb-4 ml-4">
+        설령 스테이블코인이 발행되더라도, 이를 실제로 활용할 수 있는 결제·송금·투자 등의 사용처를 확장하는 데 추가 시간이 필요합니다. 따라서 DeFi 서비스로 본격적으로 연결되기까지는 총 3~4년 이상이 걸릴 가능성이 높습니다.
+      </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">3. 암호화폐 관련 경쟁사</h2>
+      <p className="text-gray-700 leading-relaxed mb-4 ml-4">
+        결국 대형 플랫폼들은 규제와 리스크 관리라는 족쇄로 인해 단기적으로는 결제·송금 등 제도권 금융 연계 서비스에 집중할 수밖에 없으며, DeFi 확장은 후순위로 밀릴 수밖에 없습니다.
+      </p>
+      
+      <p className="text-gray-700 leading-relaxed mb-8 ml-4">
+        반면, 비트베이크는 빠른 실행력과 민첩성을 기반으로, 대형 플랫폼들이 제도권 안에서 시간을 소모하는 사이 DeFi 시장을 선점할 수 있는 전략적 기회를 확보하게 됩니다.
+      </p>
+      
+      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">암호화폐 관련 경쟁사</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         암호화폐 관련 서비스들은 다양한 시도를 이어왔지만, 지속적인 성과 창출에는 어려움을 겪고 있습니다.
