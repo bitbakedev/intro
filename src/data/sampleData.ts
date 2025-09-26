@@ -204,29 +204,34 @@ export const sampleProposalData: ProposalData = {
   ],
   
   fundingRequest: {
-    amount: "2억원",
+    amount: "2억 2,500만원",
     valuation: "13억원 (Pre-money)",
-    equity: "15% (1억원당 7.5%)",
+    equity: "15%",
     useOfFunds: [
       {
-        category: "개발팀 확장",
-        amount: "8,000만원",
-        percentage: 40
+        category: "인건비",
+        amount: "1억 1,000만원",
+        percentage: 49
       },
       {
         category: "마케팅 및 사용자 확보",
         amount: "6,000만원",
-        percentage: 30
+        percentage: 27
       },
       {
         category: "기술 인프라",
-        amount: "4,000만원",
-        percentage: 20
+        amount: "3,000만원",
+        percentage: 13
       },
       {
         category: "운영 자금",
         amount: "2,000만원",
-        percentage: 10
+        percentage: 9
+      },
+      {
+        category: "현재 자금",
+        amount: "2,500만원",
+        percentage: 11
       }
     ],
     timeline: "12개월",
