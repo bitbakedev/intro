@@ -38,7 +38,7 @@ const RevenueModel: React.FC = () => {
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-6 ml-6">
-        또한, <a href="https://www.ads-soon.com/" className="text-gray-700">애즈순(Ads-Soon)</a>과 같은 B2B 광고 플랫폼을 활용하거나, 
+        또한, <a href="https://www.ads-soon.com/" target="_blank">애즈순(Ads-Soon)</a>과 같은 B2B 광고 플랫폼을 활용하거나, 
         광고주 대상 <a href="https://partners.bitbunny.io/">페이드 마케팅</a>을 통해 직광고를 확보할 수 있는 
         실행 경로도 이미 열려 있습니다. 이러한 전략을 통해 비트베이크는 단순 광고 네트워크 의존을 넘어 
         직광고 기반의 고수익 모델로 빠르게 전환할 수 있습니다.
