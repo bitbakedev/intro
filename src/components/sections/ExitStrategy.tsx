@@ -30,7 +30,7 @@ const ExitStrategy: React.FC = () => {
       <h3 className="text-xl font-semibold text-gray-700 mb-4 mt-8">이 외의 방안</h3>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        회사가 일정 수준 이상의 영업이익(예: 연간 50억 이상 영업이익)을 달성하면, Seed 투자자의 지분을 사전에 약정된 가격(예: 투자액 대비 5배 가치) 으로 되사줄 수 있는 옵션을 부여하는 것도 가능합니다.
+        이 외에 회사가 일정 수준 이상의 영업이익(예: 연간 50억 이상 영업이익)을 달성하면, Seed 투자자의 지분을 사전에 약정된 가격(예: 투자액 대비 5배 가치) 으로 되사줄 수 있는 옵션을 부여하는 것도 가능합니다.
       </p>
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">투자자 보호</h2>
