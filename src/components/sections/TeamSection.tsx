@@ -13,6 +13,7 @@ const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
 
   return (
     <>
+      <div>
       <div className="mb-8">
         <div className="mb-8">
           <p className="text-gray-700 leading-relaxed mb-4">
@@ -42,6 +43,7 @@ const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
             주요 수상 경력 &gt;
           </button>
         </div>
+      </div>
       </div>
       
       <AwardsModal 
