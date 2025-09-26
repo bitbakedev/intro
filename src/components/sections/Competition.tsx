@@ -9,46 +9,46 @@ const Competition: React.FC = () => {
         <table className="w-full border-collapse border border-gray-300">
           <thead>
             <tr className="bg-gray-50">
-              <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">회사명</th>
-              <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">서비스</th>
-              <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">MAU</th>
-              <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">기업가치/시가총액</th>
-              <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">연 매출</th>
-              <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">특징</th>
+              <th className="border border-gray-300 px-2 py-2 text-left font-semibold text-gray-800">회사명</th>
+              <th className="border border-gray-300 px-2 py-2 text-left font-semibold text-gray-800">서비스</th>
+              <th className="border border-gray-300 px-2 py-2 text-left font-semibold text-gray-800">MAU</th>
+              <th className="border border-gray-300 px-2 py-2 text-left font-semibold text-gray-800">기업가치/시가총액</th>
+              <th className="border border-gray-300 px-2 py-2 text-left font-semibold text-gray-800">연 매출</th>
+              <th className="border border-gray-300 px-2 py-2 text-left font-semibold text-gray-800">특징</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">넛지헬스케어</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">캐시워크</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">450만 명</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">3,000억 원</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">1,181억 원</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">헬스케어·웰니스 중심, 금융·DeFi 확장성 제한적</td>
+              <td className="border border-gray-300 px-2 py-2 font-medium text-gray-800">넛지헬스케어</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700">캐시워크</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700">450만 명</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700">3,000억 원</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700">1,181억 원</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700 text-sm">헬스케어·웰니스 중심, 금융·DeFi 확장성 제한적</td>
             </tr>
             <tr className="bg-gray-25">
-              <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">엔비티</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">캐시슬라이드</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">1,000만 명</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">500억 원</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">800억 원</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">최대 사용자 기반, 상대적으로 낮은 기업가치</td>
+              <td className="border border-gray-300 px-2 py-2 font-medium text-gray-800">엔비티</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700">캐시슬라이드</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700">1,000만 명</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700">500억 원</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700">800억 원</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700 text-sm">최대 사용자 기반, 상대적으로 낮은 기업가치</td>
             </tr>
             <tr>
-              <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">그래비티랩스</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">머니워크</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">30만 명</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">1,800억 원</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">60~80억 원</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">소규모 MAU 대비 높은 기업가치</td>
+              <td className="border border-gray-300 px-2 py-2 font-medium text-gray-800">그래비티랩스</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700">머니워크</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700">30만 명</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700">1,800억 원</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700">60~80억 원</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700 text-sm">소규모 MAU 대비 높은 기업가치</td>
             </tr>
             <tr className="bg-blue-50">
-              <td className="border border-gray-300 px-4 py-3 font-medium text-blue-800">비트베이크</td>
-              <td className="border border-gray-300 px-4 py-3 text-blue-700">비트베이크</td>
-              <td className="border border-gray-300 px-4 py-3 text-blue-700">1만 명 (목표)</td>
-              <td className="border border-gray-300 px-4 py-3 text-blue-700">15억 원 (목표)</td>
-              <td className="border border-gray-300 px-4 py-3 text-blue-700">1억 원 (목표)</td>
-              <td className="border border-gray-300 px-4 py-3 text-blue-700 text-sm font-medium">리워드 + DeFi 통합 플랫폼</td>
+              <td className="border border-gray-300 px-2 py-2 font-medium text-blue-800">비트베이크</td>
+              <td className="border border-gray-300 px-2 py-2 text-blue-700">비트베이크</td>
+              <td className="border border-gray-300 px-2 py-2 text-blue-700">1만 명 (목표)</td>
+              <td className="border border-gray-300 px-2 py-2 text-blue-700">15억 원 (목표)</td>
+              <td className="border border-gray-300 px-2 py-2 text-blue-700">1억 원 (목표)</td>
+              <td className="border border-gray-300 px-2 py-2 text-blue-700 text-sm font-medium">리워드 + DeFi 통합 플랫폼</td>
             </tr>
           </tbody>
         </table>
