@@ -39,7 +39,7 @@ const CompetitiveAdvantage: React.FC = () => {
         </p>
         
         <p className="text-gray-700 leading-relaxed mb-6">
-          현재도 Neo 블록체인과 Kaia 재단과의 협력중이며, 특히 Neo 재단은 비트베이크가 시장성을 입증할 경우 직접 투자 의향을 밝힌 상태입니다.
+          현재도 Neo 블록체인과 Kaia 재단과의 협력중이며, 특히 Neo 재단은 비트베이크가 시장성을 입증할 경우 직접 투자 의향을 밝힌 상태이며, 다른 재단과 VC 로부터 적극적인 후속 투자 유치가 가능합니다.
         </p>
         
         <h3 className="text-2xl font-semibold text-gray-700 mb-4">3. 인재 부족과 DeFi에 대한 이해 부족</h3>
