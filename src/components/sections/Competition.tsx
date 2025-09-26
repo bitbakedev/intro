@@ -42,6 +42,14 @@ const Competition: React.FC = () => {
               <td className="border border-gray-300 px-2 py-2 text-gray-700">60~80억 원</td>
               <td className="border border-gray-300 px-2 py-2 text-gray-700 text-sm">소규모 MAU 대비 높은 기업가치</td>
             </tr>
+            <tr className="bg-gray-25">
+              <td className="border border-gray-300 px-2 py-2 font-medium text-gray-800">업라이즈</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700">비트버니</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700">40만 명</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700">공개된바 없음</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700">공개된바 없음</td>
+              <td className="border border-gray-300 px-2 py-2 text-gray-700 text-sm">암호화폐 구매 시도 but 거기서 끝</td>
+            </tr>
             <tr className="bg-blue-50">
               <td className="border border-gray-300 px-2 py-2 font-medium text-blue-800">비트베이크</td>
               <td className="border border-gray-300 px-2 py-2 text-blue-700">비트베이크</td>
