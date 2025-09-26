@@ -34,7 +34,8 @@ const SalaryModal: React.FC<SalaryModalProps> = ({ isOpen, onClose }) => {
           </div>
         </div>
         <div className="p-6">
-            한국에서 연봉 1억을 제시받더라도, 실질적으로는 해외 프로젝트의 보상이 2~3배 이상 높게 체감되는 상황
+          한국에서 연봉 1억을 제시받더라도, 실질적으로는 해외 프로젝트의 보상이 2~3배 이상 높게 체감되는 상황.<br/>
+          또한 국내 프로젝트들은 토큰을 보상으로 지급해줄 수 있는 여건이 되지 못해 경쟁력이 더 떨어짐.
         </div>
       </div>
     </div>
