@@ -27,7 +27,7 @@ const ExitStrategy: React.FC = () => {
         Web3 기술력과 사용자 기반에 높은 가치를 부여할 것으로 전망됩니다.
       </p>
       
-      <h3 className="text-xl font-semibold text-gray-700 mb-4 mt-8">기타</h3>
+      <h3 className="text-xl font-semibold text-gray-700 mb-4 mt-8">이 외의 방안</h3>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         밸류에이션 500-2,000억원 규모의 M&A를 통해 50-160배의 수익률을 달성할 수 있습니다. 
