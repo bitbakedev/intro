@@ -19,9 +19,6 @@ const FinancialProjections: React.FC<FinancialProjectionsProps> = ({ financialPr
           <div key={index} className="text-left p-4 bg-gray-50 rounded-lg">
             <h4 className="text-lg font-semibold text-gray-800">{item.year}</h4>
             <p className="text-gray-900 font-bold text-xl">{item.revenue}억원</p>
-            <p className="text-sm text-gray-600 mb-2">
-              수익: {item.profit >= 0 ? '+' : ''}{item.profit}억원
-            </p>
             <p className="text-xs text-gray-700 font-medium">MAU: {item.mau}</p>
             <p className="text-xs text-gray-700">ARPU: {item.arpu.toLocaleString()}원</p>
             <p className="text-xs text-gray-700">AUM: {item.aum}</p>
