@@ -15,7 +15,7 @@ const ExitStrategy: React.FC = () => {
       <h3 className="text-xl font-semibold text-gray-700 mb-4 mt-8">Series B (2027-2028)</h3>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        밸류에이션 5,000억원을 목표로 하며, Seed 투자자는 333배의 수익률을 기대할 수 있습니다. 
+        밸류에이션 1,000억원을 목표로 하며, Seed 투자자는 333배의 수익률을 기대할 수 있습니다. 
         이 단계에서는 대형 PE나 글로벌 헤지펀드의 투자를 유치하여 글로벌 확장을 본격화할 예정입니다.
       </p>
       
