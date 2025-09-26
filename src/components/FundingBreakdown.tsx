@@ -9,7 +9,7 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
   return (
     <div className="bg-gray-50 p-6 rounded-lg">
       <div className="text-center mb-6">
-        <h3 className="text-2xl font-bold text-gray-800 mb-2">투자 요청 금액</h3>
+        <h3 className="text-2xl font-bold text-gray-800 mb-2">투자 유치 목표 금액</h3>
         <p className="text-4xl font-bold text-gray-800">{fundingRequest.amount}</p>
         <div className="mt-4 grid grid-cols-2 gap-4">
           <div className="text-center p-3 bg-white rounded-lg">
