@@ -3,13 +3,6 @@ import React from 'react';
 const RevenueModel: React.FC = () => {
   return (
     <div className="prose prose-lg max-w-none">
-      <p className="text-gray-700 leading-relaxed mb-6">
-        대부분의 Web3 리워드 앱이 끝없이 인플레이션성 토큰을 발행하는 것과 달리, 비트베이크는 실제 수익의 
-        <strong> 80~90%를 사용자에게 분배</strong>하고, 
-        <strong> 10~20%를 비트베이크가 수수료</strong>로 가져가는 지속 가능한 모델을 구축했습니다. 
-        이는 단순한 토큰 인플레이션이 아닌, 실제 가치 창출을 통한 지속 가능한 생태계를 의미합니다.
-      </p>
-      
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">1. 광고 수익</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
