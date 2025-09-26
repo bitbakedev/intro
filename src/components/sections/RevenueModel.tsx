@@ -107,7 +107,6 @@ const RevenueModel: React.FC = () => {
 
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">기술적 혜자</h2>
       
-      
       <p className="text-gray-700 leading-relaxed mb-4">
         비트베이크는 이미 Neo, Kaia, Bera, Chiliz 등 주요 블록체인 프로젝트와 협업한 경험을 통해 검증된 마케팅 효과와 견고한 네트워크를 확보했습니다. 
         이러한 파트너십은 신규 고객사 유치와 시장 확장의 강력한 기반이 됩니다.
