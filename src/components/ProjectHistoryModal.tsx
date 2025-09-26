@@ -30,8 +30,9 @@ const ProjectHistoryModal: React.FC<ProjectHistoryModalProps> = ({ isOpen, onClo
             <div className="space-y-8">
               {/* 2025 */}
               <div className="relative flex items-start">
-                <div className="flex-shrink-0 w-16 h-16 bg-black rounded-full flex items-center justify-center text-white font-bold text-sm">
-                  2025
+                <div className="flex-shrink-0 w-16 text-left">
+                  <div className="text-lg font-bold text-black mb-2">2025</div>
+                  <div className="w-4 h-4 bg-black rounded-full"></div>
                 </div>
                 <div className="ml-6 flex-1">
                   <h4 className="font-semibold text-gray-800 mb-2">Liquid Staking Protocol 구축</h4>
@@ -46,8 +47,9 @@ const ProjectHistoryModal: React.FC<ProjectHistoryModalProps> = ({ isOpen, onClo
               
               {/* 2024 */}
               <div className="relative flex items-start">
-                <div className="flex-shrink-0 w-16 h-16 bg-black rounded-full flex items-center justify-center text-white font-bold text-sm">
-                  2024
+                <div className="flex-shrink-0 w-16 text-left">
+                  <div className="text-lg font-bold text-black mb-2">2024</div>
+                  <div className="w-4 h-4 bg-black rounded-full"></div>
                 </div>
                 <div className="ml-6 flex-1 space-y-4">
                   <div>
@@ -99,8 +101,9 @@ const ProjectHistoryModal: React.FC<ProjectHistoryModalProps> = ({ isOpen, onClo
               
               {/* 2023 */}
               <div className="relative flex items-start">
-                <div className="flex-shrink-0 w-16 h-16 bg-black rounded-full flex items-center justify-center text-white font-bold text-sm">
-                  2023
+                <div className="flex-shrink-0 w-16 text-left">
+                  <div className="text-lg font-bold text-black mb-2">2023</div>
+                  <div className="w-4 h-4 bg-black rounded-full"></div>
                 </div>
                 <div className="ml-6 flex-1">
                   <h4 className="font-semibold text-gray-800 mb-2">탈중앙화 거래소 구축</h4>
@@ -115,8 +118,9 @@ const ProjectHistoryModal: React.FC<ProjectHistoryModalProps> = ({ isOpen, onClo
               
               {/* 2022 */}
               <div className="relative flex items-start">
-                <div className="flex-shrink-0 w-16 h-16 bg-black rounded-full flex items-center justify-center text-white font-bold text-sm">
-                  2022
+                <div className="flex-shrink-0 w-16 text-left">
+                  <div className="text-lg font-bold text-black mb-2">2022</div>
+                  <div className="w-4 h-4 bg-black rounded-full"></div>
                 </div>
                 <div className="ml-6 flex-1 space-y-4">
                   <div>
@@ -133,8 +137,9 @@ const ProjectHistoryModal: React.FC<ProjectHistoryModalProps> = ({ isOpen, onClo
               
               {/* 2021 */}
               <div className="relative flex items-start">
-                <div className="flex-shrink-0 w-16 h-16 bg-black rounded-full flex items-center justify-center text-white font-bold text-sm">
-                  2021
+                <div className="flex-shrink-0 w-16 text-left">
+                  <div className="text-lg font-bold text-black mb-2">2021</div>
+                  <div className="w-4 h-4 bg-black rounded-full"></div>
                 </div>
                 <div className="ml-6 flex-1">
                   <h4 className="font-semibold text-gray-800 mb-2">NFT 조각화 플랫폼 구축</h4>
