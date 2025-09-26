@@ -31,7 +31,7 @@ const StablecoinStrategy: React.FC = () => {
         비트베이크가 제공할 수 있는 원화 스테이블코인 기반 서비스는 다음과 같습니다:
       </p>
       
-      <ul className="space-y-2 mb-6 ml-6">
+      <ul className="space-y-2 mb-6">
         <li className="text-gray-700">• 원화 스테이블코인을 예치해 이자 수익 제공</li>
         <li className="text-gray-700">• 원화 스테이블코인을 다른 암호화폐로 교환해 투자 및 예치 서비스 활용</li>
         <li className="text-gray-700">• 보유 코인을 담보로 원화 스테이블코인 대출 실행</li>
