@@ -91,17 +91,17 @@ const InvestmentProposal: React.FC = () => {
       </ProposalSection>
 
       {/* Stablecoin Strategy */}
-      <ProposalSection title="Appendix 1 - 원화 스테이블 코인 출범 후 전략" pageBreak>
+      <ProposalSection title="Appendix 2 - 원화 스테이블 코인 출범 후 전략" pageBreak>
         <StablecoinStrategy />
       </ProposalSection>
 
       {/* Legal Risk Mitigation */}
-      <ProposalSection title="Appendix 1 - 법적 리스크와 해소 전략" pageBreak>
+      <ProposalSection title="Appendix 3 - 법적 리스크와 해소 전략" pageBreak>
         <LegalRiskMitigation />
       </ProposalSection>
 
       {/* Neo Partnership */}
-      <ProposalSection title="Appendix 1 - Neo 재단과의 전략적 파트너십" pageBreak>
+      <ProposalSection title="Appendix 4 - Neo 재단과의 전략적 파트너십" pageBreak>
         <NeoPartnership />
       </ProposalSection>
 
