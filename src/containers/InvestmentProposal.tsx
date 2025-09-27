@@ -85,11 +85,6 @@ const InvestmentProposal: React.FC = () => {
         <ExitStrategy />
       </ProposalSection>
 
-      {/* Risks */}
-      <ProposalSection title="리스크 요소" pageBreak>
-        <Risks />
-      </ProposalSection>
-
       {/* DeFi Products */}
       <ProposalSection title="DeFi 상품 기획" pageBreak>
         <DeFiProducts />
