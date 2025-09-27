@@ -23,7 +23,7 @@ const ProposalSection: React.FC<ProposalSectionProps> = ({
         ${className}
       `}
     >
-      <h2 className="text-3xl font-bold text-gray-800 mb-4 border-b-2 border-blue-600 pb-2">
+      <h2 className="text-3xl font-bold text-gray-800 mb-3 border-b-2 border-blue-600 pb-1">
         {title}
       </h2>
       <div className="text-gray-700 leading-relaxed">
