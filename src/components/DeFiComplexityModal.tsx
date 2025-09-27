@@ -92,6 +92,10 @@ const DeFiComplexityModal: React.FC<DeFiComplexityModalProps> = ({ isOpen, onClo
               전 세계 대부분의 DeFi 서비스는 영어 UI만 제공합니다.
               한국어, 일본어, 중국어 등 비영어권 사용자를 위한 로컬라이제이션은 거의 이루어지지 않았습니다.
             </p>
+            
+              대표적인 DeFi 서비스 예시 : <br/>
+              <a href="https://app.aave.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">https://app.aave.com/</a><br/>
+              <a>https://app.compound.finance/</a>
           </div>
         </div>
       </div>
