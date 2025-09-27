@@ -55,9 +55,7 @@ const BlockchainComplexityModal: React.FC<BlockchainComplexityModalProps> = ({ i
               <div>
                 <p className="font-semibold text-gray-800 mb-2">3. 쓰는 돈의 종류도 다릅니다.</p>
                 <p className="text-gray-700 ml-4">
-                  이더리움은 ETH, 솔라나는 SOL, 네오는 GAS를 사용합니다.<br/>
-                  마치 나라가 다르면 화폐가 다른 것처럼,<br/>
-                  블록체인마다 기본 화폐가 제각각입니다.
+                  이더리움은 ETH, 솔라나는 SOL, 네오는 GAS를 사용합니다. 마치 나라가 다르면 화폐가 다른 것처럼,  블록체인마다 기본 화폐가 제각각입니다.
                 </p>
               </div>
             </div>
