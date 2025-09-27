@@ -67,7 +67,7 @@ const Solution: React.FC = () => {
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        현재 DeFi 생태계는 각 프로토콜이 독립적으로 운영되기 때문에, 사용자가 원하는 기능을 이용하기 위해서는 이러한 복잡한 절차와 탐색 과정을 직접 거쳐야 합니다.
+        현재 DeFi 생태계는 각 서비스가 독립적으로 운영되기 때문에, 사용자가 원하는 기능을 이용하기 위해서는 이러한 복잡한 절차와 탐색 과정을 직접 거쳐야 합니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-6">

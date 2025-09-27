@@ -12,7 +12,7 @@ const CompetitiveAdvantage: React.FC = () => {
         <h3 className="text-2xl font-semibold text-gray-700 mb-4">1. 기술적 해자</h3>
         
         <p className="text-gray-700 leading-relaxed mb-4">
-          위에서 제시한 비즈니스 모델을 실현하고 리워드 앱에서 DeFi 플랫폼으로의 자연스러운 전환을 만들어내기 위해서는, 다양한 블록체인 생태계에 대한 깊은 이해와 DeFi 프로토콜 각각에 대한 전문 지식이 필요합니다. 무엇보다도 이를 하나의 서비스로 유기적으로 통합할 수 있는 기술력이 요구됩니다.
+          위에서 제시한 비즈니스 모델을 실현하고 리워드 앱에서 DeFi 플랫폼으로의 자연스러운 전환을 만들어내기 위해서는, 다양한 블록체인 생태계에 대한 깊은 이해와 DeFi 서비스 각각에 대한 전문 지식이 필요합니다. 무엇보다도 이를 하나의 서비스로 유기적으로 통합할 수 있는 기술력이 요구됩니다.
         </p>
         
         <p className="text-gray-700 leading-relaxed mb-2">

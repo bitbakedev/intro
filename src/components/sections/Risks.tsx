@@ -6,7 +6,7 @@ const Risks: React.FC = () => {
       <h2 className="text-2xl font-bold text-gray-800 mb-6">기술적 리스크</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        스마트 컨트랙트 보안 취약점은 DeFi 프로토콜 연동 시 가장 중요한 고려사항입니다. 
+        스마트 컨트랙트 보안 취약점은 DeFi 서비스 연동 시 가장 중요한 고려사항입니다. 
         해킹이나 버그로 인한 자산 손실 위험을 최소화하기 위해 정기적인 보안 감사와 
         다중 서명 지갑을 통한 자산 관리를 실시하고 있습니다.
       </p>
