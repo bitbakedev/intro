@@ -186,8 +186,8 @@ export const sampleProposalData: ProposalData = {
     {
       name: "김성래",
       position: "",
-      education: "경북대학교(Kyungpook National University) 수학 학사 (2014년 3월 - 2022년 2월)",
-      experience: "• 티오더 (t'order) - 프론트엔드 개발자 (2023년 12월 - 현재)\n• 스타트업 - Frontend Engineer (2021년 10월 - 2023년 12월)\n• Debound - Frontend Developer / Smart Contract Developer\n• Renaissance Labs - CTO\n• 도너블 - Software Engineer\n• Viva Republica (Toss) - Web Automation Developer / Frontend Developer\n• Google Developers Group Daejeon - Organizer\n• Satrec Initiative Co., Ltd. - Software Engineer\n• 주식회사 헬로체인 - Software Engineer",
+      education: "",
+      experience: "• Debound - Frontend Developer / Smart Contract Developer\n• Renaissance Labs - CTO\n• 도너블 - Software Engineer\n• Viva Republica (Toss) - Web Automation Developer / Frontend Developer\n• Google Developers Group Daejeon - Organizer\n• Satrec Initiative Co., Ltd. - Software Engineer\n• 주식회사 헬로체인 - Software Engineer",
       linkedin: "https://www.linkedin.com/in/denis-kim-6a2590158/"
     },
     {
