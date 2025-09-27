@@ -8,7 +8,7 @@ const LegalRiskMitigation: React.FC = () => {
       <p className="text-gray-700 leading-relaxed mb-4">
         비트베이크가 제공하는 비수탁형 암호화폐 예치 및 스테이킹 서비스는 현행 법령상으로도 문제가 없는 영역입니다. 
         다만, 향후 확장을 위해 준비 중인 적극적인 암호화폐 거래 기능과 xStocks 등 STO(토큰 증권) 기반 리워드 모델은 
-        아직 제도적으로 명확히 정의되지 않은 그레이존에 속합니다.
+        아직 제도적으로 명확히 정의되지 않은 그레이존에 속하며 증권거래로 보여질 가능성도 있습니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
