@@ -220,13 +220,13 @@ export const sampleProposalData: ProposalData = {
       },
       {
         category: "기술 인프라",
-        amount: "3,000만원",
-        percentage: 13
+        amount: "2,000만원",
+        percentage: 10
       },
       {
         category: "운영 자금",
-        amount: "2,000만원",
-        percentage: 9
+        amount: "1,000만원",
+        percentage: 5
       },
     ],
     timeline: "12개월",
