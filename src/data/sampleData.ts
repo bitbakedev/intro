@@ -189,7 +189,7 @@ export const sampleProposalData: ProposalData = {
       education: "",
       experience: "• Debound - 풀스택 개발자\n• Renaissance Labs - CTO\n• 도너블 - Software Engineer\n• Viva Republica (Toss) - 풀스택 개발자\n• Google Developers Group Daejeon - Organizer\n• Satrec Initiative Co., Ltd. - 개발자\n• 주식회사 헬로체인 - 개발자\n• 대덕소프트웨어마이스터고등학교",
       linkedin: "https://www.linkedin.com/in/denis-kim-6a2590158/",
-      image: "/img_김성래.png"
+      image: "/public/img_김성래.png"
     },
     {
       name: "박유선",
