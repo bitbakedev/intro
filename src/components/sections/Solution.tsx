@@ -123,6 +123,7 @@ const Solution: React.FC = () => {
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
+        비트베이크는 이러한 구조적 한계를 해결하기 위해 온램프 솔루션 구축을 위해 다양한 시도를 하고 있습니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
