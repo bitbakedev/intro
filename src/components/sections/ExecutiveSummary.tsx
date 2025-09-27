@@ -56,7 +56,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
 
       </p>
       <p className="text-gray-700 leading-relaxed mb-8">
-즉, 리워드앱 업계 초기 수준인 월 매출 15억 원만 달성하더라도, 매월 약 5억 원이 암호화폐 상품에 예치되며, 1년동안 누적 예치금이 30~40억 원 규모로 성장할 것으로 예상합니다.
+즉, 리워드앱 업계 초기 수준인 월 매출 15억을 달성하는것을 가정했을 때, 매월 약 5억 원이 암호화폐 상품에 예치되며, 1년동안 누적 예치금이 30~40억 원 규모로 성장할 것으로 예상합니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-8">
