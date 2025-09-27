@@ -12,7 +12,7 @@ const ExitStrategy: React.FC = () => {
               <th className="border border-gray-300 px-3 py-3 text-left font-semibold text-gray-800" style={{width: '12%'}}>출구 전략</th>
               <th className="border border-gray-300 px-3 py-3 text-left font-semibold text-gray-800" style={{width: '15%'}}>시기</th>
               <th className="border border-gray-300 px-3 py-3 text-left font-semibold text-gray-800" style={{width: '20%'}}>밸류에이션 (수익률)</th>
-              <th className="border border-gray-300 px-3 py-3 text-left font-semibold text-gray-800" style={{width: '53%'}}>조건/특징</th>
+              <th className="border border-gray-300 px-3 py-3 text-left font-semibold text-gray-800" style={{width: '53%'}}>설명</th>
             </tr>
           </thead>
           <tbody>
