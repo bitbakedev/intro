@@ -9,14 +9,15 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
   return (
     <div className="prose prose-lg max-w-none">
       <p className="text-gray-700 leading-relaxed mb-4">
-        <strong>대표는 월급을 받지 않으며,</strong> 풀타임 인력 1명과 파트타임 또는 외주 인력 2명으로 효율적인 팀 구조를 유지할 예정입니다.
+       비트베이크는 총 2억 원의 Seed 투자 유치를 목표로 하고 있으며,
+이는 기업가치 13억 원(Pre-money) 기준으로 15%의 지분을 제공하는 조건입니다.
+현재 팀은 약 2,500만 원의 자금을 보유하고 있으며, 이번 투자를 통해 확보한 자금으로
+12개월 동안 안정적인 사업 운영과 사용자 성장 가속화를 추진할 계획입니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        비트베이크는 총 <strong>2억 원의 Seed 투자 유치</strong>를 목표로 하고 있으며, 
-        이는 기업가치 13억 원(Pre-money) 기준으로 <strong>15%의 지분</strong>을 제공하는 조건입니다. 
-        현재 팀은 약 2,500만 원의 자금을 보유하고 있으며, 이번 투자를 통해 확보한 자금으로 
-        12개월 동안 안정적인 사업 운영과 사용자 성장 가속화를 추진할 계획입니다.
+대표는 월급을 받지 않으며,
+풀타임 인력 1명과 파트타임 또는 외주 인력 2명으로 효율적인 팀 구조를 유지할 예정입니다.
       </p>
     
     <div className="mt-8">
