@@ -82,7 +82,7 @@ const GasFeeModal: React.FC<GasFeeModalProps> = ({ isOpen, onClose }) => {
             </p>
             
             <p>
-              이 방식은 사용자가 블록체인을 잘 몰라도 자연스럽게 서비스를 사용할 수 있게 만들고,<br/>
+              이 방식은 사용자가 블록체인을 잘 몰라도 자연스럽게 서비스를 사용할 수 있게 만들고, 
               비수탁형 서비스의 진입장벽을 크게 낮춰줍니다.
             </p>
           </div>
