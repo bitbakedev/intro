@@ -14,7 +14,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
   return (
     <>
       <div className="prose prose-lg max-w-none">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">시장 배경과 기회</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">시장 배경과 기회</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         2021년 DeFi Summer가 있었습니다. 한국에서도 시장성이 검증됐지만, 방만한 경영으로 무너졌습니다. 
