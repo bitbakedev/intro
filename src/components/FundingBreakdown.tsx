@@ -20,7 +20,7 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
 풀타임 인력 1명과 파트타임 또는 외주 인력 2명 수준으로 효율적인 팀 구조를 유지할 예정입니다.
       </p>
 
-      <h3 className="text-xl font-semibold text-gray-800 mb-4 mt-8">투자 근거</h3>
+      <h3 className="text-xl font-semibold text-gray-800 mb-4 mt-8">벨류에이션 근거</h3>
       
       <div className="space-y-6">
         <div>
