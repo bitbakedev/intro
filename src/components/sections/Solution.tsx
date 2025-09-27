@@ -123,6 +123,9 @@ const Solution: React.FC = () => {
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
+      </p>
+      
+      <p className="text-gray-700 leading-relaxed mb-4">
         한국은 약 8조 원 규모의 거대한 기프트카드 시장을 보유하고 있습니다. 비트베이크는 이 시장 특성을 활용해, 
         사용하지 않는 기프트카드를 포인트로 교환하고 이를 암호화폐로 전환할 수 있는 서비스를 제공합니다. 
         이는 한국 정부의 신용카드 암호화폐 구매 금지 조치로 진입이 제한된 일반 사용자들에게 대체재로 작용합니다.
