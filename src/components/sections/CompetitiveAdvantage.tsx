@@ -35,7 +35,7 @@ const CompetitiveAdvantage: React.FC = () => {
         </p>
         
         <p className="text-gray-700 leading-relaxed mb-6">
-          의미 있는 수준의 MAU만 달성하더라도 해당 재단들을 대상으로 직접적인 마케팅 예산 집행을 유치할 수 있으며, 나아가 각 재단이 육성 중인 다양한 프로젝트들과의 연결 기회 또한 자연스럽게 확보할 수 있습니다.
+          비트베이크가 의미 있는 수준의 MAU만 달성하더라도 해당 재단들을 대상으로 직접적인 마케팅 예산 집행을 유치할 수 있으며, 나아가 각 재단이 육성 중인 다양한 프로젝트들과의 연결 기회 또한 자연스럽게 확보할 수 있습니다.
         </p>
         
         <p className="text-gray-700 leading-relaxed mb-6">
