@@ -52,7 +52,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        리워드 앱 서비스 자체로 안정적인 수익화를 달성한 이후, 이를 암호화폐 상품과의 결합으로 확장하여 DeFi 플랫폼으로 진화할 수 있습니다. 내부 실험 결과, 전체 매출의 약 35%가 자연스럽게 암호화폐 상품으로 전환되고 있는 것으로 확인되었습니다.
+        리워드 앱 서비스 자체로 안정적인 수익화를 달성한 이후, 이를 암호화폐 상품과의 결합으로 확장하여 DeFi 플랫폼으로 진화할 수 있습니다. 3개월간의 실험을 통해 적극적인 노출 없이도 전체 리워드의 약 35%가 암호화폐 상품으로 전환되고 있는 것으로 확인되었습니다.
 
       </p>
       <p className="text-gray-700 leading-relaxed mb-8">
