@@ -33,7 +33,7 @@ const BlockchainComplexityModal: React.FC<BlockchainComplexityModalProps> = ({ i
               그리고 이 블록체인 위에는 <strong>수백 개의 '돈을 맡기고 이자를 받는 서비스(DeFi)'</strong>가 각각 따로 운영되고 있습니다.<br/>
               겉으로 보기엔 다양하고 선택의 폭이 넓어 보이지만, 실제로는 일반 사람들에게는 너무 복잡한 구조입니다.
             </p>
-            <a href="https://defillama.com/" target="_blank">현재 운영중인 블록체인과 DeFi 종류 보러가기 {'>'}</a>
+            <a href="https://defillama.com/" target="_blank" className="text-underline text-blue-500">현재 운영중인 블록체인과 DeFi 종류 보러가기 {'>'}</a>
             
             <hr className="my-6 border-gray-300" />
             
