@@ -53,7 +53,7 @@ const Competition: React.FC = () => {
             <tr className="bg-blue-50">
               <td className="border border-gray-300 px-2 py-2 font-medium text-blue-800">비트베이크</td>
               <td className="border border-gray-300 px-2 py-2 text-blue-700">비트베이크</td>
-              <td className="border border-gray-300 px-2 py-2 text-blue-700">1만 명 (목표)</td>
+              <td className="border border-gray-300 px-2 py-2 text-blue-700">-</td>
               <td className="border border-gray-300 px-2 py-2 text-blue-700">15억 원 (목표)</td>
               <td className="border border-gray-300 px-2 py-2 text-blue-700">1억 원 (목표)</td>
               <td className="border border-gray-300 px-2 py-2 text-blue-700 text-sm font-medium">리워드 + DeFi 통합 플랫폼</td>
