@@ -73,6 +73,18 @@ const Solution: React.FC = () => {
 모든 복잡한 과정(체인 선택, 가스비 계산, 트랜잭션 서명 등)은 비트베이크가 자동으로 처리합니다.
       </p>
       
+      <p className="text-gray-700 leading-relaxed mb-4">
+      비트베이크는
+	•	최적의 체인을 자동으로 선택하여 수수료를 최소화하고,
+	•	네트워크 수수료를 자체 부담하며,
+	•	사용자는 블록체인 지식 없이도 모든 DeFi 서비스를 이용할 수 있도록 설계되어 있습니다.
+           </p>
+
+      <p className="text-gray-700 leading-relaxed mb-4">
+즉, 비트베이크는 기존의 “전문가만을 위한 DeFi”를 누구나 쉽게 접근할 수 있는 리워드형 금융 서비스로 재정의한 최초의 플랫폼입니다.
+           </p>
+
+      
       <h2 className="text-2xl font-bold text-gray-800 mb-6">4. 시장에 대한 높은 이해도를 기반으로 한 전략적 접근</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
