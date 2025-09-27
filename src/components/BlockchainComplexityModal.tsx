@@ -65,8 +65,7 @@ const BlockchainComplexityModal: React.FC<BlockchainComplexityModalProps> = ({ i
             <h3 className="text-lg font-semibold text-gray-800 mb-4">결국 사용자 입장에서는</h3>
             
             <p className="mb-4">
-              일반 사용자가 어떤 블록체인을 써야 하는지, 어떤 서비스가 더 유리한지를 스스로 판단하기는 거의 불가능합니다.<br/>
-              예를 들어,
+              일반 사용자가 어떤 블록체인을 써야 하는지, 어떤 서비스가 더 유리한지를 스스로 판단하기는 거의 불가능합니다.
             </p>
             
             <ul className="space-y-2 mb-4 ml-4">
