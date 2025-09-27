@@ -215,7 +215,7 @@ export const sampleProposalData: ProposalData = {
       name: "권혁창",
       position: "",
       education: "",
-      experience: "• 티오더 - 개발자\n• 스타트업 - 개발자\n• 경북대학교 - 수학 학사\n• Inition Inc. - UX Designer",
+      experience: "• 티오더 - 개발자\n• 스타트업 - 개발자\n• 경북대학교 - 수학 학사",
       linkedin: "https://www.linkedin.com/in/%ED%98%81%EC%B0%BD-%EA%B6%8C-877893243/"
     },
   ],
