@@ -102,7 +102,7 @@ const Solution: React.FC = () => {
             자세히
           </button>
         )</li>
-    	<li>•	사용자는 블록체인 지식 없이도 DeFi 서비스를 이용할 수 있도록 설계 (
+    	<li>•	블록체인 지식 없이도 DeFi 서비스를 이용할 수 있도록 설계 (
           <button
             onClick={() => setIsDeFiComplexityModalOpen(true)}
             className="text-blue-600 hover:text-blue-800 underline cursor-pointer bg-transparent border-none p-0 font-inherit"
