@@ -119,7 +119,7 @@ const Solution: React.FC = () => {
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6">4. 지속적인 온램프 솔루션 탐색</h2>
       <p className="text-gray-700 leading-relaxed mb-4">
-        법정화폐를 암호화폐로 교환하는 수단을 '온램프 솔루션' 이라고 합니다.
+        법정화폐를 암호화폐로 교환하는 수단을 '온램프 솔루션' 이라고 합니다. 해외에는 카드로 암호화폐를 쉽게 구매할 수 있지만, 한국은 불가능합니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
