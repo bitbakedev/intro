@@ -73,25 +73,7 @@ const Solution: React.FC = () => {
 모든 복잡한 과정(체인 선택, 가스비 계산, 트랜잭션 서명 등)은 비트베이크가 자동으로 처리합니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">4. 완전한 추상화를 통한 사용자 경험 개선</h2>
-      
-      <p className="text-gray-700 leading-relaxed mb-4">
-        기존 DeFi 서비스에서는 사용자가 직접 체인을 선택하고, 가스비를 계산하고, 트랜잭션을 승인하는 등 
-        복잡한 과정을 거쳐야 합니다. 이러한 과정들은 매우 번거롭고 복잡하며, 많은 개념을 이해해야 합니다. 때문에 암호화폐 전문가조차 빈번하게 실수를 경험하며, 일반 유저들에게는 진입조차 불가능하게 만듭니다.
-      </p>
-      
-      <p className="text-gray-700 leading-relaxed mb-4">
-        비트베이크는 이러한 복잡한 과정들을 <strong>완전히 추상화</strong>하여 
-        사용자로부터 숨깁니다. 사용자에게는 "포인트를 암호화폐로 교환한다" 처럼 추상화된 단순한 경험만 제공하며, 
-        모든 기술적 복잡한 과정은 비트베이크가 자동으로 처리합니다.
-      </p>
-      
-      <p className="text-gray-700 leading-relaxed mb-6">
-        최적의 체인을 자동으로 선택하여 수수료를 최소화하고, 네트워크 수수료를 비트베이크에서 부담하며, 블록체인 지식 없이도 모든 DeFi 서비스를 이용할 수 있도록 합니다. 
-        시장 상황에 따른 자동 수익 최적화까지 제공합니다.
-      </p>
-      
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">5. 시장에 대한 높은 이해도를 기반으로 한 전략적 접근</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">4. 시장에 대한 높은 이해도를 기반으로 한 전략적 접근</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         한국은 약 8조 원 규모의 거대한 기프트카드 시장을 보유하고 있습니다. 비트베이크는 이 시장 특성을 활용해, 
