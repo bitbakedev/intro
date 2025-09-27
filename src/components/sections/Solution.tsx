@@ -73,10 +73,6 @@ const Solution: React.FC = () => {
 모든 복잡한 과정(체인 선택, 가스비 계산, 트랜잭션 서명 등)은 비트베이크가 자동으로 처리합니다.
       </p>
       
-      <p className="text-gray-700 leading-relaxed mb-6">
-        비트베이크는 이 모든 불편을 해결하기 위해 분산된 서비스를 하나의 통합 플랫폼으로 묶었습니다. 지갑, 멀티체인 지원, DeFi 서비스 연동까지 모두 하나의 앱 안에 통합되어 있어, 사용자는 복잡한 설정이나 학습 과정 없이도 바로 자신의 자산을 예치하고 수익을 얻을 수 있습니다.
-      </p>
-      
       <h2 className="text-2xl font-bold text-gray-800 mb-6">4. 완전한 추상화를 통한 사용자 경험 개선</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
