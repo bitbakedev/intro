@@ -22,28 +22,28 @@ const ExitStrategy: React.FC = () => {
               <td className="border border-gray-300 px-4 py-3 text-gray-700">2026 Q3~Q4</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">200~300억원</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">15~20배</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">연매출 80억, 순이익 5억 달성을 조건으로 함<br/>Series A 투자 유치시 구주 매각을 통한 Exit 가능</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">벨류에이션 200~300억원 목표로 Seed Round 투자 대비 15~20배 수준의 수익률을 기대할 수 있습니다. 이는 연매출 80억, 순이익 5억 달성을 조건으로 합니다. Series A 투자 유치시 투자자에게 구주 매각을 통해 Exit이 가능할 것으로 예상됩니다.</td>
             </tr>
             <tr className="bg-gray-25">
               <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">Series B</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">2027~2028</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">1,000억원</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">70~80배</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">대형 PE나 글로벌 헤지펀드의 투자 유치<br/>글로벌 확장을 본격화할 예정</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">밸류에이션 1,000억원을 목표로 하며, Seed 투자자는 70~80배의 수익률을 기대할 수 있습니다. 이 단계에서는 대형 PE나 글로벌 헤지펀드의 투자를 유치하여 글로벌 확장을 본격화할 예정입니다.</td>
             </tr>
             <tr>
               <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">M&A</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">2027~2029</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">500~2,000억원</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">50~160배</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">토스, 카카오, 네이버 등이 잠재적 인수사<br/>Web3 기술력과 사용자 기반에 높은 가치 부여 전망</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">밸류에이션 500-2,000억원 규모의 M&A를 통해 50-160배의 수익률을 달성할 수 있습니다. 토스, 카카오, 네이버 등이 잠재적인 인수사로 예상되며, 이들은 비트베이크의 Web3 기술력과 사용자 기반에 높은 가치를 부여할 것으로 전망됩니다.</td>
             </tr>
             <tr className="bg-gray-25">
               <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">기타 방안</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">조건 달성시</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">협의</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">5배+</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">연간 50억 이상 영업이익 달성시<br/>사전 약정 가격(투자액 대비 5배)으로 지분 되사<br/>장기적으로는 IPO를 통한 증시 상장 후 투자금 회수</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">회사가 일정 수준 이상의 영업이익(예: 연간 50억 이상 영업이익)을 달성하면, Seed 투자자의 지분을 사전에 약정된 가격(예: 투자액 대비 5배 가치)으로 되사줄 수 있는 옵션을 부여하는 것도 가능하며, 장기적으로는 IPO를 통해 증시에 상장 후 투자금을 회수하는 방안도 가능합니다.</td>
             </tr>
           </tbody>
         </table>
