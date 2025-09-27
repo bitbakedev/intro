@@ -146,7 +146,7 @@ const Solution: React.FC = () => {
     
     <DeFiComplexityModal 
       isOpen={isDeFiComplexityModalOpen} 
-      onClose={() => setIsDeFiComplexityModalOpen(false)} 
+      onClose={() => setIsDeFiComplexityModalOpen(false)}  />
     </>
   )
   );
