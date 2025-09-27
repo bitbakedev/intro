@@ -17,7 +17,7 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
       
       <p className="text-gray-700 leading-relaxed mb-4">
 대표는 월급을 받지 않으며,
-풀타임 인력 1명과 파트타임 또는 외주 인력 2명으로 효율적인 팀 구조를 유지할 예정입니다.
+풀타임 인력 1명과 파트타임 또는 외주 인력 2명 수준으로 효율적인 팀 구조를 유지할 예정입니다.
       </p>
     
     <div className="mt-8">
