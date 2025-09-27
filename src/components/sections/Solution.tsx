@@ -131,7 +131,7 @@ const Solution: React.FC = () => {
         스테이블코인이 발행될 경우, 누구보다 빠르게 협업·적용할 수 있는 시장 선점 기회를 가지게 됩니다.
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
-        이처럼 한국의 암호화폐, IT 생태계의
+        이처럼 한국의 암호화폐, IT 생태계에 대한 다양한 경험과 높은 이해도를 바탕으로
       </p>
     </div>
     
