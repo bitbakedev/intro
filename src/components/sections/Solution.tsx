@@ -85,7 +85,7 @@ const Solution: React.FC = () => {
       <p className="text-gray-700 leading-relaxed mb-4">
         비트베이크는 이러한 복잡한 과정들을 <strong>완전히 추상화</strong>하여 
         사용자로부터 숨깁니다. 사용자에게는 "포인트를 암호화폐로 교환한다" 처럼 단순한 경험만 가지며, 
-        나머지 모든 기술적 과정은 비트베이크가 자동으로 처리합니다.
+        모든 기술적 과정은 비트베이크가 자동으로 처리합니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-6">
