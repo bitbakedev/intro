@@ -187,7 +187,7 @@ export const sampleProposalData: ProposalData = {
       name: "김성래",
       position: "",
       education: "",
-      experience: "• Debound - 풀스택 개발자\n• Renaissance Labs - CTO\n• 도너블 - Software Engineer\n• Viva Republica (Toss) - 풀스택 개발자\n• Google Developers Group Daejeon - Organizer\n• Satrec Initiative Co., Ltd. - Software Engineer\n• 주식회사 헬로체인 - Software Engineer",
+      experience: "• Debound - 풀스택 개발자\n• Renaissance Labs - CTO\n• 도너블 - Software Engineer\n• Viva Republica (Toss) - 풀스택 개발자\n• Google Developers Group Daejeon - Organizer\n• Satrec Initiative Co., Ltd. - Software Engineer\n• 주식회사 헬로체인 - Software Engineer\n• 대덕소프트웨어마이스터고등학교",
       linkedin: "https://www.linkedin.com/in/denis-kim-6a2590158/"
     },
     {
