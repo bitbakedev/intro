@@ -93,7 +93,7 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
             <tr className="bg-gray-25">
               <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">운영 자금</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">1,000만원</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">9%</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700">5%</td>
             </tr>
           </tbody>
         </table>
