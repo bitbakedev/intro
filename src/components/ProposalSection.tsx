@@ -16,7 +16,7 @@ const ProposalSection: React.FC<ProposalSectionProps> = ({
   return (
     <section
       className={`
-        w-full max-w-4xl mx-auto bg-white p-4 mb-8
+        w-full max-w-4xl mx-auto bg-white p-6 mb-8
         ${pageBreak ? 'break-before-page' : ''}
         print:break-before-page print:mb-0 print:shadow-none
         shadow-lg rounded-lg
