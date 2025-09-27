@@ -191,13 +191,13 @@ export const sampleProposalData: ProposalData = {
       linkedin: "https://www.linkedin.com/in/denis-kim-6a2590158/"
     },
     {
-      name: "YUSUN PARK",
+      name: "박유선",
       position: "",
       education: "서울여자대학교 졸업",
       experience: "• 중고나라 - Product Manager\n• 투루 - 프로덕트 기획팀 서비스 기획자\n• 서울여자대학교 - UX Researcher\n• 엠엠엘트웍스 - 서비스 기획자\n• 더셰이크크리에이티브 - 전시 공간 디자인, 기획"
     },
     {
-      name: "MIN BAEK",
+      name: "김지수",
       position: "",
       education: "숭실대학교 졸업",
       experience: "• Wemix (위메이드) - Smart Contract Developer\n• Konverter DEX - Core Contributor\n• LENX - Contract Developer\n• Debound - Smart Contract Developer\n• Renaissance Labs - Smart Contract Developer\n• 도너블 - Software Engineer\n• 주식회사 헬로체인 - Software Engineer\n\n전문 분야: 스마트 컨트랙트 최적화, AMM 알고리즘, 크로스체인 브릿지, DeFi 프로토콜"
