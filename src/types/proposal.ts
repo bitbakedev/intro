@@ -26,6 +26,7 @@ export interface TeamMember {
   experience: string;
   education: string;
   image?: string;
+  linkedin?: string;
 }
 
 export interface MarketData {
