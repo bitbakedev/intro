@@ -28,7 +28,7 @@ const FinancialProjections: React.FC<FinancialProjectionsProps> = ({ financialPr
       
       <div className="mt-6 p-4 bg-blue-50 rounded-lg">
         <p className="text-gray-700 text-sm leading-relaxed">
-          리워드 앱 평균 ARPU는 1,000~2,000원대이며, 이를 기반으로 각 단계의 MAU 달성을 기준으로 매출을 보수적으로 산정한 매출입니다.
+          리워드 앱 평균 ARPU는 1,000~2,000원대이며, 이를 기반으로 각 단계의 MAU 달성을 기준으로 곱해 매출을 보수적으로 산정한 매출입니다.
         </p>
       </div>
     </>
