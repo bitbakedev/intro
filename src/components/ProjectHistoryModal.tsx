@@ -23,129 +23,41 @@ const ProjectHistoryModal: React.FC<ProjectHistoryModalProps> = ({ isOpen, onClo
         </div>
         
         <div className="p-6">
-          <div className="relative">
-            {/* Timeline line */}
-            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gray-300"></div>
-            
-            <div className="space-y-8">
-              {/* 2025 */}
-              <div className="relative flex items-start">
-                <div className="flex-shrink-0 w-16 text-left">
-                  <div className="text-lg font-bold text-black mb-2">2025</div>
-                  <div className="w-4 h-4 bg-black rounded-full"></div>
-                </div>
-                <div className="ml-6 flex-1">
-                  <h4 className="font-semibold text-gray-800 mb-2">Liquid Staking Protocol 구축</h4>
-                  <p className="text-gray-600 text-sm mb-2">
-                    <a href="https://www.verb.finance/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">
-                      https://www.verb.finance/
-                    </a>
-                  </p>
-                  <span className="text-gray-500 text-sm">Chiliz</span>
-                </div>
-              </div>
-              
-              {/* 2024 */}
-              <div className="relative flex items-start">
-                <div className="flex-shrink-0 w-16 text-left">
-                  <div className="text-lg font-bold text-black mb-2">2024</div>
-                  <div className="w-4 h-4 bg-black rounded-full"></div>
-                </div>
-                <div className="ml-6 flex-1 space-y-4">
-                  <div>
-                    <h4 className="font-semibold text-gray-800 mb-1">블록체인 기반 투표 시스템 구축</h4>
-                    <p className="text-gray-600 text-sm mb-1">
-                      <a href="https://p.bitboard.in/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">
-                        https://p.bitboard.in/
-                      </a>
-                    </p>
-                    <span className="text-gray-500 text-sm">Polygon</span>
-                  </div>
-                  
-                  <div>
-                    <h4 className="font-semibold text-gray-800 mb-1">탈중앙화 거래소 구축</h4>
-                    <p className="text-gray-600 text-sm mb-1">
-                      <a href="https://app.fanx.xyz/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">
-                        https://app.fanx.xyz/
-                      </a>
-                    </p>
-                    <span className="text-gray-500 text-sm">Chiliz</span>
-                  </div>
-                  
-                  <div>
-                    <h4 className="font-semibold text-gray-800 mb-1">밈코인 런치패드 구축</h4>
-                    <p className="text-gray-600 text-sm mb-1">
-                      <a href="https://launchpad.etcswap.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">
-                        https://launchpad.etcswap.org/
-                      </a>
-                    </p>
-                    <span className="text-gray-500 text-sm">Ethereum Classic</span>
-                  </div>
-                  
-                  <div>
-                    <h4 className="font-semibold text-gray-800 mb-1">밈코인 런치패드 구축</h4>
-                    <span className="text-gray-500 text-sm">MODE</span>
-                  </div>
-                  
-                  <div>
-                    <h4 className="font-semibold text-gray-800 mb-1">밈코인 런치패드 구축</h4>
-                    <p className="text-gray-600 text-sm mb-1">
-                      <a href="https://carrot-fi.xyz/launchpad" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">
-                        https://carrot-fi.xyz/launchpad
-                      </a>
-                    </p>
-                    <span className="text-gray-500 text-sm">Neo X</span>
-                  </div>
-                </div>
-              </div>
-              
-              {/* 2023 */}
-              <div className="relative flex items-start">
-                <div className="flex-shrink-0 w-16 text-left">
-                  <div className="text-lg font-bold text-black mb-2">2023</div>
-                  <div className="w-4 h-4 bg-black rounded-full"></div>
-                </div>
-                <div className="ml-6 flex-1">
-                  <h4 className="font-semibold text-gray-800 mb-2">탈중앙화 거래소 구축</h4>
-                  <p className="text-gray-600 text-sm mb-2">
-                    <a href="https://carrot-fi.xyz/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">
-                      https://carrot-fi.xyz/
-                    </a>
-                  </p>
-                  <span className="text-gray-500 text-sm">Neo X</span>
-                </div>
-              </div>
-              
-              {/* 2022 */}
-              <div className="relative flex items-start">
-                <div className="flex-shrink-0 w-16 text-left">
-                  <div className="text-lg font-bold text-black mb-2">2022</div>
-                  <div className="w-4 h-4 bg-black rounded-full"></div>
-                </div>
-                <div className="ml-6 flex-1 space-y-4">
-                  <div>
-                    <h4 className="font-semibold text-gray-800 mb-1">크로스체인 담보대출 플랫폼 구축</h4>
-                    <span className="text-gray-500 text-sm">Zeta</span>
-                  </div>
-                  
-                  <div>
-                    <h4 className="font-semibold text-gray-800 mb-1">담보대출 플랫폼 구축</h4>
-                    <span className="text-gray-500 text-sm">Neo</span>
-                  </div>
-                </div>
-              </div>
-              
-              {/* 2021 */}
-              <div className="relative flex items-start">
-                <div className="flex-shrink-0 w-16 text-left">
-                  <div className="text-lg font-bold text-black mb-2">2021</div>
-                  <div className="w-4 h-4 bg-black rounded-full"></div>
-                </div>
-                <div className="ml-6 flex-1">
-                  <h4 className="font-semibold text-gray-800 mb-2">NFT 조각화 플랫폼 구축</h4>
-                  <span className="text-gray-500 text-sm">Ethereum</span>
-                </div>
-              </div>
+          <div className="space-y-6 text-sm">
+            <div>
+              <h5 className="font-semibold text-gray-800 mb-2">2025년</h5>
+              <ul className="space-y-1 text-gray-600">
+                <li>• Liquid Staking Protocol 구축 - <a href="https://www.verb.finance/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">https://www.verb.finance/</a> (Chiliz)</li>
+              </ul>
+            </div>
+            <div>
+              <h5 className="font-semibold text-gray-800 mb-2">2024년</h5>
+              <ul className="space-y-1 text-gray-600">
+                <li>• 블록체인 기반 투표 시스템 구축 - <a href="https://p.bitboard.in/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">https://p.bitboard.in/</a> (Polygon)</li>
+                <li>• 탈중앙화 거래소 구축 - <a href="https://app.fanx.xyz/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">https://app.fanx.xyz/</a> (Chiliz)</li>
+                <li>• 밈코인 런치패드 구축 - <a href="https://launchpad.etcswap.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">https://launchpad.etcswap.org/</a> (Ethereum Classic)</li>
+                <li>• 밈코인 런치패드 구축 (MODE)</li>
+                <li>• 밈코인 런치패드 구축 - <a href="https://carrot-fi.xyz/launchpad" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">https://carrot-fi.xyz/launchpad</a> (Neo X)</li>
+              </ul>
+            </div>
+            <div>
+              <h5 className="font-semibold text-gray-800 mb-2">2023년</h5>
+              <ul className="space-y-1 text-gray-600">
+                <li>• 탈중앙화 거래소 구축 - <a href="https://carrot-fi.xyz/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">https://carrot-fi.xyz/</a> (Neo X)</li>
+              </ul>
+            </div>
+            <div>
+              <h5 className="font-semibold text-gray-800 mb-2">2022년</h5>
+              <ul className="space-y-1 text-gray-600">
+                <li>• 크로스체인 담보대출 플랫폼 구축 (Zeta)</li>
+                <li>• 담보대출 플랫폼 구축 (Neo)</li>
+              </ul>
+            </div>
+            <div>
+              <h5 className="font-semibold text-gray-800 mb-2">2021년</h5>
+              <ul className="space-y-1 text-gray-600">
+                <li>• NFT 조각화 플랫폼 구축 (Ethereum)</li>
+              </ul>
             </div>
           </div>
         </div>
