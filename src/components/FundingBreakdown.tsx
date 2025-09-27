@@ -54,7 +54,7 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
             국내 리워드 앱 주요 기업(예: 캐시워크, 비트버니)은 시드 단계에서 50억 원 이상의 
             기업가치를 평가받았습니다. 비트베이크는 이들보다 더 다양한 수익 구조(DeFi + 리워드)와 
             원화 스테이블코인 및 DeFi 시장 선점 가능성을 동시에 보유하고 있어, 13억 원의 
-            Pre-money 밸류에이션은 보수적이면서도 충분히 합리적인 수준입니다.
+            밸류에이션은 보수적이면서도 충분히 합리적인 수준입니다.
           </p>
         </div>
       </div>
