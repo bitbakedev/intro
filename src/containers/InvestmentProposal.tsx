@@ -91,7 +91,7 @@ const InvestmentProposal: React.FC = () => {
       </ProposalSection>
 
       {/* Stablecoin Strategy */}
-      <ProposalSection title="원화 스테이블 코인 출범 후 전략" pageBreak>
+      <ProposalSection title="Appendix 1 - 원화 스테이블 코인 출범 후 전략" pageBreak>
         <StablecoinStrategy />
       </ProposalSection>
 
