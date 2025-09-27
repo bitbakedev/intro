@@ -29,7 +29,7 @@ const FinancialProjections: React.FC<FinancialProjectionsProps> = ({ financialPr
       <div className="mt-6 p-4 bg-blue-50 rounded-lg">
         <p className="text-gray-700 text-sm leading-relaxed">
           현재 비트베이크의 ARPU 는 800~1,000원 수준이며 리워드 앱 평균 ARPU는 1,000~2,000원 입니다.<br/>
-          이를 기반으로 각 단계의 MAU 달성을 기준으로 곱해 산정한 매출입니다.
+          이를 기반으로 각 단계의 MAU 달성을 기준으로 곱해 예상(목표) 매출을 산정했습니다.
         </p>
       </div>
     </>
