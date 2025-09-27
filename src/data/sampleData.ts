@@ -210,6 +210,13 @@ export const sampleProposalData: ProposalData = {
       education: "",
       experience: "• 요기요 - 서비스 기획자\n• 주식회사 핀크 (Finnq) - 서비스 기획자\n• 유플리트 - UX 기획자\n• Inition Inc. - UX Designer",
       linkedin: "https://www.linkedin.com/in/ahyeon921/"
+    },
+    {
+      name: "이병찬",
+      position: "",
+      education: "대덕소프트웨어마이스터고등학교 졸업",
+      experience: "• Viva Republica (Toss) - iOS Developer\n• (주)우아한형제들 (Woowa Bros.) - iOS Developer\n• 뱅크샐러드(레이니스트) - iOS Developer",
+      linkedin: "https://www.linkedin.com/in/%EB%B3%91%EC%B0%AC-%EC%9D%B4-726711163/"
     }
   ],
   
