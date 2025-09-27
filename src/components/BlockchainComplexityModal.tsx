@@ -36,8 +36,6 @@ const BlockchainComplexityModal: React.FC<BlockchainComplexityModalProps> = ({ i
             
             <hr className="my-6 border-gray-300" />
             
-            <h3 className="text-lg font-semibold text-gray-800 mb-4">왜 이렇게 복잡할까?</h3>
-            
             <div className="space-y-4 mb-6">
               <div>
                 <p className="font-semibold text-gray-800 mb-2">1. 블록체인마다 언어가 다릅니다.</p>
