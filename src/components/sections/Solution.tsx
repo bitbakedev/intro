@@ -63,7 +63,7 @@ const Solution: React.FC = () => {
       <h2 className="text-2xl font-bold text-gray-800 mb-6">3. 올인원 통합 플랫폼의 구축</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        기존에 DeFi를 이용하려면, 사용자는 중앙화 거래소에서 코인을 구매 → Metamask와 같은 지갑으로 자산 이동 → Aave 등 개별 디파이 웹페이지 접속 과정을 거쳐야 했습니다. 이 과정에서 여러 앱을 사용하고 각 단계별 사용법을 학습해야 했을 뿐만 아니라, 수익성이 높은 프로토콜을 스스로 찾아 비교해야 하는 번거로움도 있었습니다.
+        기존에 DeFi를 이용하려면, 사용자는 중앙화 거래소에서 코인을 구매 → Metamask와 같은 지갑으로 자산 이동 → Aave 등 개별 디파이 웹페이지 접속 과정을 거쳐야 했습니다. 이 과정에서 여러 앱을 사용하고 각 단계별 사용법을 학습해야 했을 뿐만 아니라, 수익성이 높은 서비스를 스스로 찾아 비교해야 하는 번거로움도 있었습니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
