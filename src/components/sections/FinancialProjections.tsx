@@ -28,8 +28,8 @@ const FinancialProjections: React.FC<FinancialProjectionsProps> = ({ financialPr
       
       <div className="mt-6 p-4 bg-blue-50 rounded-lg">
         <p className="text-gray-700 text-sm leading-relaxed">
-          <strong>매출 산정 근거:</strong> 예상 매출은 리워드 앱 평균 ARPU가 1,000~2,000원대라서, 
-          MAU를 달성했을 때의 매출을 보수적으로 산정한 매출입니다.
+          리워드 앱 평균 ARPU는 1,000~2,000원대이며, 
+          각 단계의 MAU를 달성했을때를 기준으로 매출을 보수적으로 산정한 매출입니다.
         </p>
       </div>
     </>
