@@ -22,7 +22,7 @@ const RevenueModel: React.FC = () => {
       <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">2. 기프트카드 수수료</h3>
       
       <p className="text-gray-700 leading-relaxed mb-4 ml-6">
-        유저가 판매하는 기프트카드는 전문 매입 회사에 재판매 됩니다.
+        유저 판매하는 기프트카드는 전문 매입 회사에 재판매 됩니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-6 ml-6">
