@@ -50,16 +50,6 @@ const BlockchainComplexityModal: React.FC<BlockchainComplexityModalProps> = ({ i
               이런 복잡성 때문에 일반 사용자가 직접 최적의 블록체인과 DeFi 서비스를 선택하는 것은 거의 불가능합니다. 
               비트베이크는 이 모든 복잡성을 자동화하여 사용자에게는 단순한 경험만을 제공합니다.
             </p>
-            
-            <div className="bg-blue-50 p-4 rounded-lg">
-              <h4 className="font-semibold text-gray-800 mb-2">비트베이크의 자동 최적화</h4>
-              <ul className="space-y-1 text-sm">
-                <li>• 실시간으로 각 블록체인의 수수료와 수익률을 비교</li>
-                <li>• 사용자의 자산 규모에 따라 최적의 체인 자동 선택</li>
-                <li>• 가스비 변동을 모니터링하여 최적의 거래 시점 결정</li>
-                <li>• 여러 DeFi 서비스의 수익률을 실시간 비교하여 최고 수익률 제공</li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
