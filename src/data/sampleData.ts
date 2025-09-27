@@ -184,10 +184,10 @@ export const sampleProposalData: ProposalData = {
   
   team: [
     {
-      name: "SEONGRAE KIM",
+      name: "김성래 (SEONGRAE KIM)",
       position: "",
-      education: "Meister Software Institute 졸업",
-      experience: "• Toss (Viva Republic) - 풀스택 개발자\n• Donable - 풀스택 개발자\n• Kracker Labs - 풀스택 개발자\n• Perlin - CTO\n• LENX - CTO\n\n전문 분야: DeFi 프로토콜 설계, 대규모 금융 서비스 개발, 블록체인 기술 리더십"
+      education: "",
+      experience: "• Debound - Frontend Developer / Smart Contract Developer\n• Renaissance Labs - CTO\n• 도너블 - Software Engineer\n• Viva Republica (Toss) - Web Automation Developer / Frontend Developer\n• Google Developers Group Daejeon - Organizer\n• Satrec Initiative Co., Ltd. - Software Engineer\n• 주식회사 헬로체인 - Software Engineer\n\nLinkedIn: https://www.linkedin.com/in/denis-kim-6a2590158/"
     },
     {
       name: "YUSUN PARK",
