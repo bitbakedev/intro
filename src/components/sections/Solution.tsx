@@ -63,7 +63,7 @@ const Solution: React.FC = () => {
       <h2 className="text-2xl font-bold text-gray-800 mb-6">3. 사용자 경험 혁신</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        기존 DeFi를 이용하려면, 사용자는 중앙화 거래소에서 코인을 구매하고 → 지갑으로 전송한 뒤 → Aave, Curve, Uniswap 등 개별 웹페이지를 찾아 접속해야 했습니다.
+        DeFi를 이용하려면, 사용자는 중앙화 거래소에서 코인을 구매하고 → 지갑으로 전송한 뒤 → Aave, Curve, Uniswap 등 개별 웹페이지를 찾아 접속해야 했습니다.
 이 과정에서 여러 앱을 오가며, 각 서비스의 사용법과 네트워크별 가스비, 트랜잭션 승인 절차까지 직접 이해해야 했습니다. 이는 일반 사용자에게는 진입 장벽이 너무 높았고, 전문가조차 실수를 반복하는 복잡한 구조였습니다.
       </p>
       
