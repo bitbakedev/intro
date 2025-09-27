@@ -16,7 +16,7 @@ const CompetitiveAdvantage: React.FC = () => {
         </p>
         
         <p className="text-gray-700 leading-relaxed mb-2">
-          비트베이크 팀은 다년간 DeFi 영역만을 집중적으로 연구·구축해온 경험을 통해, 국내에서는 찾아보기 힘든 수준의 높은 기술적 전문성과 실행 능력을 갖추고 있습니다. 이는 경쟁사들이 쉽게 따라올 수 없는 비트베이크만의 <strong>핵심적인 기술적 해자(진입장벽)</strong>입니다.
+          비트베이크 팀은 다년간 Web3 생태계에서 DeFi 서비스를 직접 구축하고, 여러 블록체인 재단들과 협력 프로젝트를 성공적으로 수행한 경험을 보유하고 있으며, 국내에서는 찾아보기 힘든 수준의 높은 기술적 전문성과 실행 능력을 갖추고 있습니다. 이는 경쟁사들이 쉽게 따라올 수 없는 비트베이크만의 <strong>핵심적인 기술적 해자(진입장벽)</strong>입니다.
         </p>
         
         <p className="text-gray-700 leading-relaxed mb-6">
