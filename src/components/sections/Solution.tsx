@@ -119,7 +119,7 @@ const Solution: React.FC = () => {
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6">4. 지속적인 온램프 솔루션 탐색</h2>
       <p className="text-gray-700 leading-relaxed mb-4">
-        법정화폐를 암호화폐로 교환하는 수단을 '온램프 솔루션' 이라고 합니다. 해외에는 카드로 암호화폐를 쉽게 구매할 수 있지만, 한국은 불가능합니다.
+        법정화폐를 암호화폐로 교환하는 수단을 '온램프 솔루션' 이라고 합니다. 해외에는 카드로 암호화폐를 쉽게 구매할 수 있지만, 한국은 불가능합니다. 온램프 솔루션을 구축해내야 암호화폐 상품으로의 폭발적인 예치가 만들어 지기 때문에 숙제다. 비트베이크는 이를 해결하기 위해 다양한 전략을 취할것이다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
