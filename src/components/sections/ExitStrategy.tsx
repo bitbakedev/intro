@@ -31,7 +31,7 @@ const ExitStrategy: React.FC = () => {
             <tr>
               <td className="border border-gray-300 px-3 py-3 font-medium text-gray-800 align-top">M&A</td>
               <td className="border border-gray-300 px-3 py-3 text-gray-700 align-top">2027~2029</td>
-              <td className="border border-gray-300 px-3 py-3 text-gray-700 align-top">500~2,000억원 (50~160배)</td>
+              <td className="border border-gray-300 px-3 py-3 text-gray-700 align-top">500~2,000억원 (30~125배)</td>
               <td className="border border-gray-300 px-3 py-3 text-gray-700 text-sm align-top">밸류에이션 500-2,000억원 규모의 M&A를 통해 50-160배의 수익률을 달성할 수 있습니다. 토스, 카카오, 네이버 등이 잠재적인 인수사로 예상되며, 이들은 비트베이크의 Web3 기술력과 사용자 기반에 높은 가치를 부여할 것으로 전망됩니다.</td>
             </tr>
             <tr className="bg-gray-25">
