@@ -8,8 +8,8 @@ interface TeamCardProps {
 
 const TeamCard: React.FC<TeamCardProps> = ({ member }) => {
   return (
-    <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
-      <div className="mb-4">
+    <div className="bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow">
+      <div className="mb-3">
         <div className="flex items-center justify-between">
           <h4 className="text-lg font-semibold text-gray-800">{member.name}</h4>
           {member.linkedin && (
