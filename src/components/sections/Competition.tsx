@@ -50,14 +50,6 @@ const Competition: React.FC = () => {
               <td className="border border-gray-300 px-2 py-2 text-gray-700">공개된바 없음</td>
               <td className="border border-gray-300 px-2 py-2 text-gray-700 text-sm">암호화폐로 교환 시도, DeFi 확장은 못하고 있음</td>
             </tr>
-            <tr className="bg-blue-50">
-              <td className="border border-gray-300 px-2 py-2 font-medium text-blue-800">비트베이크</td>
-              <td className="border border-gray-300 px-2 py-2 text-blue-700">비트베이크</td>
-              <td className="border border-gray-300 px-2 py-2 text-blue-700">-</td>
-              <td className="border border-gray-300 px-2 py-2 text-blue-700">16.6억 원<br/>(Seed-Round 목표)</td>
-              <td className="border border-gray-300 px-2 py-2 text-blue-700">1억 원 (목표)</td>
-              <td className="border border-gray-300 px-2 py-2 text-blue-700 text-sm font-medium">리워드 + DeFi 통합 플랫폼</td>
-            </tr>
           </tbody>
         </table>
       </div>
