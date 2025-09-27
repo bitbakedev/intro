@@ -86,7 +86,7 @@ const InvestmentProposal: React.FC = () => {
       </ProposalSection>
 
       {/* DeFi Products */}
-      <ProposalSection title="DeFi 상품 기획" pageBreak>
+      <ProposalSection title="Appendix 1 - DeFi 상품 기획" pageBreak>
         <DeFiProducts />
       </ProposalSection>
 
