@@ -59,6 +59,13 @@ const ProjectHistoryModal: React.FC<ProjectHistoryModalProps> = ({ isOpen, onClo
                 <li>• NFT 조각화 플랫폼 구축 (Ethereum)</li>
               </ul>
             </div>
+            <div>
+              <h5 className="font-semibold text-gray-800 mb-2">2019년</h5>
+              <ul className="space-y-1 text-gray-600">
+                <li>• 암호화폐 통합 지갑 구축</li>
+                <li>• 블록체인 기반 증명서 발급 솔루션 구축</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
