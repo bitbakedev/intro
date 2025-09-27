@@ -190,7 +190,7 @@ export const sampleProposalData: ProposalData = {
       experience: "• Toss (Viva Republic) - 풀스택 개발자\n• Donable - 풀스택 개발자\n• Kracker Labs - 풀스택 개발자\n• Perlin - CTO\n• LENX - CTO\n\n전문 분야: DeFi 프로토콜 설계, 대규모 금융 서비스 개발, 블록체인 기술 리더십"
     },
     {
-      name: "YOUSUN PARK",
+      name: "YUSUN PARK",
       position: "",
       education: "서울여자대학교 졸업",
       experience: "• 중고나라 - 프로덕트 오너 (MAU 1,000만명 플랫폼)\n• humax mobility - 프로덕트 오너\n\n전문 분야: 사용자 행동 분석, A/B 테스트, 데이터 기반 의사결정, UX 설계"
