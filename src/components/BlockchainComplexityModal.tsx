@@ -48,9 +48,7 @@ const BlockchainComplexityModal: React.FC<BlockchainComplexityModalProps> = ({ i
               <div>
                 <p className="font-semibold text-gray-800 mb-2">2. 규칙과 속도도 다릅니다.</p>
                 <p className="text-gray-700 ml-4">
-                  어떤 블록체인은 빠르지만 수수료가 비싸고,<br/>
-                  어떤 블록체인은 느리지만 안정적입니다.<br/>
-                  즉, 같은 일을 하더라도 블록체인마다 조건이 전부 다릅니다.
+                  어떤 블록체인은 빠르지만 수수료가 비싸고, 어떤 블록체인은 느리지만 안정적입니다. 즉, 같은 일을 하더라도 블록체인마다 조건이 전부 다릅니다.
                 </p>
               </div>
               
