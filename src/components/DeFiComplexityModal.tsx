@@ -29,7 +29,7 @@ const DeFiComplexityModal: React.FC<DeFiComplexityModalProps> = ({ isOpen, onClo
               그러나 실제 이용 과정은 일반 사용자에게 매우 높은 진입장벽을 형성하고 있습니다.
               <br/>
               대표적인 DeFi 서비스 예시 : <br/>
-              <a href="https://app.aave.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">https://app.aave.com/</a>
+              <a href="https://app.aave.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">https://app.aave.com/</a><br/>
               <a>https://app.compound.finance/</a>
             </p>
             
