@@ -26,7 +26,7 @@ const InvestmentProposal: React.FC = () => {
   const data = sampleProposalData;
 
   return (
-    <div className="min-h-screen bg-gray-50 py-1 print:bg-white print:py-0">
+    <div className="min-h-screen bg-gray-50 py-8 print:bg-white print:py-0">
       {/* Executive Summary */}
       <ProposalSection title="요약" pageBreak>
         <ExecutiveSummary 
