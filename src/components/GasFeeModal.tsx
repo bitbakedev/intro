@@ -57,8 +57,7 @@ const GasFeeModal: React.FC<GasFeeModalProps> = ({ isOpen, onClose }) => {
             <h3 className="text-xl font-bold text-gray-800 mb-4">사용자가 직접 가스비를 준비해야 하는 불편함</h3>
             
             <p className="mb-4">
-              비수탁형 서비스에서는 거래가 일어날 때마다<br/>
-              사용자의 지갑에서 직접 가스비가 빠져나갑니다.<br/>
+              비수탁형 서비스에서는 거래가 일어날 때마다 사용자의 지갑에서 직접 가스비가 빠져나갑니다.<br/>
               따라서 사용자는
             </p>
             
