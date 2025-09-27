@@ -1,6 +1,6 @@
 import React from 'react';
 import { TeamMember } from '../types/proposal';
-import { User, Linkedin } from 'lucide-react';
+import { User } from 'lucide-react';
 
 interface TeamCardProps {
   member: TeamMember;
@@ -21,7 +21,7 @@ const TeamCard: React.FC<TeamCardProps> = ({ member }) => {
             rel="noopener noreferrer"
             className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors mt-2"
           >
-            <Linkedin className="w-4 h-4 mr-1" />
+            <img src="/ic_linkedin.png" alt="LinkedIn" className="w-4 h-4 mr-1" />
             <span className="text-sm">LinkedIn</span>
           </a>
         )}
