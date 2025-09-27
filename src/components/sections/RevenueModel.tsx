@@ -19,6 +19,10 @@ const RevenueModel: React.FC = () => {
         업계 평균 대비 높은 수준의 광고 노출수와 지속 시간을 만들어내고 있습니다.
       </p>
       
+      <p className="text-gray-700 leading-relaxed mb-6 ml-6">
+        또한 유의미한 MAU 달성시 광고단가와 효율이 높은 애드네트워크를 연동할 수 있어, 기대 수익성은 더 높아집니다.
+      </p>
+      
       <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">2. 기프트카드 수수료</h3>
       
       <p className="text-gray-700 leading-relaxed mb-6 ml-6">
