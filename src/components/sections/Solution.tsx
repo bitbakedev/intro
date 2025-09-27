@@ -1,6 +1,6 @@
 import React from 'react';
 
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import BlockchainComplexityModal from '../BlockchainComplexityModal';
 
 const Solution: React.FC = () => {
