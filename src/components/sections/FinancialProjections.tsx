@@ -17,7 +17,7 @@ const FinancialProjections: React.FC<FinancialProjectionsProps> = ({ financialPr
       <div className="mt-8 grid grid-cols-4 gap-4">
         {financialProjections.map((item, index) => (
           <div key={index} className="text-left p-4 bg-gray-50 rounded-lg">
-            <h4 className="text-lg font-semibold text-gray-800">{item.year}</h4>
+            <h4 className="text-base sm:text-lg font-semibold text-gray-800">{item.year}</h4>
             <p className="text-gray-900 font-bold text-xl">{item.revenue}억원</p>
             <p className="text-xs text-gray-700 font-medium">MAU: {item.mau}</p>
             <p className="text-xs text-gray-700">ARPU: {item.arpu.toLocaleString()}원</p>

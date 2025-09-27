@@ -3,7 +3,7 @@ import React from 'react';
 const Risks: React.FC = () => {
   return (
     <div className="prose prose-lg max-w-none">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">기술적 리스크</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">기술적 리스크</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         스마트 컨트랙트 보안 취약점은 DeFi 서비스 연동 시 가장 중요한 고려사항입니다. 
@@ -18,7 +18,7 @@ const Risks: React.FC = () => {
         규제 준수 체계를 구축하고 있습니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">시장 리스크</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">시장 리스크</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         경쟁 심화는 피할 수 없는 시장 리스크입니다. 토스, 카카오뱅크 등 대형 플레이어들이 
@@ -33,7 +33,7 @@ const Risks: React.FC = () => {
         광고 예산 감소 위험에 대해서는 5개의 서로 다른 수익원을 통해 수익 다각화를 실현하고 있습니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">완화 방안</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">완화 방안</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         모든 리스크에 대한 체계적인 완화 방안을 마련하고 있습니다. 보안 리스크에 대해서는 

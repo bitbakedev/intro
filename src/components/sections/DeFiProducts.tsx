@@ -3,7 +3,7 @@ import React from 'react';
 const DeFiProducts: React.FC = () => {
   return (
     <div className="prose prose-lg max-w-none">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">1. 스테이킹 & LSD (Liquid Staking Derivatives)</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">1. 스테이킹 & LSD (Liquid Staking Derivatives)</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         사용자가 포인트를 암호화폐로 전환한 후, 해당 자산을 스테이킹하여 안정적인 수익을 창출할 수 있는 서비스를 제공합니다. 
@@ -16,7 +16,7 @@ const DeFiProducts: React.FC = () => {
         필요시 언제든지 유동성을 확보할 수 있는 유연성을 제공받습니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">2. 담보대출 프로토콜 유동성 공급</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">2. 담보대출 프로토콜 유동성 공급</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         Aave, Compound 등 검증된 담보대출 서비스에 유동성을 공급하여 안정적인 이자 수익을 창출합니다. 
@@ -29,7 +29,7 @@ const DeFiProducts: React.FC = () => {
         검증된 서비스를 통해 상대적으로 안전한 투자 옵션을 제공합니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">3. 거래소 유동성 공급</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">3. 거래소 유동성 공급</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         탈중앙화 거래소(DEX)의 유동성 풀에 참여하여 거래 수수료 수익을 창출하는 서비스를 제공합니다. 
@@ -42,7 +42,7 @@ const DeFiProducts: React.FC = () => {
         자동화된 포트폴리오 관리를 통해 최적의 수익률을 추구합니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">4. 투자 상품</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">4. 투자 상품</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         포인트로 암호화폐 및 주식에 투자할 수 있는 통합 투자 플랫폼을 제공합니다. 
@@ -61,7 +61,7 @@ const DeFiProducts: React.FC = () => {
         점진적으로 제도적 기반을 마련하여 더 다양한 투자 상품으로 확장해 나갈 계획입니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">통합 관리 시스템</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">통합 관리 시스템</h2>
       
       <p className="text-gray-700 leading-relaxed">
         모든 DeFi 상품은 비트베이크 플랫폼 내에서 통합적으로 관리되며, 

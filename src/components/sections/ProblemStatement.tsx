@@ -3,7 +3,7 @@ import React from 'react';
 const ProblemStatement: React.FC = () => {
   return (
     <div className="prose prose-lg max-w-none">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">1. 글로벌 DeFi 시장의 구조적 문제</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">1. 글로벌 DeFi 시장의 구조적 문제</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         현재 DeFi 생태계는 혁신적인 잠재력에도 불구하고 높은 기술적 복잡성 때문에 일반 사용자의 진입이 지연되고 있습니다. 
@@ -32,7 +32,7 @@ const ProblemStatement: React.FC = () => {
         자리 잡고 있습니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">2. 한국 시장의 특수한 문제점 : 규제적 제약과 신뢰도 위기</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">2. 한국 시장의 특수한 문제점 : 규제적 제약과 신뢰도 위기</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         한국은 암호화폐 시장에서 독특한 규제 환경을 가지고 있습니다. 2021년 정부의 신용카드를 통한 

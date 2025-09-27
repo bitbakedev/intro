@@ -3,7 +3,7 @@ import React from 'react';
 const ExitStrategy: React.FC = () => {
   return (
     <div className="prose prose-lg max-w-none">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">출구 전략별 예상 수익률 (Seed Round 투자 기준)</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">출구 전략별 예상 수익률 (Seed Round 투자 기준)</h2>
       
       <div className="overflow-x-auto mb-8">
         <table className="w-full border-collapse border border-gray-300">
@@ -47,7 +47,7 @@ const ExitStrategy: React.FC = () => {
         </table>
       </div>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">투자자 보호</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">투자자 보호</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         Anti-dilution 조항을 통해 후속 투자 라운드에서의 지분 희석을 방지하고, 

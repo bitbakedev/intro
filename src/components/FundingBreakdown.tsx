@@ -24,7 +24,7 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
       
       <div className="space-y-6">
         <div>
-          <h4 className="text-lg font-semibold text-gray-800 mb-2">1. 차별화된 수익 모델 검증 완료</h4>
+          <h4 className="text-base sm:text-lg font-semibold text-gray-800 mb-2">1. 차별화된 수익 모델 검증 완료</h4>
           <p className="text-gray-700 leading-relaxed mb-3">
             비트베이크는 5,000명 이상의 누적 사용자와 일간 활성 사용자(DAU) 약 1,000명을 확보했습니다. 
             또한 리워드에서 암호화폐 상품으로 이어지는 전환 구조를 검증하며, 서비스의 성장 가능성과 
@@ -39,7 +39,7 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
         </div>
         
         <div>
-          <h4 className="text-lg font-semibold text-gray-800 mb-2">2. DeFi 기술력 및 협력 네트워크의 희소성</h4>
+          <h4 className="text-base sm:text-lg font-semibold text-gray-800 mb-2">2. DeFi 기술력 및 협력 네트워크의 희소성</h4>
           <p className="text-gray-700 leading-relaxed mb-4">
             비트베이크 팀은 DeFi 서비스를 직접 개발하고, Neo·Kaia·Bera·Chiliz 등 주요 글로벌 
             블록체인 재단과 협력한 경험을 보유하고 있습니다. 이러한 기술력과 네트워크는 국내에서 찾아보기 어려운 수준의 차별화된 경쟁력으로, 
@@ -56,7 +56,7 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
         </div>
         
         <div>
-          <h4 className="text-lg font-semibold text-gray-800 mb-2">3. 동일 시장 내 유사 기업 밸류 비교</h4>
+          <h4 className="text-base sm:text-lg font-semibold text-gray-800 mb-2">3. 동일 시장 내 유사 기업 밸류 비교</h4>
           <p className="text-gray-700 leading-relaxed">
             국내 리워드 앱 주요 기업(예: 캐시워크, 비트버니)은 시드 단계에서 50억 원 이상의 기업가치를 평가받았습니다. 비트베이크는 이들보다 더 다양한 수익 구조와 원화 스테이블코인 및 DeFi 시장 선점 가능성을 동시에 보유하고 있습니다. 또한 초기 투자자가 과도한 지분을 확보함으로 인해 후속 투자가 어려워지는 문제를 고려하여 통상적으로 Seed Round 단계의 스타트업 기업가치는 20억 원에서 50억 원 사이로 책정됩니다. 이러한 점을 반영하여 16.6억 원의 밸류에이션은 보수적이면서도 충분히 합리적인 수준으로 볼 수 있습니다.
           </p>
@@ -64,7 +64,7 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
       </div>
     
     <div className="mt-8">
-      <h3 className="text-xl font-semibold text-gray-800 mb-4">자금 활용 계획</h3>
+      <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">자금 활용 계획</h3>
       <div className="overflow-x-auto">
         <table className="w-full border-collapse border border-gray-300">
           <thead>

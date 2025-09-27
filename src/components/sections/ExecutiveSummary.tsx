@@ -32,7 +32,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
         하지만 한국 유저들은 2021년의 아픔으로 인해 섣불리 DeFi를 이용하지 않을 것입니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">비트베이크의 접근법</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">비트베이크의 접근법</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         유저들에게 신뢰를 되찾으려면 부드럽게 온보딩하는 전략이 필요합니다. 비트베이크는 <strong>"자신들의 돈을 직접 투자하지는 않겠지만, 
@@ -44,7 +44,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
         유료 마케팅 없이도 이러한 성과를 달성한 것은 비트베이크 팀의 접근 방식이 유효했음을 명확히 보여줍니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">스케일업이 필요한 단계</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">스케일업이 필요한 단계</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         기본적인 가설 검증을 마친 비트베이크는 이제 스케일업을 해야합니다. 리워드 앱 서비스로서 수익성을 만들어내야만 다음 단계로 넘어갈 수 있습니다. 
@@ -65,7 +65,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
       </div>
       
       <div className="bg-blue-50 p-6 rounded-lg">
-        <h3 className="text-xl font-semibold mb-4 text-center">핵심 성과 지표</h3>
+        <h3 className="text-lg sm:text-xl font-semibold mb-4 text-center">핵심 성과 지표</h3>
         <div className="grid grid-cols-3 gap-4">
           {achievements.map((achievement, index) => (
             <div key={index} className="text-center">

@@ -7,9 +7,9 @@ interface VisionProps {
 const Vision: React.FC<VisionProps> = ({ vision }) => {
   return (
     <div className="prose prose-lg max-w-none">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">3단계 플랫폼 진화: "리워드 앱에서 종합 금융 플랫폼으로"</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">3단계 플랫폼 진화: "리워드 앱에서 종합 금융 플랫폼으로"</h2>
       
-      <h3 className="text-xl font-semibold text-gray-700 mb-4">1단계: 리워드 앱 (Reward App)</h3>
+      <h3 className="text-lg sm:text-xl font-semibold text-gray-700 mb-4">1단계: 리워드 앱 (Reward App)</h3>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         간편한 포인트 적립을 통해 광고 시청과 미션 완료로 누구나 쉽게 리워드를 획득할 수 있습니다. 
@@ -17,7 +17,7 @@ const Vision: React.FC<VisionProps> = ({ vision }) => {
         보상을 받을 수 있으며, 누구나 즐길 수 있는 간단한 리워드 경험을 제공합니다.
       </p>
       
-      <h3 className="text-xl font-semibold text-gray-700 mb-4">2단계: DeFi 플랫폼 (DeFi Platform)</h3>
+      <h3 className="text-lg sm:text-xl font-semibold text-gray-700 mb-4">2단계: DeFi 플랫폼 (DeFi Platform)</h3>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         자동 스테이킹 시스템을 통해 포인트를 암호화폐로 전환하여 자동으로 예치할 수 있습니다. 
@@ -25,7 +25,7 @@ const Vision: React.FC<VisionProps> = ({ vision }) => {
         법적 리스크를 최소화하면서 안전한 서비스를 제공합니다.
       </p>
       
-      <h3 className="text-xl font-semibold text-gray-700 mb-4">3단계: 스테이블코인 플랫폼 (Stablecoin Platform)</h3>
+      <h3 className="text-lg sm:text-xl font-semibold text-gray-700 mb-4">3단계: 스테이블코인 플랫폼 (Stablecoin Platform)</h3>
       
       <p className="text-gray-700 leading-relaxed mb-6">
         스테이블코인으로 상품 및 서비스를 직접 결제할 수 있는 시스템을 구축합니다. 
@@ -33,7 +33,7 @@ const Vision: React.FC<VisionProps> = ({ vision }) => {
         스테이블코인 스테이킹을 통한 안정적인 이자 수익을 제공합니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">장기 비전</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">장기 비전</h2>
       
       <p className="text-gray-700 leading-relaxed">
         종합적인 Web3 금융 플랫폼으로 진화하여, 일상 활동부터 고급 DeFi 서비스까지 

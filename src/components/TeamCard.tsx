@@ -19,7 +19,7 @@ const TeamCard: React.FC<TeamCardProps> = ({ member }) => {
         )}
         <div className="flex-1 min-w-0">
         <div className="flex items-center justify-between">
-          <h4 className="text-lg font-semibold text-gray-800">{member.name}</h4>
+          <h4 className="text-base sm:text-lg font-semibold text-gray-800">{member.name}</h4>
           {member.linkedin && (
             <a 
               href={member.linkedin} 

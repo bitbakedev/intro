@@ -19,7 +19,7 @@ const Solution: React.FC = () => {
         암호화폐와 DeFi에 접근할 수 있도록 만드는 것이 우리의 핵심 전략입니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">1. 유저들에게 친숙한 리워드 앱 서비스로 접근</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">1. 유저들에게 친숙한 리워드 앱 서비스로 접근</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         리워드 앱 시장은 지속적으로 성장하고 있으며, 한국에서만 3,200만명의 사용자가 활발하게 이용하고 있습니다. 
@@ -46,7 +46,7 @@ const Solution: React.FC = () => {
         DeFi 플랫폼으로 자리매김하도록 만듭니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">2. 사용성과 법적 리스크를 동시에 충족하는 지갑 관리 기술</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">2. 사용성과 법적 리스크를 동시에 충족하는 지갑 관리 기술</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         기존 DeFi 서비스에서 가장 큰 진입 장벽 중 하나는 복잡한 지갑 생성과 관리 과정이었습니다. 
@@ -70,7 +70,7 @@ const Solution: React.FC = () => {
         사용자에게 높은 보안성과 편의성을 동시에 제공합니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">3. 사용자 경험 혁신</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">3. 사용자 경험 혁신</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         DeFi를 이용하려면, 사용자는 중앙화 거래소에서 코인을 구매하고 → 지갑으로 전송한 뒤 → Aave, Curve, Uniswap 등 개별 웹페이지를 찾아 접속해야 했습니다.
@@ -117,7 +117,7 @@ const Solution: React.FC = () => {
            </p>
 
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">4. 온램프 솔루션 구축</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">4. 온램프 솔루션 구축</h2>
       <p className="text-gray-700 leading-relaxed mb-4">
         법정화폐를 암호화폐로 교환하는 수단을 '온램프 솔루션' 이라고 합니다. 해외에서는 신용카드나 간편결제를 통해 손쉽게 암호화폐를 구매할 수 있지만, 한국은 제도적 제약으로 인해 이러한 온램프 솔루션이 사실상 부재한 상황입니다. 온램프 인프라가 구축되어야만 사용자가 손쉽게 법정화폐를 암호화폐로 전환하고, 그 자금이 자연스럽게 예치·스테이킹 등 암호화폐 기반 금융 상품으로 흘러들어가는 폭발적인 성장 구조가 만들어집니다.
       </p>

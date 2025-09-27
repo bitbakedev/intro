@@ -9,7 +9,7 @@ const CompetitiveAdvantage: React.FC = () => {
   return (
     <>
       <div className="prose prose-lg max-w-none">
-        <h3 className="text-2xl font-semibold text-gray-700 mb-4">1. 기술적 해자</h3>
+        <h3 className="text-xl sm:text-2xl font-semibold text-gray-700 mb-4">1. 기술적 해자</h3>
         
         <p className="text-gray-700 leading-relaxed mb-4">
           위에서 제시한 비즈니스 모델을 실현하고 리워드 앱에서 DeFi 플랫폼으로의 자연스러운 전환을 만들어내기 위해서는, 다양한 블록체인 생태계에 대한 깊은 이해와 DeFi 서비스 각각에 대한 전문 지식이 필요합니다. 무엇보다도 이를 하나의 서비스로 유기적으로 통합할 수 있는 높은 기술력이 요구됩니다.
@@ -28,7 +28,7 @@ const CompetitiveAdvantage: React.FC = () => {
           </button>
         </p>
         
-        <h3 className="text-2xl font-semibold text-gray-700 mb-4">2. 네트워크와 협력 경험</h3>
+        <h3 className="text-xl sm:text-2xl font-semibold text-gray-700 mb-4">2. 네트워크와 협력 경험</h3>
         
         <p className="text-gray-700 leading-relaxed mb-4">
           비트베이크는 Neo, Kaia, Bera, Chiliz 등 주요 블록체인 프로젝트와의 협업을 통해 이미 신뢰를 얻고 견고한 네트워크를 확보했습니다. 또한 Bifrost, Radius 와 같은 국내 블록체인 메인넷 재단들과도 네트워크를 가지고 있습니다. 이러한 네트워크와 파트너십은 신규 고객사 유치와 글로벌 시장 확장에 있어 강력한 기반이 됩니다.
@@ -42,7 +42,7 @@ const CompetitiveAdvantage: React.FC = () => {
           현재도 Neo 블록체인과 Kaia 재단과의 협력중이며, 특히 Neo 재단은 비트베이크가 시장성을 입증할 경우 직접 투자 의향을 밝힌 상태이며, Neo 재단과 협력중인 다른 재단과 VC로 부터도 적극적인 후속 투자 유치가 가능합니다.
         </p>
         
-        <h3 className="text-2xl font-semibold text-gray-700 mb-4">3. 인재 부족과 DeFi에 대한 이해 부족</h3>
+        <h3 className="text-xl sm:text-2xl font-semibold text-gray-700 mb-4">3. 인재 부족과 DeFi에 대한 이해 부족</h3>
         
         <p className="text-gray-700 leading-relaxed mb-4">
           국내 Web3 시장은 점차 사양 산업으로 인식되면서 우수한 개발자들조차 진입을 꺼려하고 있습니다. 그만큼 국내에는 인재가 부족한 상황이며, DeFi의 미래 가치를 믿고 기술력을 가진 인재들은 이미{' '} 

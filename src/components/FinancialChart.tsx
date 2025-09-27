@@ -11,7 +11,7 @@ const FinancialChart: React.FC<FinancialChartProps> = ({ data, title }) => {
 
   return (
     <div className="bg-gray-50 p-6 rounded-lg">
-      <h3 className="text-xl font-semibold mb-4 text-center">{title}</h3>
+      <h3 className="text-lg sm:text-xl font-semibold mb-4 text-center">{title}</h3>
       <div className="space-y-4">
         {data.map((item, index) => (
           <div key={index} className="flex items-center space-x-4">
