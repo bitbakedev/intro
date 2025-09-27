@@ -23,7 +23,7 @@ const ExitStrategy: React.FC = () => {
               <td className="border border-gray-300 px-3 py-3 text-gray-700 text-sm align-top">벨류에이션 200~300억원 목표로 Seed Round 투자 대비 15~20배 수준의 수익률을 기대할 수 있습니다. 이는 연매출 80억, 순이익 5억 달성을 조건으로 합니다.
                 Neo 블록체인 재단을 리드 투자사로 하여 자금적 지원뿐 아니라 블록체인 및 핀테크 관련 사업에 도움을 줄 수 있는 기관 투자사들을 대상으로 투자유치를 할 계획입니다.
                 
-                Series A 투자 유치시 투자자에게 구주 매각을 통해 Exit이 가능할 것으로 예상됩니다.</td>
+                Seed 투자자는 신규 투자자에게 구주 매각을 통해 Exit이 가능할 것으로 예상됩니다.</td>
             </tr>
             <tr className="bg-gray-25">
               <td className="border border-gray-300 px-3 py-3 font-medium text-gray-800 align-top">Series B</td>
