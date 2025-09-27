@@ -10,7 +10,7 @@ const RevenueModel: React.FC = () => {
       <p className="text-gray-700 leading-relaxed mb-4 ml-6">
         비트베이크의 핵심 수익원은 광고입니다. Google AdMob, Unity Ads, AdPopcorn, Adison, TNK, Pincrux 등 
         6개 주요 광고 네트워크와 연동하여 전체 화면 광고, 리워드형 광고, 배너 광고, 네이티브 광고 등 
-        다양한 포맷을 제공하며, 이를 통해 안정적이고 예측 가능한 광고 수익을 창출합니다.
+        다양한 포맷을 제공하며, 이를 통해 안정적인 한 광고 수익을 창출합니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-6 ml-6">
