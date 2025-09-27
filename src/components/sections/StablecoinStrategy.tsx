@@ -13,7 +13,7 @@ const StablecoinStrategy: React.FC = () => {
         이는 한국 금융시장의 구조적 변화를 촉발할 것입니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">비트베이크의 선제적 준비</h2>
+      <h2 className="text-xl font-bold text-gray-800 mb-6">비트베이크의 선제적 준비</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         비트베이크는 원화 스테이블코인 출범 이전부터 이미 DeFi 서비스 플랫폼으로 자리매김할 준비가 되어 있습니다. 
