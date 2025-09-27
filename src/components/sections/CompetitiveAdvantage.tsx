@@ -13,7 +13,7 @@ const CompetitiveAdvantage: React.FC = () => {
         
         <p className="text-gray-700 leading-relaxed mb-4">
           위에서 제시한 비즈니스 모델을 실현하고 리워드 앱에서 DeFi 플랫폼으로의 자연스러운 전환을 만들어내기 위해서는, 다양한 블록체인 생태계에 대한 깊은 이해와 DeFi 서비스 각각에 대한 전문 지식이 필요합니다. 무엇보다도 이를 하나의 서비스로 유기적으로 통합할 수 있는 높은 기술력이 요구됩니다.
-        </p>
+        </p>재를 확보하려면
         
         <p className="text-gray-700 leading-relaxed mb-2">
           비트베이크 팀은 다년간 Web3 생태계에서 DeFi 서비스를 직접 구축하고, 여러 블록체인 재단들과 협력 프로젝트를 성공적으로 수행한 경험을 보유하고 있으며, 국내에서는 찾아보기 힘든 수준의 높은 기술적 전문성과 실행 능력을 갖추고 있습니다. 이는 경쟁사들이 쉽게 따라올 수 없는 비트베이크만의 <strong>핵심적인 기술적 해자(진입장벽)</strong>입니다.
@@ -55,7 +55,7 @@ const CompetitiveAdvantage: React.FC = () => {
         </p>
         
         <p className="text-gray-700 leading-relaxed mb-4">
-          국내 리워드 앱이나 핀테크 기업들이 DeFi의 가치를 체감하고 적극적으로 인재를 확보하려면, 국내에서 실질적인 성공사례가 등장해야 합니다.
+          국내 리워드 앱이나 핀테크 기업들이 DeFi의 가치를 체감하고 적극적으로 인재를 확보하기 위해 움직이려면, 국내에서 실질적인 성공사례가 등장해야 합니다.
         </p>
         
         <p className="text-gray-700 leading-relaxed mb-6">
