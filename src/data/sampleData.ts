@@ -184,7 +184,7 @@ export const sampleProposalData: ProposalData = {
   
   team: [
     {
-      name: "김성래 (SEONGRAE KIM)",
+      name: "김성래",
       position: "",
       education: "",
       experience: "• Debound - Frontend Developer / Smart Contract Developer\n• Renaissance Labs - CTO\n• 도너블 - Software Engineer\n• Viva Republica (Toss) - Web Automation Developer / Frontend Developer\n• Google Developers Group Daejeon - Organizer\n• Satrec Initiative Co., Ltd. - Software Engineer\n• 주식회사 헬로체인 - Software Engineer",
