@@ -92,32 +92,6 @@ const DeFiComplexityModal: React.FC<DeFiComplexityModalProps> = ({ isOpen, onClo
               전 세계 대부분의 DeFi 서비스는 영어 UI만 제공합니다.
               한국어, 일본어, 중국어 등 비영어권 사용자를 위한 로컬라이제이션은 거의 이루어지지 않았습니다.
             </p>
-            
-            <p className="mb-2">이에 따라,</p>
-            <ul className="space-y-1 mb-6 ml-4">
-              <li>• 블록체인 용어에 익숙하지 않은 사용자,</li>
-              <li>• 금융 지식이 부족한 일반 투자자,</li>
-              <li>• 영어에 익숙하지 않은 비영어권 사용자들은</li>
-            </ul>
-            
-            <p className="mb-6">
-              DeFi를 접하기 전부터 배제되는 구조적 불평등에 직면합니다.
-            </p>
-            
-            <hr className="my-6 border-gray-300" />
-            
-            <h3 className="text-xl font-bold text-gray-800 mb-4">4. 결과적으로 나타나는 현상</h3>
-            
-            <p className="mb-4">
-              이러한 개념의 복잡성, UI의 난해함, 언어 장벽이 결합되어
-              DeFi는 "누구나 사용할 수 있는 금융"이 아니라
-              소수의 기술 숙련자와 투자 경험이 풍부한 사용자만이 접근할 수 있는 금융으로 남아 있습니다.
-            </p>
-            
-            <p>
-              이는 DeFi 산업이 '기술적으로는 개방적이지만, 실질적으로는 폐쇄적'이라는 모순을 낳고 있으며,
-              대중화(Mass Adoption)를 가로막는 근본적인 문제로 작용하고 있습니다.
-            </p>
           </div>
         </div>
       </div>
