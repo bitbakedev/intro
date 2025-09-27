@@ -205,7 +205,7 @@ export const sampleProposalData: ProposalData = {
       education: "숭실대학교 졸업",
       experience: "• HYPERCONNECT - 프론트엔드 개발자\n• Aurender - 프론트엔드 개발자\n• 대덕소프트웨어마이스터고등학교",
       linkedin: "https://www.linkedin.com/in/jisoo-kim-3a6140185/",
-      image: "/public/img_김지수.jpg"
+      image: "/public/img_kjs.jpg"
     },
     {
       name: "이아현",
