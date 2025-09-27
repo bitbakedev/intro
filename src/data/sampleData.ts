@@ -194,7 +194,8 @@ export const sampleProposalData: ProposalData = {
       name: "박유선",
       position: "",
       education: "서울여자대학교 졸업",
-      experience: "• 중고나라 - Product Manager\n• 투루 - 프로덕트 기획팀 서비스 기획자\n• 서울여자대학교 - UX Researcher\n• 엠엠엘트웍스 - 서비스 기획자\n• 더셰이크크리에이티브 - 전시 공간 디자인, 기획"
+      experience: "• 중고나라 - Product Manager\n• 투루 - 프로덕트 기획팀 서비스 기획자\n• 서울여자대학교 - UX Researcher\n• 엠엠엘트웍스 - 서비스 기획자\n• 더셰이크크리에이티브 - 전시 공간 디자인, 기획",
+      linkedin: "https://www.linkedin.com/in/yusun-park/"
     },
     {
       name: "김지수",
