@@ -25,30 +25,65 @@ const BlockchainComplexityModal: React.FC<BlockchainComplexityModalProps> = ({ i
         <div className="p-6">
           <div className="text-gray-700 leading-relaxed">
             <p className="mb-4">
-              블록체인 생태계는 겉으로 보기엔 "암호화폐를 예치하고 이자를 받는 서비스"처럼 단순해 보이지만, 
-              실제로는 매우 복잡한 구조를 가지고 있습니다.
+              현재 전세계에는 수십 가지의 블록체인이 있습니다.<br/>
+              (예: 이더리움, 솔라나, 폴리곤, 바이낸스, 네오 등)
             </p>
+            
+            <p className="mb-6">
+              그리고 이 블록체인 위에는 <strong>수백 개의 '돈을 맡기고 이자를 받는 서비스(DeFi)'</strong>가 각각 따로 운영되고 있습니다.<br/>
+              겉으로 보기엔 다양하고 선택의 폭이 넓어 보이지만, 실제로는 일반 사람들에게는 너무 복잡한 구조입니다.
+            </p>
+            
+            <hr className="my-6 border-gray-300" />
+            
+            <h3 className="text-lg font-semibold text-gray-800 mb-4">왜 이렇게 복잡할까?</h3>
+            
+            <div className="space-y-4 mb-6">
+              <div>
+                <p className="font-semibold text-gray-800 mb-2">1. 블록체인마다 언어가 다릅니다.</p>
+                <p className="text-gray-700 ml-4">
+                  마치 나라별로 말이 다른 것처럼,<br/>
+                  이더리움은 '솔리디티', 솔라나는 '러스트'라는 언어를 사용합니다.<br/>
+                  그래서 개발자들은 각각의 블록체인에 맞춰 따로따로 만들어야 합니다.
+                </p>
+              </div>
+              
+              <div>
+                <p className="font-semibold text-gray-800 mb-2">2. 규칙과 속도도 다릅니다.</p>
+                <p className="text-gray-700 ml-4">
+                  어떤 블록체인은 빠르지만 수수료가 비싸고,<br/>
+                  어떤 블록체인은 느리지만 안정적입니다.<br/>
+                  즉, 같은 일을 하더라도 블록체인마다 조건이 전부 다릅니다.
+                </p>
+              </div>
+              
+              <div>
+                <p className="font-semibold text-gray-800 mb-2">3. 쓰는 돈의 종류도 다릅니다.</p>
+                <p className="text-gray-700 ml-4">
+                  이더리움은 ETH, 솔라나는 SOL, 네오는 GAS를 사용합니다.<br/>
+                  마치 나라가 다르면 화폐가 다른 것처럼,<br/>
+                  블록체인마다 기본 화폐가 제각각입니다.
+                </p>
+              </div>
+            </div>
+            
+            <hr className="my-6 border-gray-300" />
+            
+            <h3 className="text-lg font-semibold text-gray-800 mb-4">결국 사용자 입장에서는</h3>
             
             <p className="mb-4">
-              현재 세상에는 수십 가지의 블록체인(예: 이더리움, 솔라나, 폴리곤, 바이낸스, 네오 등)이 존재하고, 
-              이 위에서 수백 개의 DeFi(탈중앙화 금융) 서비스가 각각 독립적으로 운영되고 있습니다.
+              일반 사용자가 어떤 블록체인을 써야 하는지, 어떤 서비스가 더 유리한지를 스스로 판단하기는 거의 불가능합니다.<br/>
+              예를 들어,
             </p>
             
-            <p className="mb-4">
-              문제는 각 블록체인이 완전히 다른 언어와 규칙을 사용한다는 점입니다.
-            </p>
-            
-            <p className="mb-2 font-semibold">예를 들어:</p>
-            <ul className="space-y-2 mb-6 ml-4">
-              <li>• 사용하는 프로그래밍 언어가 다릅니다. (이더리움은 Solidity, 솔라나는 Rust)</li>
-              <li>• 거래 속도(TPS)와 수수료 구조도 제각각입니다.</li>
-              <li>• 사용하는 기축 코인도 다릅니다. (이더리움은 ETH, 솔라나는 SOL, 네오는 GAS)</li>
-              <li>• 어떤 블록체인은 특정 국가에 인프라가 집중되어 있고, 어떤 블록체인은 완전히 분산되어 있습니다.</li>
+            <ul className="space-y-2 mb-4 ml-4">
+              <li>• 이자를 더 많이 주는 곳이 어디인지,</li>
+              <li>• 수수료가 싼 곳이 어디인지,</li>
+              <li>• 이 서비스를 쓰려면 어떤 블록체인을 선택해야 하는지조차 알기 어렵습니다.</li>
             </ul>
             
-            <p className="mb-4">
-              이런 복잡성 때문에 일반 사용자가 직접 최적의 블록체인과 DeFi 서비스를 선택하는 것은 거의 불가능합니다. 
-              비트베이크는 이 모든 복잡성을 자동화하여 사용자에게는 단순한 경험만을 제공합니다.
+            <p>
+              이런 복잡함 때문에 블록체인을 잘 모르는 사람은 시작조차 하기 어려운 구조가 되어버렸습니다.
             </p>
           </div>
         </div>
