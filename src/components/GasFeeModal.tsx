@@ -49,14 +49,8 @@ const GasFeeModal: React.FC<GasFeeModalProps> = ({ isOpen, onClose }) => {
             </p>
             
             <p className="mb-4">
-              문제는 이 가스비가 블록체인마다 다르다는 것입니다.
+              문제는 이 가스비가 블록체인마다 다르다는 것입니다. (이더리움에서는 ETH, 솔라나에서는 SO, 네오에서는 GAS 등)
             </p>
-            
-            <ul className="space-y-1 mb-6 ml-4">
-              <li>• 이더리움에서는 ETH,</li>
-              <li>• 솔라나에서는 SOL,</li>
-              <li>• 네오에서는 GAS 같은 식으로,</li>
-            </ul>
             
             <p className="mb-6">
               각 블록체인마다 가스비로 쓰이는 코인의 종류가 모두 다릅니다.
