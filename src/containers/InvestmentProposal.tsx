@@ -96,7 +96,7 @@ const InvestmentProposal: React.FC = () => {
       </ProposalSection>
 
       {/* Legal Risk Mitigation */}
-      <ProposalSection title="법적 리스크와 해소 전략" pageBreak>
+      <ProposalSection title="Appendix 1 - 법적 리스크와 해소 전략" pageBreak>
         <LegalRiskMitigation />
       </ProposalSection>
 
