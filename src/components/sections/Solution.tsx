@@ -45,7 +45,7 @@ const Solution: React.FC = () => {
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-        비트베이크는 이 문제를 <strong>MPC(Multi-Party Computation) 기술</strong>을 활용해 근본적으로 해결했습니다. 
+        비트베이크는 이 문제를 MPC(Multi-Party Computation) 기술을 활용해 근본적으로 해결했습니다. 
         사용자는 카카오톡, 네이버, 구글 등 익숙한 소셜 로그인만으로 지갑을 생성할 수 있으며, 
         니모닉 암기나 개인키 백업 과정이 전혀 필요하지 않습니다.
       </p>
