@@ -213,7 +213,7 @@ export const sampleProposalData: ProposalData = {
       education: "",
       experience: "• 요기요 - 서비스 기획자\n• 주식회사 핀크 (Finnq) - 서비스 기획자\n• 유플리트 - UX 기획자\n• Inition Inc. - UX Designer\n• 서울여자대학교 - UX 디자인 학사",
       linkedin: "https://www.linkedin.com/in/ahyeon921/",
-      image: "/public/img_이아현.jpg"
+      image: "/public/img_lah.jpg"
     },
     {
       name: "권혁창",
