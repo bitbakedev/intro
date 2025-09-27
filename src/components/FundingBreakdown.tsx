@@ -12,7 +12,7 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
        비트베이크는 총 2억 원의 Seed 투자 유치를 목표로 하고 있으며,
 이는 기업가치 13억 원(Pre-money) 기준으로 15%의 지분을 제공하는 조건입니다.
 현재 팀은 약 2,500만 원의 자금을 보유하고 있으며, 이번 투자를 통해 확보한 자금으로
-12개월 동안 안정적인 사업 운영과 사용자 성장 가속화를 추진할 계획입니다.
+12개월 동안 빠른 성장을 만들어낼 계획입니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
