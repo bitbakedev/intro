@@ -101,7 +101,7 @@ const InvestmentProposal: React.FC = () => {
       </ProposalSection>
 
       {/* Neo Partnership */}
-      <ProposalSection title="Neo 재단과의 전략적 파트너십" pageBreak>
+      <ProposalSection title="Appendix 1 - Neo 재단과의 전략적 파트너십" pageBreak>
         <NeoPartnership />
       </ProposalSection>
 
