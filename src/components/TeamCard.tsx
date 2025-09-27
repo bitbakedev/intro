@@ -22,7 +22,6 @@ const TeamCard: React.FC<TeamCardProps> = ({ member }) => {
             className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors mt-2"
           >
             <img src="/ic_linkedin.png" alt="LinkedIn" className="w-4 h-4 mr-1" />
-            <span className="text-sm">LinkedIn</span>
           </a>
         )}
       </div>
