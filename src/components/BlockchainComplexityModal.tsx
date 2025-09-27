@@ -62,8 +62,6 @@ const BlockchainComplexityModal: React.FC<BlockchainComplexityModalProps> = ({ i
             
             <hr className="my-6 border-gray-300" />
             
-            <h3 className="text-lg font-semibold text-gray-800 mb-4">결국 사용자 입장에서는</h3>
-            
             <p className="mb-4">
               일반 사용자가 어떤 블록체인을 써야 하는지, 어떤 서비스가 더 유리한지를 스스로 판단하기는 거의 불가능합니다.<br/>
               이자를 더 많이 주는 곳이 어디인지, 수수료가 싼 곳이 어디인지, 이 서비스를 쓰려면 어떤 블록체인을 선택해야 하는지조차 알기 어렵습니다.
