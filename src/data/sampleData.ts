@@ -194,7 +194,7 @@ export const sampleProposalData: ProposalData = {
       name: "YUSUN PARK",
       position: "",
       education: "서울여자대학교 졸업",
-      experience: "• 중고나라 - 프로덕트 오너 (MAU 1,000만명 플랫폼)\n• humax mobility - 프로덕트 오너\n\n전문 분야: 사용자 행동 분석, A/B 테스트, 데이터 기반 의사결정, UX 설계"
+      experience: "• 중고나라 - Product Manager\n• 투루 - 프로덕트 기획팀 서비스 기획자\n• 서울여자대학교 - UX Researcher\n• 엠엠엘트웍스 - 서비스 기획자\n• 더셰이크크리에이티브 - 전시 공간 디자인, 기획"
     },
     {
       name: "MIN BAEK",
