@@ -49,7 +49,7 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
             또한 기술뿐 아니라 사용자 경험(UX) 측면에서도 강력한 경쟁력을 갖추고 있습니다. 
             대표를 포함한 핵심 인력은 UX 관련 석사 학위를 보유하고 있으며, 토스·중고나라·핀다 등 국내 대표적인 사용자 중심 서비스에서 실제 제품을 설계하고 성장시킨 경험이 있습니다.
           </p>
-          <p className="text-gray-700 leading-relaxed mb-2">
+          <p className="text-gray-700 leading-relaxed mb-4">
             이러한 기술적 깊이와 사용자 이해 능력의 결합은, 복잡한 DeFi 서비스를 누구나 쉽게 사용할 수 있는 형태로 풀어내는 것을 가능하게 합니다. 
             즉, 비트베이크는 기술적 기반과 사용자 경험을 모두 갖춘 팀으로, 리워드 앱을 넘어 차세대 금융 서비스로 진화할 준비가 이미 완료된 팀입니다.
           </p>
