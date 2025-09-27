@@ -41,7 +41,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
       
       <p className="text-gray-700 leading-relaxed mb-6">
         그 결과 4,000+ 다운로드, 52% M1 리텐션, 36% 암호화폐 전환율이라는 성과를 보이며 가설을 검증했습니다. 
-        유료 마케팅 없이도 이러한 성과를 달성한 것은 우리 접근법의 유효성을 명확히 보여줍니다.
+        유료 마케팅 없이도 이러한 성과를 달성한 것은 비트베이크 팀의 접근 방식이 유효성을 명확히 보여줍니다.
       </p>
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">스케일업이 필요한 단계</h2>
