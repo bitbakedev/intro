@@ -42,8 +42,9 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
           <h4 className="text-lg font-semibold text-gray-800 mb-2">2. DeFi 기술력 및 협력 네트워크의 희소성</h4>
           <p className="text-gray-700 leading-relaxed">
             비트베이크 팀은 DeFi 프로토콜을 직접 개발하고, Neo·Kaia·Bera·Chiliz 등 주요 글로벌 
-            블록체인 재단과 협력한 경험을 보유하고 있습니다. 이러한 기술력과 네트워크는 비트베이크를 
-            단순 리워드 앱이 아닌 DeFi·스테이블코인 인프라 기반의 하이브리드 플랫폼으로 차별화시킵니다.
+            블록체인 재단과 협력한 경험을 보유하고 있습니다. 이러한 기술력과 네트워크는 국내에서 찾아보기 어려운 수준의 높은 경쟁력으로,
+비트베이크를 단순한 리워드 앱이 아닌 DeFi·스테이블코인 인프라 플랫폼으로 확장할 수 있는 기반이 됩니다.
+즉, 비트베이크는 리워드 앱을 넘어 차세대 금융 서비스로 진화할 잠재력을 이미 갖춘 팀입니다.
           </p>
         </div>
         
