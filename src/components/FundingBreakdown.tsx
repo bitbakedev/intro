@@ -31,7 +31,7 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
             시장 적합성(Product-Market Fit)을 입증했습니다.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            현재 광고·기프트카드·스테이킹 등 3개의 수익 모델을 운영 중이며, MAU 1만 명 도달 시 
+            현재 광고·기프트카드·스테이킹 등 3개의 수익 모델을 운영 중이며, 현재 구조만으로도 MAU 1만 명 도달 시 
             월 매출 800만 원 이상이 예상됩니다. 리워드 앱 시장은 이미 검증된 비즈니스 모델이지만, 
             비트베이크는 여기에 DeFi 수익 구조를 결합하여 기존 리워드 앱 대비 지속 가능한 수익성과 
             높은 확장성을 동시에 확보했습니다.
