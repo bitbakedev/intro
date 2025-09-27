@@ -95,7 +95,7 @@ const DeFiComplexityModal: React.FC<DeFiComplexityModalProps> = ({ isOpen, onClo
             
               대표적인 DeFi 서비스 예시 : <br/>
               <a href="https://app.aave.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">https://app.aave.com/</a><br/>
-              <a>https://app.compound.finance/</a>
+              <a href="https://app.compound.finance/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">https://app.compound.finance/</a>
           </div>
         </div>
       </div>
