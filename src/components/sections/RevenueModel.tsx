@@ -20,7 +20,9 @@ const RevenueModel: React.FC = () => {
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-6 ml-6">
-        또한 유의미한 MAU 달성시 광고단가와 효율이 높은 애드네트워크를 연동할 수 있어, 지금보다 기대 수익성은 더 높아집니다.
+        향후 유의미한 MAU를 확보하게 되면,
+광고 단가가 높은 프리미엄 애드네트워크와의 제휴가 가능해져
+현재보다 광고 효율과 수익성이 크게 향상될 전망입니다.
       </p>
       
       <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">2. 기프트카드 수수료</h3>
