@@ -65,35 +65,35 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
     
     <div className="mt-8">
       <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">자금 활용 계획</h3>
-      <div className="overflow-x-auto">
+      <div className="overflow-x-auto mb-4">
         <table className="w-full border-collapse border border-gray-300">
           <thead>
             <tr className="bg-gray-50">
-              <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">항목</th>
-              <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">금액</th>
-              <th className="border border-gray-300 px-4 py-3 text-left font-semibold text-gray-800">비율</th>
+              <th className="border border-gray-300 px-2 sm:px-4 py-2 sm:py-3 text-left font-semibold text-gray-800 text-sm sm:text-base">항목</th>
+              <th className="border border-gray-300 px-2 sm:px-4 py-2 sm:py-3 text-left font-semibold text-gray-800 text-sm sm:text-base">금액</th>
+              <th className="border border-gray-300 px-2 sm:px-4 py-2 sm:py-3 text-left font-semibold text-gray-800 text-sm sm:text-base">비율</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">인건비</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">1억 1,000만원</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">55%</td>
+              <td className="border border-gray-300 px-2 sm:px-4 py-2 sm:py-3 font-medium text-gray-800 text-sm sm:text-base">인건비</td>
+              <td className="border border-gray-300 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 text-sm sm:text-base">1억 1,000만원</td>
+              <td className="border border-gray-300 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 text-sm sm:text-base">55%</td>
             </tr>
             <tr className="bg-gray-25">
-              <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">마케팅 및 사용자 확보</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">6,000만원</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">30%</td>
+              <td className="border border-gray-300 px-2 sm:px-4 py-2 sm:py-3 font-medium text-gray-800 text-sm sm:text-base">마케팅 및 사용자 확보</td>
+              <td className="border border-gray-300 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 text-sm sm:text-base">6,000만원</td>
+              <td className="border border-gray-300 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 text-sm sm:text-base">30%</td>
             </tr>
             <tr>
-              <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">기술 인프라</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">2,000만원</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">10%</td>
+              <td className="border border-gray-300 px-2 sm:px-4 py-2 sm:py-3 font-medium text-gray-800 text-sm sm:text-base">기술 인프라</td>
+              <td className="border border-gray-300 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 text-sm sm:text-base">2,000만원</td>
+              <td className="border border-gray-300 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 text-sm sm:text-base">10%</td>
             </tr>
             <tr className="bg-gray-25">
-              <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">운영 자금</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">1,000만원</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700">5%</td>
+              <td className="border border-gray-300 px-2 sm:px-4 py-2 sm:py-3 font-medium text-gray-800 text-sm sm:text-base">운영 자금</td>
+              <td className="border border-gray-300 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 text-sm sm:text-base">1,000만원</td>
+              <td className="border border-gray-300 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 text-sm sm:text-base">5%</td>
             </tr>
           </tbody>
         </table>
