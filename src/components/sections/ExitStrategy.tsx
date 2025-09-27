@@ -3,7 +3,7 @@ import React from 'react';
 const ExitStrategy: React.FC = () => {
   return (
     <div className="prose prose-lg max-w-none">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">출구 전략별 예상 수익률 (Seed-Round 투자 기준)</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">출구 전략별 예상 수익률 (Seed Round 투자 기준)</h2>
       
       <div className="overflow-x-auto mb-8">
         <table className="w-full border-collapse border border-gray-300">
