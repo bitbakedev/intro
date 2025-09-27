@@ -27,6 +27,8 @@ const DeFiComplexityModal: React.FC<DeFiComplexityModalProps> = ({ isOpen, onClo
             <p className="mb-6">
               DeFi(탈중앙화 금융) 서비스는 기존 금융기관 없이도 예금, 대출, 교환, 파생상품 거래 등을 가능하게 하는 혁신적인 기술입니다.
               그러나 실제 이용 과정은 일반 사용자에게 매우 높은 진입장벽을 형성하고 있습니다.
+              <br/>
+              <a>https://app.aave.com/</a>
             </p>
             
             <hr className="my-6 border-gray-300" />
