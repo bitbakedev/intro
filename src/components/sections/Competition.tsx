@@ -1,8 +1,13 @@
 import React from 'react';
+import React, { useState } from 'react';
+import CexLimitationsModal from '../CexLimitationsModal';
 
 const Competition: React.FC = () => {
+  const [isCexModalOpen, setIsCexModalOpen] = useState(false);
+
   return (
-    <div className="prose prose-lg max-w-none">
+    <>
+      <div className="prose prose-lg max-w-none">
       <h2 className="text-2xl font-bold text-gray-800 mb-6">1. 리워드 앱 경쟁사</h2>
       
       <div className="overflow-x-auto mb-8">
@@ -91,7 +96,14 @@ const Competition: React.FC = () => {
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-8">
-        한편, 업비트·빗썸 등 중앙화 거래소들은 국내에서 압도적인 점유율을 차지하고 있지만, 제도적 문제와 리스크, 수익성 층면에서 DeFi를 직접 활용할 수 없는 한계를 지니고 있습니다. 결국 이들이 제공할 수 있는 상품과 수익률에는 뚜렷한 한계가 있으며, 이는 DeFi 생태계의 본질적인 확장성과는 거리가 있습니다. (자세히)
+        한편, 업비트·빗썸 등 중앙화 거래소들은 국내에서 압도적인 점유율을 차지하고 있지만, 제도적 문제와 리스크, 수익성 층면에서 DeFi를 직접 활용할 수 없는 한계를 지니고 있습니다. 결국 이들이 제공할 수 있는 상품과 수익률에는 뚜렷한 한계가 있으며, 이는 DeFi 생태계의 본질적인 확장성과는 거리가 있습니다. (
+        <button
+          onClick={() => setIsCexModalOpen(true)}
+          className="text-blue-600 hover:text-blue-800 underline cursor-pointer bg-transparent border-none p-0 font-inherit"
+        >
+          자세히
+        </button>
+        )
       </p>
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-8">4. 글로벌 레퍼런스</h2>
@@ -112,6 +124,13 @@ const Competition: React.FC = () => {
         특히 국내 리워드 앱들은 리워드 수단이 기프티콘이나 원화에 한정되어 있어 글로벌 확장성이 떨어집니다. 반면 비트베이크는 암호화폐를 직접 리워드로 지급하며, 더 나아가 이를 스테이킹으로 연계해 앱 유저의 자산을 락인(lock-in) 시키는 구조를 갖추고 있습니다. 이는 단순 리워드 지급을 넘어, 사용자 유지율과 플랫폼 성장성을 동시에 강화하는 강력한 경쟁력입니다.
       </p>
     </div>
+      </div>
+      
+      <CexLimitationsModal 
+        isOpen={isCexModalOpen} 
+        onClose={() => setIsCexModalOpen(false)} 
+      />
+    </>
   );
 };
 
