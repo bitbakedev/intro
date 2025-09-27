@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 
 interface ProposalSectionProps {
-  title: string;
+  title: string | React.ReactNode;
   children: ReactNode;
   pageBreak?: boolean;
   className?: string;
