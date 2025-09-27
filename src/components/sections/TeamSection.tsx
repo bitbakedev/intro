@@ -17,9 +17,6 @@ const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
       <div className="mb-8">
         <div className="mb-8">
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>풍부한 Web2 서비스 경험과 Web3 전문성을 바탕으로, 빠르게 움직이며 암호화폐의 대중화를 이끄는 팀입니다.</strong>
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-4">
             토스, 중고나라, 위메이드 등 한국 최고 수준의 기업에서 대규모 서비스 개발과 운영 경험을 쌓은 검증된 팀원들로 구성되어 있습니다. 
             특히 월간 활성 사용자 수백만 명 규모의 플랫폼 운영 경험과 다수의 DeFi 프로젝트 구축 경험을 보유하고 있어, 
             기술적 전문성과 사업적 실행력을 모두 갖춘 국내에서는 찾아보기 힘든 팀입니다.
