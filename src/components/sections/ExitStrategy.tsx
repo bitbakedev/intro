@@ -19,7 +19,7 @@ const ExitStrategy: React.FC = () => {
             <tr>
               <td className="border border-gray-300 px-3 py-3 font-medium text-gray-800 align-top">Series A</td>
               <td className="border border-gray-300 px-3 py-3 text-gray-700 align-top">2026 Q3~Q4</td>
-              <td className="border border-gray-300 px-3 py-3 text-gray-700 align-top">200~300억원 (15~20배)</td>
+              <td className="border border-gray-300 px-3 py-3 text-gray-700 align-top">200~300억원 (12~19배)</td>
               <td className="border border-gray-300 px-3 py-3 text-gray-700 text-sm align-top">벨류에이션 200~300억원 목표로 Seed Round 투자 대비 15~20배 수준의 수익률을 기대할 수 있습니다. 이는 연매출 80억, 순이익 5억 달성을 조건으로 합니다. Series A 투자 유치시 투자자에게 구주 매각을 통해 Exit이 가능할 것으로 예상됩니다.</td>
             </tr>
             <tr className="bg-gray-25">
