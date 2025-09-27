@@ -65,14 +65,9 @@ const BlockchainComplexityModal: React.FC<BlockchainComplexityModalProps> = ({ i
             <h3 className="text-lg font-semibold text-gray-800 mb-4">결국 사용자 입장에서는</h3>
             
             <p className="mb-4">
-              일반 사용자가 어떤 블록체인을 써야 하는지, 어떤 서비스가 더 유리한지를 스스로 판단하기는 거의 불가능합니다.
+              일반 사용자가 어떤 블록체인을 써야 하는지, 어떤 서비스가 더 유리한지를 스스로 판단하기는 거의 불가능합니다.<br/>
+              이자를 더 많이 주는 곳이 어디인지, 수수료가 싼 곳이 어디인지, 이 서비스를 쓰려면 어떤 블록체인을 선택해야 하는지조차 알기 어렵습니다.
             </p>
-            
-            <ul className="space-y-2 mb-4 ml-4">
-              <li>• 이자를 더 많이 주는 곳이 어디인지,</li>
-              <li>• 수수료가 싼 곳이 어디인지,</li>
-              <li>• 이 서비스를 쓰려면 어떤 블록체인을 선택해야 하는지조차 알기 어렵습니다.</li>
-            </ul>
             
             <p>
               이런 복잡함 때문에 블록체인을 잘 모르는 사람은 시작조차 하기 어려운 구조가 되어버렸습니다.
