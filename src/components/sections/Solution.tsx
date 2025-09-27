@@ -17,12 +17,6 @@ const Solution: React.FC = () => {
         리워드앱 시장은 다른 분야와 달리 승자독식 시장이 아니라 여러 서비스가 공존할 수 있는 시장입니다. (<a href="https://www.mk.co.kr/news/economy/11342869?utm_source=chatgpt.com" target="_blak" className="text-underline text-blue-500">참고자료</a>)
       </p>
       
-      <p className="text-gray-700 leading-relaxed mb-4">
-        비트베이크는 이러한 친숙한 리워드 앱 형태로 사용자들에게 접근하여 Web3에 대한 심리적 장벽을 낮춥니다. 
-        사용자들은 "암호화폐 투자"나 "DeFi 서비스"라는 부담스러운 개념 대신, 
-        "걸으면서 포인트 적립하기"라는 일상적이고 친숙한 활동으로 시작할 수 있습니다.
-      </p>
-      
       <p className="text-gray-700 leading-relaxed mb-6">
         비트베이크는 이처럼 유저에게 너무나 친숙한 리워드 앱 형태로 사용자들에게 접근하여 심리적 장벽을 제거합니다. 
         사용자들은 "암호화폐 투자"나 "DeFi 서비스"라는 부담스러운 개념 대신, 
