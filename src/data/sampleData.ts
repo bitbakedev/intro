@@ -208,7 +208,7 @@ export const sampleProposalData: ProposalData = {
       name: "이아현",
       position: "",
       education: "",
-      experience: "• 주식회사 핀크 (Finnq) - 서비스 기획자\n• 유플리트 - UX 기획자\n• Inition Inc. - UX Designer\n• 요기요 - 서비스 기획자",
+      experience: "• 요기요 - 서비스 기획자\n• 주식회사 핀크 (Finnq) - 서비스 기획자\n• 유플리트 - UX 기획자\n• Inition Inc. - UX Designer",
       linkedin: "https://www.linkedin.com/in/ahyeon921/"
     }
   ],
