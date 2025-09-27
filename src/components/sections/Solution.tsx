@@ -2,9 +2,11 @@ import React from 'react';
 
 import { useState } from 'react';
 import BlockchainComplexityModal from '../BlockchainComplexityModal';
+import GasFeeModal from '../GasFeeModal';
 
 const Solution: React.FC = () => {
   const [isBlockchainModalOpen, setIsBlockchainModalOpen] = useState(false);
+  const [isGasFeeModalOpen, setIsGasFeeModalOpen] = useState(false);
 
   return (
     <>
@@ -90,7 +92,14 @@ const Solution: React.FC = () => {
             자세히
           </button>
         )</li>
-    	<li>•	유저의 트랜젝션 수수료를 대신 납부 (자세히)</li>
+    	<li>•	유저의 트랜젝션 수수료를 대신 납부 (
+          <button
+            onClick={() => setIsGasFeeModalOpen(true)}
+            className="text-blue-600 hover:text-blue-800 underline cursor-pointer bg-transparent border-none p-0 font-inherit"
+          >
+            자세히
+          </button>
+        )</li>
     	<li>•	사용자는 블록체인 지식 없이도 DeFi 서비스를 이용할 수 있도록 설계되어 있습니다. (자세히)</li>
           </ul>
            </p>
@@ -119,6 +128,11 @@ const Solution: React.FC = () => {
     <BlockchainComplexityModal 
       isOpen={isBlockchainModalOpen} 
       onClose={() => setIsBlockchainModalOpen(false)} 
+    />
+    
+    <GasFeeModal 
+      isOpen={isGasFeeModalOpen} 
+      onClose={() => setIsGasFeeModalOpen(false)} 
     />
     </>
   );
