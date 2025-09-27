@@ -25,7 +25,7 @@ const BlockchainComplexityModal: React.FC<BlockchainComplexityModalProps> = ({ i
         <div className="p-6">
           <div className="text-gray-700 leading-relaxed">
             <p className="mb-4">
-              현재 전세계에는 수십 가지의 블록체인이 있습니다.<br/>
+              현재 전세계에는 수십 가지의 블록체인이 있습니다. 
               (예: 이더리움, 솔라나, 폴리곤, 바이낸스, 네오 등)
             </p>
             
