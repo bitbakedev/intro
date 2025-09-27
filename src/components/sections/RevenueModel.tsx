@@ -16,7 +16,7 @@ const RevenueModel: React.FC = () => {
       <p className="text-gray-700 leading-relaxed mb-6 ml-6">
         광고 수익의 80%는 사용자 리워드, 20%는 플랫폼 수익으로 배분됩니다. 
         특히 머니또, 쿠키키우기와 같은 자체 콘텐츠를 통해 사용자의 광고 체류 시간과 재방문율을 높여, 
-        업계 평균 대비 월등히 높은 광고 노출수와 지속 시간을 만들어내고 있습니다.
+        업계 평균 대비 높은 수준의 광고 노출수와 지속 시간을 만들어내고 있습니다.
       </p>
       
       <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">2. 기프트카드 수수료</h3>
