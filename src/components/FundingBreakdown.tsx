@@ -27,7 +27,7 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
           <h4 className="text-lg font-semibold text-gray-800 mb-2">1. 차별화된 수익 모델 검증 완료</h4>
           <p className="text-gray-700 leading-relaxed mb-3">
             비트베이크는 5,000명 이상의 누적 사용자와 일간 활성 사용자(DAU) 약 1,000명을 확보했습니다. 
-            리워드에서 암호화폐 상품으로 이어지는 전환 구조를 검증하며, 서비스의 성장 가능성과 
+            또한 리워드에서 암호화폐 상품으로 이어지는 전환 구조를 검증하며, 서비스의 성장 가능성과 
             시장 적합성(Product-Market Fit)을 입증했습니다.
           </p>
           <p className="text-gray-700 leading-relaxed">
