@@ -60,7 +60,7 @@ const Solution: React.FC = () => {
         사용자에게 높은 보안성과 편의성을 동시에 제공합니다.
       </p>
       
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">3. 올인원 통합 플랫폼의 구축</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">3. 올인원 통합 플랫폼과 완전한 추상화를 통한 사용자 경험 혁신</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
         기존 DeFi를 이용하려면, 사용자는 중앙화 거래소에서 코인을 구매하고 → 지갑으로 전송한 뒤 → Aave, Curve, Uniswap 등 개별 웹페이지를 찾아 접속해야 했습니다.
