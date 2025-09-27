@@ -75,9 +75,9 @@ const Solution: React.FC = () => {
       
       <p className="text-gray-700 leading-relaxed mb-4">
       비트베이크는
-	•	최적의 체인을 자동으로 선택하여 수수료를 최소화하고,
-	•	네트워크 수수료를 자체 부담하며,
-	•	사용자는 블록체인 지식 없이도 모든 DeFi 서비스를 이용할 수 있도록 설계되어 있습니다.
+    	•	최적의 체인을 자동으로 선택하여 수수료를 최소화하고,
+    	•	네트워크 수수료를 자체 부담하며,
+    	•	사용자는 블록체인 지식 없이도 모든 DeFi 서비스를 이용할 수 있도록 설계되어 있습니다.
            </p>
 
       <p className="text-gray-700 leading-relaxed mb-4">
