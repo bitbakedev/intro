@@ -21,6 +21,10 @@ const RevenueModel: React.FC = () => {
       
       <h3 className="text-xl font-semibold text-gray-700 mb-4 ml-4">2. 기프트카드 수수료</h3>
       
+      <p className="text-gray-700 leading-relaxed mb-4 ml-6">
+        유저가 판매하는 기프트카드는 전문 매입 회사에 재판매 됩니다.
+      </p>
+      
       <p className="text-gray-700 leading-relaxed mb-6 ml-6">
         비즈니스 모델은 15% 수수료 구조로, 사용자는 기프트카드 가액의 75%를 포인트로 수령하게 됩니다. 이는 기존 리워드 앱에서는 찾아볼 수 없는 독창적인 수익 구조이며, 사용자가 늘어날수록 기프트카드 거래량이 증가하고, 주요 기프트카드 발행사·매입사와의 전략적 제휴를 통해 안정적이고 지속적인 수익 성장을 기대할 수 있습니다.
       </p>
