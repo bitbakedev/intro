@@ -1,7 +1,13 @@
 import React from 'react';
 
+import React, { useState } from 'react';
+import BlockchainComplexityModal from '../BlockchainComplexityModal';
+
 const Solution: React.FC = () => {
+  const [isBlockchainModalOpen, setIsBlockchainModalOpen] = useState(false);
+
   return (
+    <>
     <div className="prose prose-lg max-w-none">
       <p className="text-gray-700 leading-relaxed mb-6">
         비트베이크는 앞서 제시한 모든 문제점들을 해결하는 솔루션을 제공합니다. 
@@ -76,7 +82,14 @@ const Solution: React.FC = () => {
       <p className="text-gray-700 leading-relaxed mb-4">
       비트베이크는<br/>
         <ul>
-    	<li>•	최적의 블록체인과 DeFi 서비스를 자동으로 선택하여 수수료 최소화, 수익성 극대화 (자세히)</li>
+    	<li>•	최적의 블록체인과 DeFi 서비스를 자동으로 선택하여 수수료 최소화, 수익성 극대화 (
+          <button
+            onClick={() => setIsBlockchainModalOpen(true)}
+            className="text-blue-600 hover:text-blue-800 underline cursor-pointer bg-transparent border-none p-0 font-inherit"
+          >
+            자세히
+          </button>
+        )</li>
     	<li>•	유저의 트랜젝션 수수료를 대신 납부 (자세히)</li>
     	<li>•	사용자는 블록체인 지식 없이도 DeFi 서비스를 이용할 수 있도록 설계되어 있습니다. (자세히)</li>
           </ul>
@@ -102,6 +115,12 @@ const Solution: React.FC = () => {
         스테이블코인이 발행될 경우, 누구보다 빠르게 협업·적용할 수 있는 시장 선점 기회를 가지게 됩니다.
       </p>
     </div>
+    
+    <BlockchainComplexityModal 
+      isOpen={isBlockchainModalOpen} 
+      onClose={() => setIsBlockchainModalOpen(false)} 
+    />
+    </>
   );
 };
 
