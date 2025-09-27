@@ -13,8 +13,8 @@ const Solution: React.FC = () => {
       
       <p className="text-gray-700 leading-relaxed mb-4">
         리워드 앱 시장은 지속적으로 성장하고 있으며, 한국에서만 3,200만명의 사용자가 활발하게 이용하고 있습니다. 
-        캐시워크, 캐시슬라이드, 머니워크 등 다양한 플레이어들이 각각의 고유한 영역에서 성공을 거두고 있어, 
-        이는 승자독식 시장이 아니라 차별화된 가치 제안을 통해 여러 서비스가 공존할 수 있는 시장임을 보여줍니다.
+        캐시워크, 캐시슬라이드, 머니워크 등 다양한 플레이어들이 각각의 고유한 영역에서 성공을 거두고 있습니다. 
+        리워드앱 시장은 다른 분야와 달리 승자독식 시장이 아니라 여러 서비스가 공존할 수 있는 시장입니다. (<a href="https://www.mk.co.kr/news/economy/11342869?utm_source=chatgpt.com" target="_blak">참고자료</a>)
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
