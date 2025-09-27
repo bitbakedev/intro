@@ -14,7 +14,7 @@ const TeamCard: React.FC<TeamCardProps> = ({ member }) => {
           <img 
             src={member.image} 
             alt={member.name}
-            className="w-16 h-16 rounded-full object-cover flex-shrink-0"
+            className="w-20 h-20 rounded-lg object-cover flex-shrink-0"
           />
         )}
         <div className="flex-1 min-w-0">
