@@ -40,8 +40,7 @@ const BlockchainComplexityModal: React.FC<BlockchainComplexityModalProps> = ({ i
               <div>
                 <p className="font-semibold text-gray-800 mb-2">1. 블록체인마다 언어가 다릅니다.</p>
                 <p className="text-gray-700 ml-4">
-                  마치 나라별로 말이 다른 것처럼,<br/>
-                  이더리움은 '솔리디티', 솔라나는 '러스트'라는 언어를 사용합니다.<br/>
+                  마치 나라별로 말이 다른 것처럼, 이더리움은 '솔리디티', 솔라나는 '러스트'라는 언어를 사용합니다. 
                   그래서 개발자들은 각각의 블록체인에 맞춰 따로따로 만들어야 합니다.
                 </p>
               </div>
