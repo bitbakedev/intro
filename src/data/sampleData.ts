@@ -201,7 +201,7 @@ export const sampleProposalData: ProposalData = {
       name: "김지수",
       position: "",
       education: "숭실대학교 졸업",
-      experience: "• HYPERCONNECT - Frontend Developer\n• Aurender - Frontend Developer",
+      experience: "• HYPERCONNECT - Frontend Developer\n• Aurender - Frontend Developer\n• 대덕소프트웨어마이스터고등학교",
       linkedin: "https://www.linkedin.com/in/jisoo-kim-3a6140185/"
     },
     {
