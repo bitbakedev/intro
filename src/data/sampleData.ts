@@ -185,7 +185,7 @@ export const sampleProposalData: ProposalData = {
   team: [
     {
       name: "김성래",
-      position: "",
+      position: "대표 | 풀스택 개발자",
       education: "",
       experience: "• Debound - 풀스택 개발자\n• Renaissance Labs - CTO\n• 도너블 - Software Engineer\n• Viva Republica (Toss) - 풀스택 개발자\n• Google Developers Group Daejeon - Organizer\n• Satrec Initiative Co., Ltd. - 개발자\n• 주식회사 헬로체인 - 개발자\n• 대덕소프트웨어마이스터고등학교",
       linkedin: "https://www.linkedin.com/in/denis-kim-6a2590158/",
@@ -193,7 +193,7 @@ export const sampleProposalData: ProposalData = {
     },
     {
       name: "박유선",
-      position: "",
+      position: "프로덕트 매니저",
       education: "서울여자대학교 졸업",
       experience: "• 중고나라 - Product Manager\n• 투루 - 프로덕트 기획팀 서비스 기획자\n• 서울여자대학교 - UX Researcher\n• 엠엠엘트웍스 - 서비스 기획자\n• 더셰이크크리에이티브 - 전시 공간 디자인, 기획\n• 서울여자대학교 - UX 석사",
       linkedin: "https://www.linkedin.com/in/yusun-park/",
@@ -201,7 +201,7 @@ export const sampleProposalData: ProposalData = {
     },
     {
       name: "김지수",
-      position: "",
+      position: "프론트엔드 개발자",
       education: "숭실대학교 졸업",
       experience: "• HYPERCONNECT - 프론트엔드 개발자\n• Aurender - 프론트엔드 개발자\n• 대덕소프트웨어마이스터고등학교",
       linkedin: "https://www.linkedin.com/in/jisoo-kim-3a6140185/",
@@ -209,7 +209,7 @@ export const sampleProposalData: ProposalData = {
     },
     {
       name: "이아현",
-      position: "",
+      position: "UX 디자이너",
       education: "",
       experience: "• 요기요 - 서비스 기획자\n• 주식회사 핀크 (Finnq) - 서비스 기획자\n• 유플리트 - UX 기획자\n• Inition Inc. - UX Designer\n• 서울여자대학교 - UX 디자인 학사",
       linkedin: "https://www.linkedin.com/in/ahyeon921/",
@@ -217,7 +217,7 @@ export const sampleProposalData: ProposalData = {
     },
     {
       name: "권혁창",
-      position: "",
+      position: "프론트엔드 개발자",
       education: "",
       experience: "• 티오더 - 프론트엔드 개발자\n• 스타트업 - 개발자\n• 경북대학교 - 수학 학사",
       linkedin: "https://www.linkedin.com/in/%ED%98%81%EC%B0%BD-%EA%B6%8C-877893243/",

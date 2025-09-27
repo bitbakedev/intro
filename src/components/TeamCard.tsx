@@ -32,7 +32,7 @@ const TeamCard: React.FC<TeamCardProps> = ({ member }) => {
           )}
         </div>
         {member.position && (
-          <p className="text-blue-600 font-medium">{member.position}</p>
+          <p className="text-blue-600 font-medium text-sm">{member.position}</p>
         )}
         </div>
       </div>
