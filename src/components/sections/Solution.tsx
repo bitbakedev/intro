@@ -6,7 +6,7 @@ const Solution: React.FC = () => {
       <p className="text-gray-700 leading-relaxed mb-6">
         비트베이크는 앞서 제시한 모든 문제점들을 해결하는 솔루션을 제공합니다. 
         복잡한 Web3 기술을 사용자에게는 보이지 않게 숨기고, 일상적인 활동을 통해 자연스럽게 
-        암호화폐와 DeFi에 접근할 수 있도록 만드는 것이 우리의 핵심 철학입니다.
+        암호화폐와 DeFi에 접근할 수 있도록 만드는 것이 우리의 핵심 전략입니다.
       </p>
       
       <h2 className="text-2xl font-bold text-gray-800 mb-6">1. 유저들에게 친숙한 리워드 앱 서비스로 접근</h2>
