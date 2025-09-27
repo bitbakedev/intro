@@ -64,7 +64,7 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
       </div>
     
     <div className="mt-8">
-      <h3 className="text-xl font-semibold text-gray-800 mb-4">투자 자금 활용 계획</h3>
+      <h3 className="text-xl font-semibold text-gray-800 mb-4">자금 활용 계획</h3>
       <div className="overflow-x-auto">
         <table className="w-full border-collapse border border-gray-300">
           <thead>
