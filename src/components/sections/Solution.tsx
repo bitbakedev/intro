@@ -84,7 +84,6 @@ const Solution: React.FC = () => {
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
-      비트베이크는<br/>
         <ul>
     	<li>•	최적의 블록체인과 DeFi 서비스를 자동으로 선택하여 수수료 최소화, 수익성 극대화 (
           <button
