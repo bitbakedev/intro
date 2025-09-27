@@ -201,7 +201,8 @@ export const sampleProposalData: ProposalData = {
       name: "김지수",
       position: "",
       education: "숭실대학교 졸업",
-      experience: "• Wemix (위메이드) - Smart Contract Developer\n• Konverter DEX - Core Contributor\n• LENX - Contract Developer\n• Debound - Smart Contract Developer\n• Renaissance Labs - Smart Contract Developer\n• 도너블 - Software Engineer\n• 주식회사 헬로체인 - Software Engineer\n\n전문 분야: 스마트 컨트랙트 최적화, AMM 알고리즘, 크로스체인 브릿지, DeFi 프로토콜"
+      experience: "• HYPERCONNECT - Frontend Developer\n• Aurender - Frontend Developer",
+      linkedin: "https://www.linkedin.com/in/jisoo-kim-3a6140185/"
     }
   ],
   
