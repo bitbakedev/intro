@@ -22,28 +22,28 @@ const ExitStrategy: React.FC = () => {
               <td className="border border-gray-300 px-4 py-3 text-gray-700">2026 Q3~Q4</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">200~300억원</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">15~20배</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">연매출 80억, 순이익 5억 달성<br/>구주 매각을 통한 Exit 가능</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">연매출 80억, 순이익 5억 달성을 조건으로 함<br/>Series A 투자 유치시 구주 매각을 통한 Exit 가능</td>
             </tr>
             <tr className="bg-gray-25">
               <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">Series B</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">2027~2028</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">1,000억원</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">70~80배</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">대형 PE, 글로벌 헤지펀드 투자<br/>글로벌 확장 본격화</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">대형 PE나 글로벌 헤지펀드의 투자 유치<br/>글로벌 확장을 본격화할 예정</td>
             </tr>
             <tr>
               <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">M&A</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">2027~2029</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">500~2,000억원</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">50~160배</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">토스, 카카오, 네이버 등<br/>Web3 기술력과 사용자 기반 가치</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">토스, 카카오, 네이버 등이 잠재적 인수사<br/>Web3 기술력과 사용자 기반에 높은 가치 부여 전망</td>
             </tr>
             <tr className="bg-gray-25">
               <td className="border border-gray-300 px-4 py-3 font-medium text-gray-800">기타 방안</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">조건 달성시</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">협의</td>
               <td className="border border-gray-300 px-4 py-3 text-gray-700">5배+</td>
-              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">연간 50억 이상 영업이익 달성시<br/>사전 약정 가격으로 지분 매입<br/>장기적 IPO 가능</td>
+              <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm">연간 50억 이상 영업이익 달성시<br/>사전 약정 가격(투자액 대비 5배)으로 지분 되사<br/>장기적으로는 IPO를 통한 증시 상장 후 투자금 회수</td>
             </tr>
           </tbody>
         </table>
