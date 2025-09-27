@@ -20,7 +20,7 @@ const RevenueModel: React.FC = () => {
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-6 ml-6">
-        향후 유의미한 MAU를 확보하게 되면,
+        향후 유의미한 MAU를 확보한 뒤에는,
 광고 단가가 높은 프리미엄 애드네트워크와의 제휴가 가능해져
 현재보다 광고 효율과 수익성이 크게 향상될 전망입니다.
       </p>
