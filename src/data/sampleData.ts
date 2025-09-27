@@ -205,8 +205,8 @@ export const sampleProposalData: ProposalData = {
   
   fundingRequest: {
     amount: "2억원",
-    valuation: "13억원 (Pre-money)",
-    equity: "15%",
+    valuation: "16.6억원 (Pre-money)",
+    equity: "12%",
     useOfFunds: [
       {
         category: "인건비",

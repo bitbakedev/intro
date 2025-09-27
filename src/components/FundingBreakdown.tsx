@@ -10,7 +10,7 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
     <div className="prose prose-lg max-w-none">
       <p className="text-gray-700 leading-relaxed mb-4">
        비트베이크는 총 2억 원의 Seed 투자 유치를 목표로 하고 있으며,
-이는 기업가치 13억 원(Pre-money) 기준으로 15%의 지분을 제공하는 조건입니다.
+이는 기업가치 16.6억 원(Pre-money) 기준으로 12%의 지분을 제공하는 조건입니다.
 현재 팀은 약 2,500만 원의 자금을 보유하고 있으며, 이번 투자를 통해 확보한 자금으로
 12개월 동안 빠른 성장을 만들어낼 계획입니다.
       </p>
@@ -53,7 +53,7 @@ const FundingBreakdown: React.FC<FundingBreakdownProps> = ({ fundingRequest }) =
           <p className="text-gray-700 leading-relaxed">
             국내 리워드 앱 주요 기업(예: 캐시워크, 비트버니)은 시드 단계에서 50억 원 이상의 
             기업가치를 평가받았습니다. 비트베이크는 이들보다 더 다양한 수익 구조(DeFi + 리워드)와 
-            원화 스테이블코인 및 DeFi 시장 선점 가능성을 동시에 보유하고 있어, 13억 원의 
+            원화 스테이블코인 및 DeFi 시장 선점 가능성을 동시에 보유하고 있어, 16.6억 원의 
             밸류에이션은 보수적이면서도 충분히 합리적인 수준입니다.
           </p>
         </div>
