@@ -31,7 +31,7 @@ const DeFiProducts: React.FC = () => {
         검증된 서비스를 통해 상대적으로 안전한 투자 옵션을 제공합니다.
       </p>
 
-      <img src="/img_defi_1.png" />
+      <img src="/img_defi_2.png" />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">3. 거래소 유동성 공급</h2>
       
