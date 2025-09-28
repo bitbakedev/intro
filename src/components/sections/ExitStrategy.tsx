@@ -8,7 +8,6 @@ const ExitStrategy: React.FC = () => {
       <p className="mb-5">
       Series A 라운드는 Neo 블록체인 재단을 리드 투자사로 유치하는 것을 목표로 하고 있으며,
 이를 중심으로 블록체인·핀테크 분야의 기관 투자사들과 전략적 투자유치와 파트너십을 확대할 예정입니다.
-단순한 자금 조달을 넘어, 산업적 시너지와 사업 확장 지원까지 받을 수 있는 구조적 투자 유치를 계획하고 있습니다.
       </p>
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">투자금 회수 전략별 예상 수익률 (Seed Round 투자 기준)</h2>
       
