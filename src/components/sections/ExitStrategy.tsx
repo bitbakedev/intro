@@ -4,7 +4,7 @@ const ExitStrategy: React.FC = () => {
   return (
     <div className="prose prose-lg max-w-none">
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">투자금 회수 전략별 예상 수익률 (Seed Round 투자 기준)</h2>
-      <p className="mb-8">투자자는 신규 투자자에게 구주 매각을 통해 Exit이 가능할 것으로 예상됩니다.</p>
+      <p className="mb-8">투자자는 신규 투자자에게 구주 매각을 통해 Exit이 가능할 것으로 예상됩니다. Neo 블록체인 재단을 리드 투자사로 하여 자금적 지원뿐 아니라 블록체인 및 핀테크 관련 사업에 도움을 줄 수 있는 기관 투자사들을 대상으로 투자유치를 할 계획입니다.</p>
       
       <div className="overflow-x-auto mb-8">
         <table className="w-full border-collapse border border-gray-300 min-w-[700px]">
