@@ -30,6 +30,8 @@ const DeFiProducts: React.FC = () => {
         이는 전통적인 예금 상품 대비 높은 수익률을 제공하면서도, 
         검증된 서비스를 통해 상대적으로 안전한 투자 옵션을 제공합니다.
       </p>
+
+      <img src="/img_defi_1.png" />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">3. 거래소 유동성 공급</h2>
       
