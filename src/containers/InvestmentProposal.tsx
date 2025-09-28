@@ -47,7 +47,7 @@ const InvestmentProposal: React.FC = () => {
 
   return (
     <NavigationMenu sections={sections}>
-      <div className="min-h-screen bg-gray-50 py-8 print:bg-white print:py-0 flex-1">
+      <div className="min-h-screen bg-gray-50 py-4 sm:py-8 print:bg-white print:py-0 flex-1 px-2 sm:px-0">
       
         {/* Executive Summary */}
         <ProposalSection title="요약" pageBreak id="executive-summary">
