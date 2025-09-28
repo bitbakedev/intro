@@ -87,11 +87,11 @@ const NavigationMenu: React.FC<NavigationMenuProps> = ({ sections }) => {
 
       {/* PC 좌측 플로팅 메뉴 */}
       <div className="hidden md:block fixed left-6 top-6 z-40">
-        <div className="bg-white rounded-lg border max-w-xs min-h-screen">
+        <div className="bg-white rounded-lg border max-w-xs min-h-screen flex flex-col">
           <div className="p-4 border-b">
             <h3 className="font-semibold text-gray-800 text-sm">목차</h3>
           </div>
-          <div className="max-h-96 overflow-y-auto">
+          <div className="flex-1 overflow-y-auto">
             {sections.map((section, index) => {
               // Appendix 섹션 시작 전에 라벨 추가
               const isFirstAppendix = section.isAppendix && 
