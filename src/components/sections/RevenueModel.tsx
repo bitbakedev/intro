@@ -173,7 +173,7 @@ const RevenueModel: React.FC = () => {
       
       <p className="text-gray-700 leading-relaxed mb-6">
         또한 AUM과 MAU 가 증가하면 DeFi 플랫폼과 기업의 협력, 마케팅 수요가 증가하여 수익이 더 극대화 되는 구조입니다. 
-        이처럼 <strong>5개의 서로 다른 수익원</strong>은 리스크를 분산시키면서도 
+        이처럼 5개의 서로 다른 수익원은 리스크를 분산시키면서도 
         상호 보완적으로 작용하여 지속 가능한 성장을 만들어냅니다.
       </p>
       </div>
