@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy:s3": "aws s3 sync ./dist s3://cs-sass-frontend --delete",
+    "deploy": "npm run build && npm run deploy:s3 && npm run invalidate:cloudfront"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
