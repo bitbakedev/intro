@@ -15,7 +15,6 @@ const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
 
   return (
     <>
-      <div>
       <div className="mb-8">
         <div className="mb-8">
           <p className="text-gray-700 leading-relaxed mb-4">
