@@ -36,33 +36,6 @@ const AwardsModal: React.FC<AwardsModalProps> = ({ isOpen, onClose }) => {
         </div>
         
         <div className="p-6">
-          <div className="grid grid-cols-2 gap-4 mb-6">
-            <img 
-              src="/img_awards_1.png" 
-              alt="수상 경력 1"
-              className="w-full h-auto rounded-lg shadow-md cursor-pointer hover:opacity-80 transition-opacity"
-              onClick={() => openImageModal("/img_awards_1.png", "수상 경력 1")}
-            />
-            <img 
-              src="/img_awards_2.png" 
-              alt="수상 경력 2"
-              className="w-full h-auto rounded-lg shadow-md cursor-pointer hover:opacity-80 transition-opacity"
-              onClick={() => openImageModal("/img_awards_2.png", "수상 경력 2")}
-            />
-            <img 
-              src="/img_awards_3.png" 
-              alt="수상 경력 3"
-              className="w-full h-auto rounded-lg shadow-md cursor-pointer hover:opacity-80 transition-opacity"
-              onClick={() => openImageModal("/img_awards_3.png", "수상 경력 3")}
-            />
-            <img 
-              src="/img_awards_4.png" 
-              alt="수상 경력 4"
-              className="w-full h-auto rounded-lg shadow-md cursor-pointer hover:opacity-80 transition-opacity"
-              onClick={() => openImageModal("/img_awards_4.png", "수상 경력 4")}
-            />
-          </div>
-          
           <div className="space-y-4 text-sm">
             <div>
               <h5 className="font-semibold text-gray-800 mb-2">2025년</h5>
@@ -94,6 +67,33 @@ const AwardsModal: React.FC<AwardsModalProps> = ({ isOpen, onClose }) => {
                 <li>• D3S Hackathon 2위</li>
               </ul>
             </div>
+          </div>
+          
+          <div className="grid grid-cols-2 gap-4 mt-6">
+            <img 
+              src="/img_awards_1.png" 
+              alt="수상 경력 1"
+              className="w-full h-auto rounded-lg shadow-md cursor-pointer hover:opacity-80 transition-opacity"
+              onClick={() => openImageModal("/img_awards_1.png", "수상 경력 1")}
+            />
+            <img 
+              src="/img_awards_2.png" 
+              alt="수상 경력 2"
+              className="w-full h-auto rounded-lg shadow-md cursor-pointer hover:opacity-80 transition-opacity"
+              onClick={() => openImageModal("/img_awards_2.png", "수상 경력 2")}
+            />
+            <img 
+              src="/img_awards_3.png" 
+              alt="수상 경력 3"
+              className="w-full h-auto rounded-lg shadow-md cursor-pointer hover:opacity-80 transition-opacity"
+              onClick={() => openImageModal("/img_awards_3.png", "수상 경력 3")}
+            />
+            <img 
+              src="/img_awards_4.png" 
+              alt="수상 경력 4"
+              className="w-full h-auto rounded-lg shadow-md cursor-pointer hover:opacity-80 transition-opacity"
+              onClick={() => openImageModal("/img_awards_4.png", "수상 경력 4")}
+            />
           </div>
         </div>
       </div>
