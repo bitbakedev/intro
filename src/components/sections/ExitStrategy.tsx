@@ -4,7 +4,7 @@ const ExitStrategy: React.FC = () => {
   return (
     <div className="prose prose-lg max-w-none">
       <p className="mb-4">비트베이크는 Seed 투자 유치 후 1년 이내에 뚜렷한 성과를 만들어 Series A 투자 유치를 진행할 계획입니다.
-이 과정에서 기존 투자자는 Series A 진입 시 신규 투자자에게 구주 매각을 통해 Exit(투자금 회수)이 가능합니다.</p>
+이 과정에서 기존 투자자는 Series A 시 신규 투자자에게 구주 매각을 통해 Exit(투자금 회수)이 가능합니다.</p>
       <p className="mb-5">
       Series A 라운드는 Neo 블록체인 재단을 리드 투자사로 유치하는 것을 목표로 하고 있으며,
 이를 중심으로 블록체인·핀테크 분야의 기관 투자사들과 전략적 파트너십을 확대할 예정입니다.
