@@ -49,6 +49,8 @@ const RevenueModel: React.FC = () => {
         실행 경로도 이미 열려 있습니다. 이러한 전략을 통해 비트베이크는 단순 광고 네트워크 의존을 넘어 
         직광고 기반의 고수익 모델로 빠르게 전환할 수 있습니다.
       </p>
+
+      <img src="/img_bm_2.png" className="mb-10" />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">비트베이크만의 추가적인 비즈니스 모델</h2>
       
