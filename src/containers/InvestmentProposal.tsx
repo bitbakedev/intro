@@ -37,7 +37,7 @@ const InvestmentProposal: React.FC = () => {
     { id: 'financial-projections', title: '재무 전망' },
     { id: 'team', title: '팀 소개' },
     { id: 'funding-request', title: 'Seed-Round 요약' },
-    { id: 'exit-strategy', title: '출구 전략' },
+    { id: 'exit-strategy', title: '투자금 회수 전략' },
     { id: 'defi-products', title: 'DeFi 상품 기획', isAppendix: true },
     { id: 'stablecoin-strategy', title: '원화 스테이블 코인 전략', isAppendix: true },
     { id: 'legal-risk', title: '법적 리스크와 해소 전략', isAppendix: true },
@@ -103,7 +103,7 @@ const InvestmentProposal: React.FC = () => {
         </ProposalSection>
 
         {/* Exit Strategy */}
-        <ProposalSection title="출구 전략" pageBreak id="exit-strategy">
+        <ProposalSection title="투자금 회수 전략" pageBreak id="exit-strategy">
           <ExitStrategy />
         </ProposalSection>
 

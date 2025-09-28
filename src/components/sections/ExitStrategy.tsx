@@ -3,13 +3,13 @@ import React from 'react';
 const ExitStrategy: React.FC = () => {
   return (
     <div className="prose prose-lg max-w-none">
-      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">출구 전략별 예상 수익률 (Seed Round 투자 기준)</h2>
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">투자금 회수 전략별 예상 수익률 (Seed Round 투자 기준)</h2>
       
       <div className="overflow-x-auto mb-8">
         <table className="w-full border-collapse border border-gray-300 min-w-[700px]">
           <thead>
             <tr className="bg-gray-50">
-              <th className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 text-left font-semibold text-gray-800 text-xs sm:text-sm" style={{width: '12%'}}>출구 전략</th>
+              <th className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 text-left font-semibold text-gray-800 text-xs sm:text-sm" style={{width: '12%'}}>회수 전략</th>
               <th className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 text-left font-semibold text-gray-800 text-xs sm:text-sm" style={{width: '15%'}}>시기</th>
               <th className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 text-left font-semibold text-gray-800 text-xs sm:text-sm" style={{width: '20%'}}>밸류에이션 (수익률)</th>
               <th className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 text-left font-semibold text-gray-800 text-xs sm:text-sm" style={{width: '53%'}}>설명</th>
@@ -57,7 +57,7 @@ const ExitStrategy: React.FC = () => {
       </p>
       
       <p className="text-gray-700 leading-relaxed">
-        비트베이크는 향후 시리즈 투자, M&A, IPO 등 주요 자금 조달 및 Exit 전략에 대해 항상 투자자와 적극적으로 협의하며, 모든 의사결정 과정에서 주주의 이익을 최우선으로 고려할 것입니다.
+        비트베이크는 향후 시리즈 투자, M&A, IPO 등 주요 자금 조달 및 투자금 회수 전략에 대해 항상 투자자와 적극적으로 협의하며, 모든 의사결정 과정에서 주주의 이익을 최우선으로 고려할 것입니다.
       </p>
     </div>
   );
