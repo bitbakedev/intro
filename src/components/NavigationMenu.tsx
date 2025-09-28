@@ -1,0 +1,99 @@
+import React, { useState, useEffect } from 'react';
+import { Menu, X, ChevronDown } from 'lucide-react';
+
+interface NavigationMenuProps {
+  sections: Array<{
+    id: string;
+    title: string;
+    isAppendix?: boolean;
+  }>;
+}
+
+const NavigationMenu: React.FC<NavigationMenuProps> = ({ sections }) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState('');
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY + 100;
+      
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const element = document.getElementById(sections[i].id);
+        if (element && element.offsetTop <= scrollPosition) {
+          setActiveSection(sections[i].id);
+          break;
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // 초기 실행
+    
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [sections]);
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      setIsOpen(false); // 모바일에서 메뉴 닫기
+    }
+  };
+
+  return (
+    <>
+      {/* 모바일 드롭다운 메뉴 */}
+      <div className="md:hidden fixed top-4 left-4 right-4 z-40">
+        <div className="bg-white rounded-lg shadow-lg border">
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="w-full flex items-center justify-between p-4 text-left"
+          >
+            <span className="font-medium text-gray-800">목차</span>
+            <ChevronDown className={`w-5 h-5 text-gray-500 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
+          </button>
+          
+          {isOpen && (
+            <div className="border-t max-h-96 overflow-y-auto">
+              {sections.map((section) => (
+                <button
+                  key={section.id}
+                  onClick={() => scrollToSection(section.id)}
+                  className={`w-full text-left px-4 py-3 text-sm hover:bg-gray-50 transition-colors border-b border-gray-100 last:border-b-0 ${
+                    activeSection === section.id ? 'bg-blue-50 text-blue-600 font-medium' : 'text-gray-700'
+                  } ${section.isAppendix ? 'pl-6 text-xs' : ''}`}
+                >
+                  {section.title}
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* PC 좌측 플로팅 메뉴 */}
+      <div className="hidden md:block fixed left-6 top-1/2 transform -translate-y-1/2 z-40">
+        <div className="bg-white rounded-lg shadow-lg border max-w-xs">
+          <div className="p-4 border-b">
+            <h3 className="font-semibold text-gray-800 text-sm">목차</h3>
+          </div>
+          <div className="max-h-96 overflow-y-auto">
+            {sections.map((section) => (
+              <button
+                key={section.id}
+                onClick={() => scrollToSection(section.id)}
+                className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-50 transition-colors border-b border-gray-100 last:border-b-0 ${
+                  activeSection === section.id ? 'bg-blue-50 text-blue-600 font-medium border-l-2 border-l-blue-600' : 'text-gray-700'
+                } ${section.isAppendix ? 'pl-6 text-xs' : ''}`}
+              >
+                {section.title}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default NavigationMenu;

@@ -5,6 +5,7 @@ interface ProposalSectionProps {
   children: ReactNode;
   pageBreak?: boolean;
   className?: string;
+  id?: string;
 }
 
 const ProposalSection: React.FC<ProposalSectionProps> = ({
@@ -12,9 +13,11 @@ const ProposalSection: React.FC<ProposalSectionProps> = ({
   children,
   pageBreak = false,
   className = '',
+  id,
 }) => {
   return (
     <section
+      id={id}
       className={`
         w-full max-w-4xl mx-auto bg-white p-6 mb-8
         ${pageBreak ? 'break-before-page' : ''}
