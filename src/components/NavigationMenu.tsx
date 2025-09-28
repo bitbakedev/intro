@@ -44,18 +44,18 @@ const NavigationMenu: React.FC<NavigationMenuProps> = ({ sections, children }) =
   return (
     <div className="flex">
       {/* 모바일 드롭다운 메뉴 */}
-      <div className="md:hidden fixed top-2 right-2 z-40">
+      <div className="md:hidden fixed top-4 right-4 z-40">
         <div className="bg-white rounded-full shadow-lg border">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-full hover:bg-gray-50 transition-colors"
+            className="flex items-center justify-center w-12 h-12 rounded-full hover:bg-gray-50 transition-colors"
             title="목차"
           >
-            <Menu className="w-4 h-4 sm:w-5 sm:h-5 text-gray-700" />
+            <Menu className="w-5 h-5 text-gray-700" />
           </button>
           
           {isOpen && (
-            <div className="absolute top-full right-0 mt-2 w-56 sm:w-64 bg-white rounded-lg shadow-lg border max-h-80 sm:max-h-96 overflow-y-auto">
+            <div className="absolute top-full right-0 mt-2 w-64 bg-white rounded-lg shadow-lg border max-h-96 overflow-y-auto">
               {sections.map((section, index) => {
                 // Appendix 섹션 시작 전에 라벨 추가
                 const isFirstAppendix = section.isAppendix && 
@@ -72,9 +72,9 @@ const NavigationMenu: React.FC<NavigationMenuProps> = ({ sections, children }) =
                     )}
                     <button
                       onClick={() => scrollToSection(section.id)}
-                      className={`w-full text-left px-3 sm:px-4 py-2 sm:py-3 text-xs sm:text-sm hover:bg-gray-50 transition-colors border-b border-gray-100 last:border-b-0 break-words ${
+                      className={`w-full text-left px-4 py-3 text-sm hover:bg-gray-50 transition-colors border-b border-gray-100 last:border-b-0 ${
                         activeSection === section.id ? 'bg-blue-50 text-blue-600 font-medium' : 'text-gray-700'
-                      } ${section.isAppendix ? 'pl-4 sm:pl-6 text-xs' : ''}`}
+                      } ${section.isAppendix ? 'pl-6 text-xs' : ''}`}
                     >
                       {section.title}
                     </button>
@@ -87,7 +87,7 @@ const NavigationMenu: React.FC<NavigationMenuProps> = ({ sections, children }) =
       </div>
 
       {/* PC 좌측 플로팅 메뉴 */}
-      <div className="hidden md:block w-64 lg:w-80 flex-shrink-0">
+      <div className="hidden md:block w-80 flex-shrink-0">
         <div className="bg-white rounded-lg min-h-screen flex flex-col sticky top-0">
           <div className="p-4 border-b">
             <h3 className="font-semibold text-gray-800 text-sm">목차</h3>

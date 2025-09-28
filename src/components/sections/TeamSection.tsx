@@ -15,6 +15,7 @@ const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
 
   return (
     <>
+      <div>
       <div className="mb-8">
         <div className="mb-8">
           <p className="text-gray-700 leading-relaxed mb-4">
@@ -45,10 +46,11 @@ const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
             onClick={() => setIsProjectHistoryModalOpen(true)}
             className="text-blue-600 hover:text-blue-800 underline cursor-pointer bg-transparent border-none p-0 font-inherit"
           >
-            {'비트베이크팀의 프로젝트 이력 >'}
+            비트베이크팀의 프로젝트 이력 >
           </button>
         </div>
-        </div>
+      </div>
+      </div>
       
       <AwardsModal 
         isOpen={isAwardsModalOpen} 
