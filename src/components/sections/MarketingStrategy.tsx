@@ -13,7 +13,7 @@ const MarketingStrategy: React.FC = () => {
         해당 방식은 단순히 유저 확보를 넘어, 유저들이 자연스럽게 커뮤니티와 SNS에 초대 링크와 후기를 공유하도록 유도하여 자발적 콘텐츠 생산과 추가적인 마케팅 효과를 만들어냅니다.
       </p>
 
-      <img src="" />
+      <img src="/img_marketing1.png" />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">2. 리텐션 강화</h2>
       
