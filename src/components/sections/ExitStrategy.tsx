@@ -39,7 +39,7 @@ const ExitStrategy: React.FC = () => {
               <td className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 font-medium text-gray-800 align-top text-xs sm:text-sm">기타 방안</td>
               <td className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 text-gray-700 align-top text-xs sm:text-sm">조건 달성시</td>
               <td className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 text-gray-700 align-top text-xs sm:text-sm">협의</td>
-              <td className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 text-gray-700 text-xs sm:text-sm align-top">회사가 일정 수준 이상의 영업이익(예: 연간 50억 이상 영업이익)을 달성하면, Seed 투자자의 지분을 사전에 약정된 가격(예: 투자액 대비 5배 가치)으로 되사줄 수 있는 옵션을 부여하는 것도 가능합니다. <br/>장기적으로는 IPO를 통해 증시에 상장 후 투자금을 회수하는 방안도 존재합니다.</td>
+              <td className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 text-gray-700 text-xs sm:text-sm align-top">회사가 일정 수준 이상의 영업이익(예: 연간 50억 이상 영업이익)을 달성하면, Seed 투자자의 지분을 사전에 약정된 가격(예: 투자액 대비 5배 가치)으로 되사줄 수 있는 옵션을 부여하는 것도 가능합니다.<br/><br/>장기적으로는 IPO를 통해 증시에 상장 후 투자금을 회수하는 방안도 존재합니다.</td>
             </tr>
           </tbody>
         </table>
