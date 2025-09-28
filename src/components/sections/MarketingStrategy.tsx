@@ -29,7 +29,7 @@ const MarketingStrategy: React.FC = () => {
         "비트베이크 따끈 퀴즈"와 같은 키워드를 중심으로 네이버, 구글 등 주요 검색엔진에서 상위 노출을 강화하고 있습니다. 꾸준한 SEO 최적화를 통해 신규 유저 유입 경로를 다각화하고, 검색 기반 자연 트래픽을 확보하고 있습니다.
       </p>
       
-      <img src="/img_marketing1.png" className="mb-10" />
+      <img src="/img_marketing3.png" className="mb-10" />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">4. 페이드 마케팅</h2>
       
