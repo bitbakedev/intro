@@ -24,7 +24,7 @@ const CompetitiveAdvantage: React.FC = () => {
             onClick={() => setIsProjectHistoryModalOpen(true)}
             className="text-blue-600 hover:text-blue-800 underline cursor-pointer bg-transparent border-none p-0 font-inherit"
           >
-            {'프로젝트 이력 >'}
+            {'비트베이크팀의 프로젝트 이력 >'}
           </button>
         </p>
         
