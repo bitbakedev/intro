@@ -64,7 +64,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
       </p>
       </div>
       
-      <div className="bg-blue-50 p-2 sm:p-6 rounded-lg">
+      <div className="bg-blue-50 p-4 sm:p-6 rounded-lg">
         <h3 className="text-lg sm:text-xl font-semibold mb-4 text-center">핵심 성과 지표</h3>
         <div className="grid grid-cols-3 gap-2 sm:gap-6">
           {achievements.map((achievement, index) => (
