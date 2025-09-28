@@ -50,7 +50,6 @@ const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
           </button>
         </div>
       </div>
-      </div>
       
       <AwardsModal 
         isOpen={isAwardsModalOpen} 
