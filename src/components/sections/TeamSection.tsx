@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { TeamMember } from '../../types/proposal';
 import TeamCard from '../TeamCard';
 import AwardsModal from '../AwardsModal';
+import ProjectHistoryModal from '../ProjectHistoryModal';
 
 interface TeamSectionProps {
   team: TeamMember[];
@@ -10,6 +11,7 @@ interface TeamSectionProps {
 
 const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
   const [isAwardsModalOpen, setIsAwardsModalOpen] = useState(false);
+  const [isProjectHistoryModalOpen, setIsProjectHistoryModalOpen] = useState(false);
 
   return (
     <>
@@ -39,6 +41,13 @@ const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
           >
             주요 수상 경력 &gt;
           </button>
+          <span className="mx-4 text-gray-400">|</span>
+          <button
+            onClick={() => setIsProjectHistoryModalOpen(true)}
+            className="text-blue-600 hover:text-blue-800 underline cursor-pointer bg-transparent border-none p-0 font-inherit"
+          >
+            비트베이크팀의 프로젝트 이력 >
+          </button>
         </div>
       </div>
       </div>
@@ -46,6 +55,11 @@ const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
       <AwardsModal 
         isOpen={isAwardsModalOpen} 
         onClose={() => setIsAwardsModalOpen(false)} 
+      />
+      
+      <ProjectHistoryModal 
+        isOpen={isProjectHistoryModalOpen} 
+        onClose={() => setIsProjectHistoryModalOpen(false)} 
       />
     </>
   );
