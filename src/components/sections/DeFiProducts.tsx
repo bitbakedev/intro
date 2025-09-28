@@ -46,7 +46,7 @@ const DeFiProducts: React.FC = () => {
         자동화된 포트폴리오 관리를 통해 최적의 수익률을 추구합니다.
       </p>
 
-      <img src="/img_defi_1.png" />
+      <img src="/img_defi_3.png" />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">4. 투자 상품</h2>
       
