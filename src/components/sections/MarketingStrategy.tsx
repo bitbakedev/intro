@@ -21,6 +21,8 @@ const MarketingStrategy: React.FC = () => {
         비트베이크는 출석 체크, 쿠키 키우기, 만보기 등 다양한 미션형 콘텐츠를 통해 유저가 매일 앱을 방문하도록 설계했습니다. 이러한 구조는 단순 보상에 그치지 않고, 생활 습관과 연결된 리워드를 제공해 유저의 지속적인 참여를 유도합니다.
       </p>
       
+      <img src="/img_marketing2.png" className="mb-10" />
+      
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">3. 검색엔진 최적화(SEO)</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
