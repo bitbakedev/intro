@@ -55,7 +55,7 @@ const CompetitiveAdvantage: React.FC = () => {
         </p>
         
         <p className="text-gray-700 leading-relaxed mb-4">
-          국내 리워드 앱이나 핀테크 기업들이 DeFi의 가치를 체감하고 적극적으로 인재를 확보하기 위해 움직이려면, 국내에서 실질적인 성공사례가 등장해야 합니다.
+          국내 리워드 앱이나 핀테크 기업들이 DeFi의 가치를 체감하고 적극적으로 인재를 확보해야겠다 의사결정을 하려면, 국내에서 실질적인 성공사례가 등장해야 합니다.
         </p>
         
         <p className="text-gray-700 leading-relaxed mb-6">
