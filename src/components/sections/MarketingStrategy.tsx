@@ -29,8 +29,12 @@ const MarketingStrategy: React.FC = () => {
       <img 
         src="/img_marketing1.png" 
         alt="바이럴 마케팅 전략 구조도"
-        className="cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-md mb-10"
-        onClick={() => openImageModal("/img_marketing1.png", "바이럴 마케팅 전략 구조도")}
+        className="md:cursor-pointer md:hover:opacity-80 transition-opacity rounded-lg shadow-md mb-10"
+        onClick={() => {
+          if (window.innerWidth >= 768) {
+            openImageModal("/img_marketing1.png", "바이럴 마케팅 전략 구조도");
+          }
+        }}
       />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">2. 리텐션 강화</h2>
@@ -42,8 +46,12 @@ const MarketingStrategy: React.FC = () => {
       <img 
         src="/img_marketing3.png" 
         alt="리텐션 강화 전략"
-        className="cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-md mb-10"
-        onClick={() => openImageModal("/img_marketing3.png", "리텐션 강화 전략")}
+        className="md:cursor-pointer md:hover:opacity-80 transition-opacity rounded-lg shadow-md mb-10"
+        onClick={() => {
+          if (window.innerWidth >= 768) {
+            openImageModal("/img_marketing3.png", "리텐션 강화 전략");
+          }
+        }}
       />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">3. 검색엔진 최적화(SEO)</h2>
@@ -55,8 +63,12 @@ const MarketingStrategy: React.FC = () => {
       <img 
         src="/img_marketing2.png" 
         alt="검색엔진 최적화 전략"
-        className="cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-md mb-10"
-        onClick={() => openImageModal("/img_marketing2.png", "검색엔진 최적화 전략")}
+        className="md:cursor-pointer md:hover:opacity-80 transition-opacity rounded-lg shadow-md mb-10"
+        onClick={() => {
+          if (window.innerWidth >= 768) {
+            openImageModal("/img_marketing2.png", "검색엔진 최적화 전략");
+          }
+        }}
       />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">4. 페이드 마케팅</h2>

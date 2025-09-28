@@ -32,8 +32,12 @@ const DeFiProducts: React.FC = () => {
       <img 
         src="/img_defi_1.png" 
         alt="스테이킹 & LSD 서비스 구조도"
-        className="cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-md"
-        onClick={() => openImageModal("/img_defi_1.png", "스테이킹 & LSD 서비스 구조도")}
+        className="md:cursor-pointer md:hover:opacity-80 transition-opacity rounded-lg shadow-md"
+        onClick={() => {
+          if (window.innerWidth >= 768) {
+            openImageModal("/img_defi_1.png", "스테이킹 & LSD 서비스 구조도");
+          }
+        }}
       />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">2. 담보대출 프로토콜 유동성 공급</h2>
@@ -52,8 +56,12 @@ const DeFiProducts: React.FC = () => {
       <img 
         src="/img_defi_2.png" 
         alt="담보대출 프로토콜 유동성 공급 구조도"
-        className="cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-md"
-        onClick={() => openImageModal("/img_defi_2.png", "담보대출 프로토콜 유동성 공급 구조도")}
+        className="md:cursor-pointer md:hover:opacity-80 transition-opacity rounded-lg shadow-md"
+        onClick={() => {
+          if (window.innerWidth >= 768) {
+            openImageModal("/img_defi_2.png", "담보대출 프로토콜 유동성 공급 구조도");
+          }
+        }}
       />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">3. 거래소 유동성 공급</h2>
@@ -72,8 +80,12 @@ const DeFiProducts: React.FC = () => {
       <img 
         src="/img_defi_3.png" 
         alt="거래소 유동성 공급 구조도"
-        className="cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-md"
-        onClick={() => openImageModal("/img_defi_3.png", "거래소 유동성 공급 구조도")}
+        className="md:cursor-pointer md:hover:opacity-80 transition-opacity rounded-lg shadow-md"
+        onClick={() => {
+          if (window.innerWidth >= 768) {
+            openImageModal("/img_defi_3.png", "거래소 유동성 공급 구조도");
+          }
+        }}
       />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">4. 투자 상품</h2>

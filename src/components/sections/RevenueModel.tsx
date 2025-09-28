@@ -41,8 +41,12 @@ const RevenueModel: React.FC = () => {
       <img 
         src="/img_bm_1.png" 
         alt="광고 수익 모델 구조도"
-        className="cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-md mb-10"
-        onClick={() => openImageModal("/img_bm_1.png", "광고 수익 모델 구조도")}
+        className="md:cursor-pointer md:hover:opacity-80 transition-opacity rounded-lg shadow-md mb-10"
+        onClick={() => {
+          if (window.innerWidth >= 768) {
+            openImageModal("/img_bm_1.png", "광고 수익 모델 구조도");
+          }
+        }}
       />
       
       <h3 className="text-lg sm:text-xl font-semibold text-gray-700 mb-4 ml-4">2. 기프트카드 수수료</h3>
@@ -54,8 +58,12 @@ const RevenueModel: React.FC = () => {
       <img 
         src="/img_bm_3.png" 
         alt="기프트카드 수수료 모델 구조도"
-        className="cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-md mb-10"
-        onClick={() => openImageModal("/img_bm_3.png", "기프트카드 수수료 모델 구조도")}
+        className="md:cursor-pointer md:hover:opacity-80 transition-opacity rounded-lg shadow-md mb-10"
+        onClick={() => {
+          if (window.innerWidth >= 768) {
+            openImageModal("/img_bm_3.png", "기프트카드 수수료 모델 구조도");
+          }
+        }}
       />
       
       <h3 className="text-lg sm:text-xl font-semibold text-gray-700 mb-4 ml-4">3. B2B 직광고</h3>
@@ -76,8 +84,12 @@ const RevenueModel: React.FC = () => {
       <img 
         src="/img_bm_2.png" 
         alt="B2B 직광고 모델 구조도"
-        className="cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-md mb-10"
-        onClick={() => openImageModal("/img_bm_2.png", "B2B 직광고 모델 구조도")}
+        className="md:cursor-pointer md:hover:opacity-80 transition-opacity rounded-lg shadow-md mb-10"
+        onClick={() => {
+          if (window.innerWidth >= 768) {
+            openImageModal("/img_bm_2.png", "B2B 직광고 모델 구조도");
+          }
+        }}
       />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">비트베이크만의 추가적인 비즈니스 모델</h2>
