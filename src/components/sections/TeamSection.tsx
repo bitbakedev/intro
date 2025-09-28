@@ -48,6 +48,7 @@ const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
             비트베이크팀의 프로젝트 이력 >
           </button>
         </div>
+        </div>
       
       <AwardsModal 
         isOpen={isAwardsModalOpen} 
