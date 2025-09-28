@@ -39,7 +39,7 @@ const InvestmentProposal: React.FC = () => {
     { id: 'funding-request', title: 'Seed-Round 요약' },
     { id: 'exit-strategy', title: '투자금 회수 전략' },
     { id: 'defi-products', title: 'DeFi 상품 기획', isAppendix: true },
-    { id: 'stablecoin-strategy', title: '원화 스테이블 코인 전략', isAppendix: true },
+    { id: 'stablecoin-strategy', title: '원화 스테이블 코인 출범 후 전략', isAppendix: true },
     { id: 'legal-risk', title: '법적 리스크와 해소 전략', isAppendix: true },
     { id: 'neo-partnership', title: 'Neo 재단 파트너십', isAppendix: true },
     { id: 'contact', title: '연락처' },
