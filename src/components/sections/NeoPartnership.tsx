@@ -12,7 +12,7 @@ const NeoPartnership: React.FC = () => {
       
       <p className="text-gray-700 leading-relaxed mb-6">
         현재 비트베이크는 Neo 재단으로부터 국내 마케팅 및 행사 지원금을 수령하며 협력 중입니다. 
-        더 나아가, Neo 재단은 비트베이크와 같은 한국의 유망 프로젝트에 대해 직접 투자 의향까지 밝힌 상태입니다.
+        더 나아가, Neo 재단은 비트베이크가 유의미한 성과를 만들었을 때 직접 투자 하겠다는 의향까지 밝힌 상태입니다.
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-4">
