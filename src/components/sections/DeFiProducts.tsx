@@ -1,8 +1,21 @@
 import React from 'react';
+import { useState } from 'react';
+import ImageModal from '../ImageModal';
 
 const DeFiProducts: React.FC = () => {
+  const [selectedImage, setSelectedImage] = useState<{ src: string; alt: string } | null>(null);
+
+  const openImageModal = (src: string, alt: string) => {
+    setSelectedImage({ src, alt });
+  };
+
+  const closeImageModal = () => {
+    setSelectedImage(null);
+  };
+
   return (
-    <div className="prose prose-lg max-w-none">
+    <>
+      <div className="prose prose-lg max-w-none">
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">1. 스테이킹 & LSD (Liquid Staking Derivatives)</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
@@ -16,7 +29,12 @@ const DeFiProducts: React.FC = () => {
         필요시 언제든지 유동성을 확보할 수 있는 유연성을 제공받습니다.
       </p>
 
-      <img src="/img_defi_1.png" />
+      <img 
+        src="/img_defi_1.png" 
+        alt="스테이킹 & LSD 서비스 구조도"
+        className="cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-md"
+        onClick={() => openImageModal("/img_defi_1.png", "스테이킹 & LSD 서비스 구조도")}
+      />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">2. 담보대출 프로토콜 유동성 공급</h2>
       
@@ -31,7 +49,12 @@ const DeFiProducts: React.FC = () => {
         검증된 서비스를 통해 상대적으로 안전한 투자 옵션을 제공합니다.
       </p>
 
-      <img src="/img_defi_2.png" />
+      <img 
+        src="/img_defi_2.png" 
+        alt="담보대출 프로토콜 유동성 공급 구조도"
+        className="cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-md"
+        onClick={() => openImageModal("/img_defi_2.png", "담보대출 프로토콜 유동성 공급 구조도")}
+      />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">3. 거래소 유동성 공급</h2>
       
@@ -46,7 +69,12 @@ const DeFiProducts: React.FC = () => {
         자동화된 포트폴리오 관리를 통해 최적의 수익률을 추구합니다.
       </p>
 
-      <img src="/img_defi_3.png" />
+      <img 
+        src="/img_defi_3.png" 
+        alt="거래소 유동성 공급 구조도"
+        className="cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-md"
+        onClick={() => openImageModal("/img_defi_3.png", "거래소 유동성 공급 구조도")}
+      />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">4. 투자 상품</h2>
       
@@ -75,7 +103,15 @@ const DeFiProducts: React.FC = () => {
         다양한 투자 상품에 접근할 수 있습니다. 실시간 수익률 모니터링, 자동 리밸런싱, 
         위험 관리 등의 기능을 통해 전문적인 자산 관리 서비스를 제공합니다.
       </p>
-    </div>
+      </div>
+      
+      <ImageModal 
+        isOpen={selectedImage !== null}
+        onClose={closeImageModal}
+        imageSrc={selectedImage?.src || ''}
+        imageAlt={selectedImage?.alt || ''}
+      />
+    </>
   );
 };
 
