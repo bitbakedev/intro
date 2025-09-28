@@ -66,12 +66,12 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
       
       <div className="bg-blue-50 p-6 rounded-lg">
         <h3 className="text-lg sm:text-xl font-semibold mb-4 text-center">핵심 성과 지표</h3>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
           {achievements.map((achievement, index) => (
-            <div key={index} className="text-center">
-              <h4 className="text-2xl font-bold text-blue-600 mb-1">{achievement.metric}</h4>
-              <p className="text-sm font-medium mb-1">{achievement.value}</p>
-              <p className="text-xs text-gray-600">{achievement.description}</p>
+            <div key={index} className="text-center p-3 sm:p-0">
+              <h4 className="text-3xl sm:text-2xl font-bold text-blue-600 mb-2 sm:mb-1">{achievement.metric}</h4>
+              <p className="text-base sm:text-sm font-medium mb-2 sm:mb-1 text-gray-800">{achievement.value}</p>
+              <p className="text-sm sm:text-xs text-gray-600 leading-relaxed">{achievement.description}</p>
             </div>
           ))}
         </div>
