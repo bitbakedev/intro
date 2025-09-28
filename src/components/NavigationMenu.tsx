@@ -92,17 +92,31 @@ const NavigationMenu: React.FC<NavigationMenuProps> = ({ sections }) => {
             <h3 className="font-semibold text-gray-800 text-sm">목차</h3>
           </div>
           <div className="max-h-96 overflow-y-auto">
-            {sections.map((section) => (
-              <button
-                key={section.id}
-                onClick={() => scrollToSection(section.id)}
-                className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-50 transition-colors border-b border-gray-100 last:border-b-0 ${
-                  activeSection === section.id ? 'bg-blue-50 text-blue-600 font-medium border-l-2 border-l-blue-600' : 'text-gray-700'
-                } ${section.isAppendix ? 'pl-6 text-xs' : ''}`}
-              >
-                {section.title}
-              </button>
-            ))}
+            {sections.map((section, index) => {
+              // Appendix 섹션 시작 전에 라벨 추가
+              const isFirstAppendix = section.isAppendix && 
+                (index === 0 || !sections[index - 1].isAppendix);
+              
+              return (
+                <React.Fragment key={section.id}>
+                  {isFirstAppendix && (
+                    <div className="px-4 py-2 bg-gray-50 border-b border-gray-200">
+                      <span className="text-xs font-medium text-gray-500 uppercase tracking-wide">
+                        Appendix
+                      </span>
+                    </div>
+                  )}
+                  <button
+                    onClick={() => scrollToSection(section.id)}
+                    className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-50 transition-colors border-b border-gray-100 last:border-b-0 ${
+                      activeSection === section.id ? 'bg-blue-50 text-blue-600 font-medium border-l-2 border-l-blue-600' : 'text-gray-700'
+                    } ${section.isAppendix ? 'pl-6 text-xs' : ''}`}
+                  >
+                    {section.title}
+                  </button>
+                </React.Fragment>
+              );
+            })}
           </div>
         </div>
       </div>
