@@ -21,7 +21,7 @@ const MarketingStrategy: React.FC = () => {
         비트베이크는 출석 체크, 쿠키 키우기, 만보기 등 다양한 미션형 콘텐츠를 통해 유저가 매일 앱을 방문하도록 설계했습니다. 이러한 구조는 단순 보상에 그치지 않고, 생활 습관과 연결된 리워드를 제공해 유저의 지속적인 참여를 유도합니다.
       </p>
       
-      <img src="/img_marketing2.png" className="mb-10" />
+      <img src="/img_marketing3.png" className="mb-10" />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">3. 검색엔진 최적화(SEO)</h2>
       
@@ -29,7 +29,7 @@ const MarketingStrategy: React.FC = () => {
         "비트베이크 따끈 퀴즈"와 같은 키워드를 중심으로 네이버, 구글 등 주요 검색엔진에서 상위 노출을 강화하고 있습니다. 꾸준한 SEO 최적화를 통해 신규 유저 유입 경로를 다각화하고, 검색 기반 자연 트래픽을 확보하고 있습니다.
       </p>
       
-      <img src="/img_marketing3.png" className="mb-10" />
+      <img src="/img_marketing2.png" className="mb-10" />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">4. 페이드 마케팅</h2>
       
