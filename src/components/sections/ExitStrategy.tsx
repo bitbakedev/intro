@@ -27,7 +27,7 @@ const ExitStrategy: React.FC = () => {
               <td className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 font-medium text-gray-800 align-top text-xs sm:text-sm">Series A</td>
               <td className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 text-gray-700 align-top text-xs sm:text-sm">2026 Q3~Q4</td>
               <td className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 text-gray-700 align-top text-xs sm:text-sm">200~300억원 (12~19배)</td>
-              <td className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 text-gray-700 text-xs sm:text-sm align-top">벨류에이션 200~300억원 목표로 Seed Round 투자 대비 15~20배 수준의 수익률을 기대할 수 있습니다. 이는 연매출 80억, 순이익 5억 달성을 조건으로 합니다.</td>
+              <td className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 text-gray-700 text-xs sm:text-sm align-top">벨류에이션 200~300억원 목표로 Seed Round 투자 대비 12~19배 수준의 수익률을 기대할 수 있습니다. 이는 연매출 80억, 순이익 5억 달성을 조건으로 합니다.</td>
             </tr>
             <tr className="bg-gray-25">
               <td className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 font-medium text-gray-800 align-top text-xs sm:text-sm">Series B</td>
