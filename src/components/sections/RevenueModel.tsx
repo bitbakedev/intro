@@ -25,7 +25,7 @@ const RevenueModel: React.FC = () => {
 현재보다 광고 효율과 수익성이 크게 향상될 전망입니다.
       </p>
 
-      <img src="/img_bm_1.png" className="mb-4" />
+      <img src="/img_bm_1.png" className="mb-10" />
       
       <h3 className="text-lg sm:text-xl font-semibold text-gray-700 mb-4 ml-4">2. 기프트카드 수수료</h3>
       
