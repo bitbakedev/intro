@@ -1,8 +1,21 @@
 import React from 'react';
+import { useState } from 'react';
+import ImageModal from '../ImageModal';
 
 const RevenueModel: React.FC = () => {
+  const [selectedImage, setSelectedImage] = useState<{ src: string; alt: string } | null>(null);
+
+  const openImageModal = (src: string, alt: string) => {
+    setSelectedImage({ src, alt });
+  };
+
+  const closeImageModal = () => {
+    setSelectedImage(null);
+  };
+
   return (
-    <div className="prose prose-lg max-w-none">
+    <>
+      <div className="prose prose-lg max-w-none">
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">리워드앱의 기본적인 비즈니스 모델</h2>
       
       <h3 className="text-lg sm:text-xl font-semibold text-gray-700 mb-4 ml-4">1. 광고 수익</h3>
@@ -25,7 +38,12 @@ const RevenueModel: React.FC = () => {
 현재보다 광고 효율과 수익성이 크게 향상될 전망입니다.
       </p>
 
-      <img src="/img_bm_1.png" className="mb-10" />
+      <img 
+        src="/img_bm_1.png" 
+        alt="광고 수익 모델 구조도"
+        className="cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-md mb-10"
+        onClick={() => openImageModal("/img_bm_1.png", "광고 수익 모델 구조도")}
+      />
       
       <h3 className="text-lg sm:text-xl font-semibold text-gray-700 mb-4 ml-4">2. 기프트카드 수수료</h3>
       
@@ -33,7 +51,12 @@ const RevenueModel: React.FC = () => {
         유저가 비트베이크내에서 판매한 기프트카드는 전문 매입사에 재판매 됩니다. 판매 정산금액의 15% 는 비트베이크가 수취하며, 사용자는 기프트카드 가액의 75%를 포인트로 수령하게 됩니다. 이는 기존 리워드 앱에서는 찾아볼 수 없는 독창적인 수익 구조이며, 사용자가 늘어날수록 기프트카드 거래량이 증가하고, 주요 기프트카드 발행사·매입사와의 전략적 제휴를 통해 안정적이고 지속적인 수익 성장을 기대할 수 있습니다.
       </p>
 
-      <img src="/img_bm_3.png" className="mb-10" />
+      <img 
+        src="/img_bm_3.png" 
+        alt="기프트카드 수수료 모델 구조도"
+        className="cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-md mb-10"
+        onClick={() => openImageModal("/img_bm_3.png", "기프트카드 수수료 모델 구조도")}
+      />
       
       <h3 className="text-lg sm:text-xl font-semibold text-gray-700 mb-4 ml-4">3. B2B 직광고</h3>
       
@@ -50,7 +73,12 @@ const RevenueModel: React.FC = () => {
         직광고 기반의 고수익 모델로 빠르게 전환할 수 있습니다.
       </p>
 
-      <img src="/img_bm_2.png" className="mb-10" />
+      <img 
+        src="/img_bm_2.png" 
+        alt="B2B 직광고 모델 구조도"
+        className="cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-md mb-10"
+        onClick={() => openImageModal("/img_bm_2.png", "B2B 직광고 모델 구조도")}
+      />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">비트베이크만의 추가적인 비즈니스 모델</h2>
       
@@ -136,7 +164,15 @@ const RevenueModel: React.FC = () => {
         이처럼 <strong>5개의 서로 다른 수익원</strong>은 리스크를 분산시키면서도 
         상호 보완적으로 작용하여 지속 가능한 성장을 만들어냅니다.
       </p>
-    </div>
+      </div>
+      
+      <ImageModal 
+        isOpen={selectedImage !== null}
+        onClose={closeImageModal}
+        imageSrc={selectedImage?.src || ''}
+        imageAlt={selectedImage?.alt || ''}
+      />
+    </>
   );
 };
 

@@ -1,8 +1,21 @@
 import React from 'react';
+import { useState } from 'react';
+import ImageModal from '../ImageModal';
 
 const MarketingStrategy: React.FC = () => {
+  const [selectedImage, setSelectedImage] = useState<{ src: string; alt: string } | null>(null);
+
+  const openImageModal = (src: string, alt: string) => {
+    setSelectedImage({ src, alt });
+  };
+
+  const closeImageModal = () => {
+    setSelectedImage(null);
+  };
+
   return (
-    <div className="prose prose-lg max-w-none">
+    <>
+      <div className="prose prose-lg max-w-none">
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">1. 바이럴 마케팅</h2>
       
       <p className="text-gray-700 leading-relaxed mb-4">
@@ -13,7 +26,12 @@ const MarketingStrategy: React.FC = () => {
         해당 방식은 단순히 유저 확보를 넘어, 유저들이 자연스럽게 커뮤니티와 SNS에 초대 링크와 후기를 공유하도록 유도하여 자발적 콘텐츠 생산과 추가적인 마케팅 효과를 만들어냅니다.
       </p>
 
-      <img src="/img_marketing1.png" className="mb-10" />
+      <img 
+        src="/img_marketing1.png" 
+        alt="바이럴 마케팅 전략 구조도"
+        className="cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-md mb-10"
+        onClick={() => openImageModal("/img_marketing1.png", "바이럴 마케팅 전략 구조도")}
+      />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">2. 리텐션 강화</h2>
       
@@ -21,7 +39,12 @@ const MarketingStrategy: React.FC = () => {
         비트베이크는 출석 체크, 쿠키 키우기, 만보기 등 다양한 미션형 콘텐츠를 통해 유저가 매일 앱을 방문하도록 설계했습니다. 이러한 구조는 단순 보상에 그치지 않고, 생활 습관과 연결된 리워드를 제공해 유저의 지속적인 참여를 유도합니다.
       </p>
       
-      <img src="/img_marketing3.png" className="mb-10" />
+      <img 
+        src="/img_marketing3.png" 
+        alt="리텐션 강화 전략"
+        className="cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-md mb-10"
+        onClick={() => openImageModal("/img_marketing3.png", "리텐션 강화 전략")}
+      />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">3. 검색엔진 최적화(SEO)</h2>
       
@@ -29,7 +52,12 @@ const MarketingStrategy: React.FC = () => {
         "비트베이크 따끈 퀴즈"와 같은 키워드를 중심으로 네이버, 구글 등 주요 검색엔진에서 상위 노출을 강화하고 있습니다. 꾸준한 SEO 최적화를 통해 신규 유저 유입 경로를 다각화하고, 검색 기반 자연 트래픽을 확보하고 있습니다.
       </p>
       
-      <img src="/img_marketing2.png" className="mb-10" />
+      <img 
+        src="/img_marketing2.png" 
+        alt="검색엔진 최적화 전략"
+        className="cursor-pointer hover:opacity-80 transition-opacity rounded-lg shadow-md mb-10"
+        onClick={() => openImageModal("/img_marketing2.png", "검색엔진 최적화 전략")}
+      />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">4. 페이드 마케팅</h2>
       
@@ -41,7 +69,15 @@ const MarketingStrategy: React.FC = () => {
       <p className="text-gray-700 leading-relaxed mb-6">
         앞으로도 CPI(설치당 비용)를 300~1000원 범위로 최적화해 마케팅을 진행할 예정이며, 단순 유입에 그치지 않고 유저가 실제로 재방문하며 유지되는지 까지 모니터링 하며 수행할 예정입니다. 이를 통해 마케팅 비용을 낭비하지 않고, 효율적으로 성장할 수 있습니다.
       </p>
-    </div>
+      </div>
+      
+      <ImageModal 
+        isOpen={selectedImage !== null}
+        onClose={closeImageModal}
+        imageSrc={selectedImage?.src || ''}
+        imageAlt={selectedImage?.alt || ''}
+      />
+    </>
   );
 };
 
