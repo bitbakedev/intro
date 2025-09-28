@@ -33,7 +33,7 @@ const ExitStrategy: React.FC = () => {
               <td className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 font-medium text-gray-800 align-top text-xs sm:text-sm">Series B</td>
               <td className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 text-gray-700 align-top text-xs sm:text-sm">2027~2028</td>
               <td className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 text-gray-700 align-top text-xs sm:text-sm">500 ~ 1,000억원 (30~60배)</td>
-              <td className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 text-gray-700 text-xs sm:text-sm align-top">밸류에이션 1,000억원을 목표로 하며, Seed 투자자는 70~80배의 수익률을 기대할 수 있습니다. 이 단계에서는 대형 VC나 재단들의 투자를 유치하여 글로벌 확장을 본격화할 예정입니다.</td>
+              <td className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 text-gray-700 text-xs sm:text-sm align-top">밸류에이션 1,000억원을 목표로 하며, Seed 투자자는 30~60배의 수익률을 기대할 수 있습니다. 이 단계에서는 대형 VC나 재단들의 투자를 유치하여 글로벌 확장을 본격화할 예정입니다.</td>
             </tr>
             <tr>
               <td className="border border-gray-300 px-2 py-2 sm:px-3 sm:py-3 font-medium text-gray-800 align-top text-xs sm:text-sm">M&A</td>
