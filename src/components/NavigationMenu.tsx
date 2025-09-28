@@ -43,18 +43,18 @@ const NavigationMenu: React.FC<NavigationMenuProps> = ({ sections }) => {
   return (
     <>
       {/* 모바일 드롭다운 메뉴 */}
-      <div className="md:hidden fixed top-4 left-4 right-4 z-40">
-        <div className="bg-white rounded-lg shadow-lg border">
+      <div className="md:hidden fixed top-4 right-4 z-40">
+        <div className="bg-white rounded-full shadow-lg border">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="w-full flex items-center justify-between p-4 text-left"
+            className="flex items-center justify-center w-12 h-12 rounded-full hover:bg-gray-50 transition-colors"
+            title="목차"
           >
-            <span className="font-medium text-gray-800">목차</span>
-            <ChevronDown className={`w-5 h-5 text-gray-500 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
+            <Menu className="w-5 h-5 text-gray-700" />
           </button>
           
           {isOpen && (
-            <div className="border-t max-h-96 overflow-y-auto">
+            <div className="absolute top-full right-0 mt-2 w-64 bg-white rounded-lg shadow-lg border max-h-96 overflow-y-auto">
               {sections.map((section, index) => {
                 // Appendix 섹션 시작 전에 라벨 추가
                 const isFirstAppendix = section.isAppendix && 
@@ -86,7 +86,7 @@ const NavigationMenu: React.FC<NavigationMenuProps> = ({ sections }) => {
       </div>
 
       {/* PC 좌측 플로팅 메뉴 */}
-      <div className="hidden md:block fixed left-6 top-1/2 transform -translate-y-1/2 z-40">
+      <div className="hidden md:block fixed left-6 top-6 z-40">
         <div className="bg-white rounded-lg shadow-lg border max-w-xs">
           <div className="p-4 border-b">
             <h3 className="font-semibold text-gray-800 text-sm">목차</h3>
