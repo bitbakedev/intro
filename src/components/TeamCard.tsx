@@ -12,7 +12,7 @@ const TeamCard: React.FC<TeamCardProps> = ({ member }) => {
       <div className="flex items-start space-x-4 mb-3">
         {member.image && (
           <img 
-            src={member.image} 
+            src={member.image.startsWith('/') ? member.image : `/${member.image}`} 
             alt={member.name}
             className="w-20 h-20 rounded-lg object-cover flex-shrink-0"
           />
