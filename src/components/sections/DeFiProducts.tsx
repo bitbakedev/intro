@@ -15,6 +15,8 @@ const DeFiProducts: React.FC = () => {
         이를 통해 사용자는 자산을 락업하지 않고도 스테이킹 수익을 얻을 수 있으며, 
         필요시 언제든지 유동성을 확보할 수 있는 유연성을 제공받습니다.
       </p>
+
+      <img src="/img_defi_1.png" />
       
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 mt-8">2. 담보대출 프로토콜 유동성 공급</h2>
       
