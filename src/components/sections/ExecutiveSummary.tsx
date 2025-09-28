@@ -63,19 +63,6 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
     기존 리워드 앱 서비스들은 스케일업 과정에서 수익성과 성장 한계에 부딪히고 있습니다. 그러나 비트베이크는 <strong>리워드 앱에서 DeFi 플랫폼으로의 진화</strong>라는 경쟁사들이 결코 따라오기 어려운 독창적인 성장 경로를 가지고 있습니다. 이는 단순히 광고 기반 수익 모델에 머무는 것이 아니라, 암호화폐 금융 이라는 고부가가치 사업으로 확장하는 전략입니다. 이러한 방향성은 기존 리워드 앱들이 쉽게 모방할 수 없는 비트베이크만의 압도적인 경쟁력이자 차별화 포인트입니다.
       </p>
       </div>
-      
-      <div className="bg-blue-50 p-4 sm:p-6 rounded-lg">
-        <h3 className="text-lg sm:text-xl font-semibold mb-4 text-center">핵심 성과 지표</h3>
-        <div className="grid grid-cols-3 gap-2 sm:gap-6">
-          {achievements.map((achievement, index) => (
-            <div key={index} className="text-center p-1 sm:p-0">
-              <h4 className="text-xl sm:text-2xl font-bold text-blue-600 mb-1">{achievement.metric}</h4>
-              <p className="text-sm sm:text-sm font-medium mb-1 text-gray-800">{achievement.value}</p>
-              <p className="text-xs sm:text-xs text-gray-600 leading-tight sm:leading-relaxed">{achievement.description}</p>
-            </div>
-          ))}
-        </div>
-      </div>
     </>
   );
 };
