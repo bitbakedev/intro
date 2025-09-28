@@ -24,6 +24,8 @@ const RevenueModel: React.FC = () => {
 광고 단가가 높은 프리미엄 애드네트워크와의 제휴가 가능해져
 현재보다 광고 효율과 수익성이 크게 향상될 전망입니다.
       </p>
+
+      <img src="/img_bm_1.png" />
       
       <h3 className="text-lg sm:text-xl font-semibold text-gray-700 mb-4 ml-4">2. 기프트카드 수수료</h3>
       
