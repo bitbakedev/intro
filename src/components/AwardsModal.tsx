@@ -59,6 +59,12 @@ const AwardsModal: React.FC<AwardsModalProps> = ({ isOpen, onClose }) => {
               </ul>
             </div>
             <div>
+              <h5 className="font-semibold text-gray-800 mb-2">2019년</h5>
+              <ul className="space-y-1 text-gray-600">
+                <li>• 54회 대한민국디자인전람회 장관상</li>
+              </ul>
+            </div>
+            <div>
               <h5 className="font-semibold text-gray-800 mb-2">2017년</h5>
               <ul className="space-y-1 text-gray-600">
                 <li>• 12th Appjam IoT 1위</li>
