@@ -7,9 +7,10 @@ interface NavigationMenuProps {
     title: string;
     isAppendix?: boolean;
   }>;
+  children: React.ReactNode;
 }
 
-const NavigationMenu: React.FC<NavigationMenuProps> = ({ sections }) => {
+const NavigationMenu: React.FC<NavigationMenuProps> = ({ sections, children }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('');
 
@@ -41,7 +42,7 @@ const NavigationMenu: React.FC<NavigationMenuProps> = ({ sections }) => {
   };
 
   return (
-    <>
+    <div className="flex">
       {/* 모바일 드롭다운 메뉴 */}
       <div className="md:hidden fixed top-4 right-4 z-40">
         <div className="bg-white rounded-full shadow-lg border">
@@ -86,8 +87,8 @@ const NavigationMenu: React.FC<NavigationMenuProps> = ({ sections }) => {
       </div>
 
       {/* PC 좌측 플로팅 메뉴 */}
-      <div className="hidden md:block fixed left-6 top-6 z-40">
-        <div className="bg-white rounded-lg max-w-xs min-h-screen flex flex-col">
+      <div className="hidden md:block w-80 flex-shrink-0">
+        <div className="bg-white rounded-lg min-h-screen flex flex-col sticky top-0">
           <div className="p-4 border-b">
             <h3 className="font-semibold text-gray-800 text-sm">목차</h3>
           </div>
@@ -120,7 +121,10 @@ const NavigationMenu: React.FC<NavigationMenuProps> = ({ sections }) => {
           </div>
         </div>
       </div>
-    </>
+      
+      {/* 메인 콘텐츠 영역 */}
+      {children}
+    </div>
   );
 };
 
