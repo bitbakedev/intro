@@ -7,7 +7,7 @@ const ExitStrategy: React.FC = () => {
 이 과정에서 기존 투자자는 Series A 신규 투자자에게 구주 매각을 통해 Exit(투자금 회수)이 가능합니다.</p>
       <p className="mb-5">
       Series A 라운드는 Neo 블록체인 재단을 리드 투자사로 유치하는 것을 목표로 하고 있으며,
-이를 중심으로 블록체인·핀테크 분야의 기관 투자사들과 전략적 투자유치와 파트너십을 확대할 예정입니다.
+이를 중심으로 블록체인·핀테크 분야의 기관 투자사들로 부터 투자를 유치하고 파트너십을 확대할 예정입니다.
       </p>
       <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">투자금 회수 전략별 예상 수익률 (Seed Round 투자 기준)</h2>
       
