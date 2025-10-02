@@ -199,14 +199,14 @@ export const sampleProposalData: ProposalData = {
       linkedin: "https://www.linkedin.com/in/yusun-park/",
       image: "/img_pys.jpg"
     },
-    {
-      name: "김지수",
-      position: "프론트엔드 개발자",
-      education: "숭실대학교 졸업",
-      experience: "• HYPERCONNECT - 프론트엔드 개발자\n• Aurender - 프론트엔드 개발자\n• 대덕소프트웨어마이스터고등학교",
-      linkedin: "https://www.linkedin.com/in/jisoo-kim-3a6140185/",
-      image: "/img_kjs.jpg"
-    },
+    // {
+    //   name: "김지수",
+    //   position: "프론트엔드 개발자",
+    //   education: "숭실대학교 졸업",
+    //   experience: "• HYPERCONNECT - 프론트엔드 개발자\n• Aurender - 프론트엔드 개발자\n• 대덕소프트웨어마이스터고등학교",
+    //   linkedin: "https://www.linkedin.com/in/jisoo-kim-3a6140185/",
+    //   image: "/img_kjs.jpg"
+    // },
     {
       name: "이아현",
       position: "UX 디자이너",
@@ -215,14 +215,14 @@ export const sampleProposalData: ProposalData = {
       linkedin: "https://www.linkedin.com/in/ahyeon921/",
       image: "/img_lah.jpg"
     },
-    {
-      name: "권혁창",
-      position: "프론트엔드 개발자",
-      education: "",
-      experience: "• 티오더 - 프론트엔드 개발자\n• 스타트업 - 개발자\n• 경북대학교 - 수학 학사",
-      linkedin: "https://www.linkedin.com/in/%ED%98%81%EC%B0%BD-%EA%B6%8C-877893243/",
-      image: "/img_khc.png"
-    },
+    // {
+    //   name: "권혁창",
+    //   position: "프론트엔드 개발자",
+    //   education: "",
+    //   experience: "• 티오더 - 프론트엔드 개발자\n• 스타트업 - 개발자\n• 경북대학교 - 수학 학사",
+    //   linkedin: "https://www.linkedin.com/in/%ED%98%81%EC%B0%BD-%EA%B6%8C-877893243/",
+    //   image: "/img_khc.png"
+    // },
   ],
   
   fundingRequest: {
