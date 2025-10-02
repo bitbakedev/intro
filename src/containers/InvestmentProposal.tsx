@@ -36,8 +36,8 @@ const InvestmentProposal: React.FC = () => {
     { id: 'marketing-strategy', title: '성장 전략' },
     { id: 'financial-projections', title: '재무 전망' },
     { id: 'team', title: '팀 소개' },
-    { id: 'funding-request', title: 'Seed-Round 요약' },
-    { id: 'exit-strategy', title: '투자금 회수 전략' },
+    // { id: 'funding-request', title: 'Seed-Round 요약' },
+    // { id: 'exit-strategy', title: '투자금 회수 전략' },
     { id: 'defi-products', title: 'DeFi 상품 기획', isAppendix: true },
     { id: 'stablecoin-strategy', title: '원화 스테이블 코인 출범 후 전략', isAppendix: true },
     { id: 'legal-risk', title: '법적 리스크와 해소 전략', isAppendix: true },
@@ -98,14 +98,14 @@ const InvestmentProposal: React.FC = () => {
         </ProposalSection>
 
         {/* Funding Request */}
-        <ProposalSection title="Seed-Round 요약" pageBreak id="funding-request">
+        {/* <ProposalSection title="Seed-Round 요약" pageBreak id="funding-request">
           <FundingRequest fundingRequest={data.fundingRequest} />
-        </ProposalSection>
+        </ProposalSection> */}
 
         {/* Exit Strategy */}
-        <ProposalSection title="투자금 회수 전략" pageBreak id="exit-strategy">
+        {/* <ProposalSection title="투자금 회수 전략" pageBreak id="exit-strategy">
           <ExitStrategy />
-        </ProposalSection>
+        </ProposalSection> */}
 
         {/* DeFi Products */}
         <ProposalSection title={<><span className="text-sm text-gray-500">Appendix 1</span><br />DeFi 상품 기획</>} pageBreak id="defi-products">
