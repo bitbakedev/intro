@@ -40,7 +40,7 @@ const ExecutiveSummary: React.FC<ExecutiveSummaryProps> = ({
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-6">
-        그 결과 4,000+ 다운로드, 45% M1 리텐션, 35% 암호화폐 전환율이라는 성과를 보이며 가설을 검증했습니다. 
+        그 결과 5,000+ 다운로드, 45% M1 리텐션, 35% 암호화폐 전환율이라는 성과를 보이며 가설을 검증했습니다. 
         유료 마케팅 없이도 이러한 성과를 달성한 것은 비트베이크 팀의 접근 방식이 유효했음을 명확히 보여줍니다.
       </p>
       
