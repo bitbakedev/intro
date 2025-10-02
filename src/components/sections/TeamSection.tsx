@@ -78,6 +78,13 @@ const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
                 <li>• D3S Hackathon 2위</li>
               </ul>
             </div>
+            <div>
+              <h5 className="font-semibold text-gray-800 mb-2">2015년</h5>
+              <ul className="space-y-1 text-gray-600">
+                <li>• ETRI Idea Club 4위</li>
+                <li>• Naver D2 X Inha University Hackathon 4위</li>
+              </ul>
+            </div>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
