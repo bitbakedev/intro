@@ -25,11 +25,6 @@ const NeoPartnership: React.FC = () => {
         <li className="text-gray-700">• 글로벌 암호화폐 거래소 상장 지원</li>
         <li className="text-gray-700">• Neo 블록체인 이용자들을 대상으로 마케팅</li>
       </ul>
-      
-      <p className="text-gray-700 leading-relaxed">
-        비트베이크는 이번 Seed Round 투자를 통해 지속 가능한 비즈니스 모델 구축과 한국 시장 내 성장 가능성을 입증하여, 
-        다음 라운드에서 Neo 재단의 전략적 투자를 적극적으로 유치할 계획입니다.
-      </p>
     </div>
   );
 };
