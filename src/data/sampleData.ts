@@ -262,7 +262,7 @@ export const sampleProposalData: ProposalData = {
       description: "출시 2개월 만에 유료 마케팅 없이 달성"
     },
     {
-      metric: "52%",
+      metric: "45%",
       value: "M1 리텐션",
       description: "일반 리워드 앱 평균 수준 달성"
     },
