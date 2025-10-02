@@ -67,8 +67,14 @@ const ImageModal: React.FC<ImageModalProps> = ({ isOpen, onClose, imageSrc, imag
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4">
-      <div className="relative max-w-4xl max-h-[90vh] w-full h-full flex items-center justify-center">
+    <div
+      className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
+      onClick={onClose}
+    >
+      <div
+        className="relative max-w-4xl max-h-[90vh] w-full h-full flex items-center justify-center"
+        onClick={(e) => e.stopPropagation()}
+      >
         {/* 컨트롤 버튼들 - PC에서만 표시 */}
         <div className="absolute top-4 right-4 flex space-x-2 z-10 hidden md:flex">
           <button
@@ -138,13 +144,7 @@ const ImageModal: React.FC<ImageModalProps> = ({ isOpen, onClose, imageSrc, imag
           />
         </div>
       </div>
-      
-      {/* 배경 클릭으로 닫기 */}
-      <div 
-        className="absolute inset-0 -z-10" 
-        onClick={onClose}
-      />
-      
+
       {/* 사용법 안내 - PC에서만 표시 */}
       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-20 px-4 py-2 rounded-full hidden md:block">
         <p className="text-white text-xs text-center">
