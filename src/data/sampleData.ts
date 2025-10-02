@@ -257,7 +257,7 @@ export const sampleProposalData: ProposalData = {
   
   achievements: [
     {
-      metric: "4,000+",
+      metric: "5,000+",
       value: "다운로드",
       description: "출시 2개월 만에 유료 마케팅 없이 달성"
     },
