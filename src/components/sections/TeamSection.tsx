@@ -122,6 +122,7 @@ const TeamSection: React.FC<TeamSectionProps> = ({ team }) => {
               <h5 className="font-semibold text-gray-800 mb-2">2025년</h5>
               <ul className="space-y-1 text-gray-600">
                 <li>• Liquid Staking Protocol 구축 - <a href="https://www.verb.finance/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">https://www.verb.finance/</a> (Chiliz)</li>
+                <li>• 비트코인 UTXO 기반 암호화폐 지갑 개발 (<a href="https://play.google.com/store/apps/details?id=com.between.wallet" target="_blank">BetweenWallet</a>)</li>
               </ul>
             </div>
             <div>
